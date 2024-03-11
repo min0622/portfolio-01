@@ -266,7 +266,7 @@ header .icon a{
 
 /* 타이틀 */
 .title{
-    background-color: antiquewhite;
+    /* background-color: antiquewhite; */
     margin-top: 12.5rem;
     /* margin-top: 12.5vw; */
     margin-left: 13.1%;
@@ -319,7 +319,7 @@ header .icon a{
     top: 0;
     display: flex;
     justify-content: space-between;
-    background-color: beige;
+    /* background-color: beige; */
     width: 90px;
 }
 .section_2 .itemBox .item .imgBox button{
@@ -399,7 +399,7 @@ header .icon a{
     background-color: #fff;
     position: absolute;
     right: 3.5%;
-    top: 50%;
+   
 
     top: 50%;
     transform: translateY(-50%) ;
@@ -728,6 +728,8 @@ footer{
     
     header .headeri{
         height: 140px;
+    margin: auto 4vw;
+
     }
     nav ul{
     width: 100%;
@@ -771,8 +773,9 @@ footer{
   
 }  
 
-
 }
+
+
 @media screen and (max-width:968px){
     header .headeri{
         height: 100px;
@@ -795,7 +798,13 @@ footer{
     .section_2 .itemBox .item .imgBox button{
         width: 36px;
         margin-left: 0.4rem;
-
+    }
+    .section_3 .slide p{
+        width: 186px;
+        width: 24vw;
+    height: 5vw;
+    line-height: 5vw;
+    font-size: 0.8rem;
     }
 }
 
@@ -837,6 +846,14 @@ footer{
 
 
 @media screen and (max-width:575px){
+    header .headeri{
+    margin: auto 2vw;
+
+    }
+    .mo_srch,
+    header .icon a{
+        margin-left: 0.4rem;
+    }
     .section_1 figure{
         display: none;
     }
@@ -858,14 +875,13 @@ footer{
     }
 .section_2{
     top: 120vw;
-    /* top: 40rem; */
 }
 .section_2 .itemBox .item .imgBox .btn{
     width: 56px;
     top:-10px;
 
 }
-    .section_2 .itemBox .item .imgBox button{
+.section_2 .itemBox .item .imgBox button{
         width: 30px;
         margin-left: 0.3rem;
     }
@@ -877,12 +893,21 @@ footer{
 
 /* 아이폰 */
 @media screen and (max-width:390px){
+    .section_1 .titleBox h2{
+        font-size: 1.5em;
+    }
+    .section_1 .titleBox p{
+        font-size: 0.9rem;
+    }
+    .title{
+        font-size: 1.2rem;
+    }
     .section_2 .itemBox .item .imgBox .btn{
         width: 40px;
         top:-10px;
     
     }
-        .section_2 .itemBox .item .imgBox button{
+    .section_2 .itemBox .item .imgBox button{
             width: 26px;
             margin-left: 0.2rem;
         }
