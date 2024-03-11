@@ -892,9 +892,9 @@ footer{
 }
 
 /* 아이폰 */
-@media screen and (max-width:389px){
+@media screen and (max-width:391px){
     .section_1 .titleBox h2{
-        font-size: 1.5em;
+        font-size: 1.2rem;
     }
     .section_1 .titleBox p{
         font-size: 0.9rem;
