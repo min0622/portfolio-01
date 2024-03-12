@@ -256,13 +256,16 @@ header .icon a{
 /* 모바일버전 */
 .section_1 .mo_main1{
     width: 100%;
-    /* height: 718px; */
     position: absolute;
     top:100px;
     left: 0;
     display: none;
 }
+/* .section_1 .mo_main1 img{
+    width: 100%;
 
+    height: fit-content;
+} */
 
 /* 타이틀 */
 .title{
@@ -896,9 +899,12 @@ footer{
 .section_1 .titleBox{
     width: 210px;
     width: 60%;
-top:63vw;
+top:65vw;
 background-color: beige;
 }
+/* .section_1 .mo_main1 img{
+    height: 852px;
+} */
     .section_1 .titleBox h2{
         font-size: 1.2rem;
     }
