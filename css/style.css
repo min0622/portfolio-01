@@ -232,12 +232,12 @@ header .icon a{
     display: block;
 }
 .section_1 .titleBox{
-    width: 50%;
+    /* width: 50%; */
     width: 600px;
     position:absolute;
     top: 21vw;
     left: 6.6vw;
-    /* background-color:steelblue; */
+    background-color:steelblue;
     font-family: "noto";
 }
 
@@ -892,7 +892,12 @@ footer{
 }
 
 /* 아이폰 */
-@media screen and (max-width:391px){
+@media screen and (max-width:390px){
+.section_1 .titleBox{
+    width: 210px;
+    width: 60%;
+top:63vw;
+}
     .section_1 .titleBox h2{
         font-size: 1.2rem;
     }
