@@ -309,8 +309,9 @@ header .icon a{
 }
 .section_2 .itemBox .item .imgBox .btn{
     position: absolute;
-    right: 21px;
-    right: 1.2vw;
+   
+    right: 1.5vw;
+    /* right: 0; */
     top: 0;
     display: flex;
     justify-content: space-between;
@@ -325,13 +326,11 @@ header .icon a{
  width: 40px;
 
 }
-/* .section_2 .itemBox .item .imgBox .btn .heart{
- margin-left: 0.6rem;
-} */
 
 .section_2 .itemBox .item .itemInfo{
  /* background-color: antiquewhite; */
  margin-top: 52px;
+ padding-right:  28px;
 }
 .section_2 .itemBox .item .itemInfo p{
     font-family: "inter";
@@ -895,10 +894,10 @@ top:63vw;
 background-color: beige;
 }
     .section_1 .titleBox h2{
-        font-size: 0.8rem;
+        font-size: 1.2rem;
     }
     .section_1 .titleBox p{
-        font-size: 0.5rem;
+        font-size: 0.9rem;
     }
     .title{
         font-size: 1.2rem;
