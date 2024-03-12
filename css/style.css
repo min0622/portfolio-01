@@ -291,18 +291,13 @@ header .icon a{
 
     width: 73.63%;
     /* 1400/1900*100 = 73.68%  ...스크롤빼서 1900이다! */
-    /* background-color: salmon; */
-    display: grid;
-    grid-template-columns:repeat(3,1fr);
-    gap: 2.5%;
+    background-color: salmon;
+    display: flex;
+    justify-content: space-between;
     margin: auto;
     margin-top: 68px;
-  
-
 }
-/* .section_2 .itemBox .item{
-    background-color: slateblue; 
-} */
+
 
 .section_2 .itemBox .item .imgBox{
     width: 100%;
@@ -897,6 +892,7 @@ footer{
     width: 210px;
     width: 60%;
 top:63vw;
+background-color: salmon;
 }
     .section_1 .titleBox h2{
         font-size: 0.8rem;
