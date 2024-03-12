@@ -887,12 +887,12 @@ footer{
 }
 
 /* 아이폰 */
-@media screen and (max-width:390px){
+@media screen and (max-width:393px){
 .section_1 .titleBox{
     width: 210px;
     width: 60%;
 top:63vw;
-background-color: salmon;
+background-color: beige;
 }
     .section_1 .titleBox h2{
         font-size: 0.8rem;
