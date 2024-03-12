@@ -267,7 +267,7 @@ header .icon a{
 /* 타이틀 */
 .title{
     /* background-color: antiquewhite; */
-    margin-top: 12.5rem;
+    margin-top: 20rem;
     /* margin-top: 12.5vw; */
     margin-left: 13.1%;
     /* 260/1900*100 = 13.8% */
@@ -291,7 +291,7 @@ header .icon a{
 
     width: 73.63%;
     /* 1400/1900*100 = 73.68%  ...스크롤빼서 1900이다! */
-    background-color: salmon;
+    /* background-color: salmon; */
     display: flex;
     justify-content: space-between;
     margin: auto;
@@ -745,7 +745,7 @@ footer{
     font-size: 2rem;
 }
 .section_2 .itemBox .item .itemInfo .underline{
-    height: 5.5rem;
+    height: 5.2rem;
     flex-direction: column;
     padding-top: 6px;
     
@@ -758,12 +758,9 @@ footer{
 .title{
     font-size: 2rem;
 }
-.section_2 .itemBox .item .itemInfo p{
-    font-size: 0.7rem;
-}
 .section_2 .itemBox .item .itemInfo .underline{
     height: 4.5rem;
-    font-size: 1rem;
+    font-size: 1.1rem;
   
 }  
 
@@ -789,6 +786,15 @@ footer{
     .section_1 .titleBox p{
         font-size: 1.6rem;
     }
+.section_2 .itemBox .item .itemInfo p{
+    font-size: 1rem;
+}
+
+.section_2 .itemBox .item .itemInfo .underline{
+    font-size: 1.3rem;
+    height: 5rem;
+
+}
     .section_2 .itemBox .item .imgBox button{
         width: 36px;
         margin-left: 0.4rem;
@@ -871,14 +877,14 @@ footer{
     top: 120vw;
 }
 .section_2 .itemBox .item .imgBox .btn{
-    width: 56px;
-    top:-10px;
+    width: 90px;
+    /* top:-10px; */
 
 }
 .section_2 .itemBox .item .imgBox button{
-        width: 30px;
-        margin-left: 0.3rem;
-    }
+        width: 38px;
+        /* margin-left: 0.3rem; */
+    } 
 .section_3{
     margin: 40rem auto;
 }
