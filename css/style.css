@@ -983,15 +983,11 @@ top:65vw;
     .title{
         font-size: 1.2rem;
     }
-    .section_2 .itemBox .item .imgBox .btn{
-        width: 40px;
-        top:-10px;
-    
-    }
+   
     .section_2 .itemBox .item .imgBox .btn button{
             width: 26px;
-            margin-left: 0.2rem;
-        }
+            margin-left: 0.7rem;
+        } 
 }
 
 @media screen and (max-width:280px){
