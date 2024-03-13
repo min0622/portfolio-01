@@ -282,7 +282,7 @@ header .icon a{
 /* 타이틀 */
 .title{
     /* background-color: antiquewhite; */
-    margin-top: 20rem;
+    margin-top: 10rem;
     /* margin-top: 12.5vw; */
     margin-left: 13.1%;
     /* 260/1900*100 = 13.8% */
@@ -315,30 +315,29 @@ header .icon a{
 
 
 .section_2 .itemBox .item .imgBox{
-    width: 100%;
+    width: 91.5%;
     position: relative;
-
+    /* background-color: gold; */
 }
 .section_2 .itemBox .item .imgBox>figure{
     position: relative;
 }
 .section_2 .itemBox .item .imgBox .btn{
     position: absolute;
-   
-    right: 1.5vw;
-    /* right: 0; */
     top: 0;
+    right: 3%;
     display: flex;
     justify-content: space-between;
     /* background-color: beige; */
-    width: 90px;
+    /* width: 90px; */
 }
-.section_2 .itemBox .item .imgBox button{
+.section_2 .itemBox .item .imgBox .btn button{
     display: block;
     background-color: transparent;
     border: none;
- /* margin-left: 0.6rem; */
+ margin-left: 1.2rem;
  width: 40px;
+ height: 40px;
 
 }
 
@@ -385,13 +384,14 @@ header .icon a{
     border-bottom: solid 1px #000;
     padding-bottom: 0.5px;
     margin: auto;
-    margin-top: 100px;
+    margin-top: 6.2rem;
 }
 
 /* section_3 슬라이드 */
 .section_3{
     width:73.63%;
-    margin: 200px auto;
+    margin: 18rem auto;
+    margin-top: 22rem;
 }
 .section_3 .slide{
     width: 100%;
@@ -751,7 +751,7 @@ footer{
     top: 100px;
 }
 .section_1 .titleBox{
-    top: 25vw;
+    top: 26vw;
 }
 .section_1 .titleBox h2{
     font-size: 3.5em;
@@ -759,13 +759,26 @@ footer{
 .section_1 .titleBox p{
     font-size: 2rem;
 }
+.title{
+    margin-top:18rem;
+
+}
+.section_2 .itemBox .item .imgBox .btn button{
+ margin-left: 1.2rem;
+ width: 36px;
+ height: 36px;
+
+}
 .section_2 .itemBox .item .itemInfo .underline{
     height: 5.2rem;
     flex-direction: column;
     padding-top: 6px;
     
 }
-
+.section_3{
+    margin: 15em auto;
+    margin-top: 20rem;
+}
 }
 
 
@@ -782,6 +795,11 @@ footer{
     font-size: 1.1rem;
   
 }  
+.section_2 .more{
+    margin-top: 5.2rem;
+    
+}
+
 
 }
 
@@ -814,10 +832,11 @@ footer{
     height: 5rem;
 
 }
-    .section_2 .itemBox .item .imgBox button{
-        width: 36px;
+    /* .section_2 .itemBox .item .imgBox .btn button{
+        width: 40px;
+        height: 40px;
         margin-left: 0.4rem;
-    }
+    } */
     .section_3 .slide p{
         width: 186px;
         width: 24vw;
@@ -854,12 +873,11 @@ footer{
     .title{
         font-size: 1.9rem;
     }
-.section_2 .itemBox .item .imgBox .btn{
-    width: 76px;
-}
-    .section_2 .itemBox .item .imgBox button{
-        width: 30px;
-        margin-left: 0.2rem;
+
+    .section_2 .itemBox .item .imgBox .btn button{
+        width: 32px;
+        height: 32px;
+        margin-left: 0.8rem;
     }
 }
 
@@ -913,21 +931,22 @@ header .icon{
   
     .title{
         font-size: 1.5rem;
+        
     }
 .section_2{
-    top: 120vw;
+    top: 150vw;
 }
-.section_2 .itemBox .item .imgBox .btn{
-    width: 90px;
-    /* top:-10px; */
+.section_2 .itemBox .item .imgBox{
+    width: 100%;
+}
+.section_2 .itemBox .item .imgBox .btn button{
+        width: 40px;
+        height: 40px;
+        margin-left: 1.2rem;
 
-}
-.section_2 .itemBox .item .imgBox button{
-        width: 38px;
-        /* margin-left: 0.3rem; */
     } 
 .section_3{
-    margin: 40rem auto;
+    margin: 60rem auto;
 }
 
 }
@@ -935,10 +954,10 @@ header .icon{
 /* 아이폰 */
 @media screen and (max-width:394px){
     h1{
-        top: 36px;
+        top: 37px;
     }
     .logo{
-        height: 28px;
+        height: 26px;
     }
     .mo_srch{
         width: 24px;
@@ -969,7 +988,7 @@ top:65vw;
         top:-10px;
     
     }
-    .section_2 .itemBox .item .imgBox button{
+    .section_2 .itemBox .item .imgBox .btn button{
             width: 26px;
             margin-left: 0.2rem;
         }
