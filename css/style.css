@@ -120,11 +120,11 @@ header .headeri .side{
     cursor: pointer;
 }
 .mo_srch{
-    width: 24px;
-    height: 24px;
+    width: 32px;
+    height: 32px;
     display: none;
     position: absolute;
-    top: 38px;
+    top: 34px;
     left: 36px;
     background-color: transparent;
     border: none;
@@ -169,8 +169,11 @@ header .icon{
     float: right;
     margin-top: 32px;
     display: flex;  
+    align-items: center;
 }
 .web_srch{
+    width: 32px;
+    height: 32px;
     display: block;
     margin-left: 0.7rem;
     cursor: pointer;
@@ -862,7 +865,12 @@ footer{
     margin: auto 2vw;
 
     }
-    .mo_srch,
+    .mo_srch{
+        width: 28px;
+    height: 28px;
+    top: 36px;
+        margin-left: 0.4rem;
+    }
     header .icon a{
         margin-left: 0.4rem;
     }
@@ -912,9 +920,10 @@ footer{
         height: 28px;
     }
     .mo_srch{
-        width: 20px;
-        height: 20px;
-        top:40px;
+        width: 24px;
+    height: 24px;
+    top: 38px;
+        margin-left: 0.3rem;
     }
 .section_1 .titleBox{
     width: 210px;
