@@ -898,11 +898,15 @@ footer{
 
 /* 아이폰 */
 @media screen and (max-width:393px){
+    .mo_srch{
+        width: 16px;
+        height: 16px;
+    }
 .section_1 .titleBox{
     width: 210px;
     width: 60%;
 top:65vw;
-background-color: beige;
+background-color: saddlebrown;
 }
 /* .section_1 .mo_main1 img{
     height: 852px;
