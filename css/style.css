@@ -120,9 +120,11 @@ header .headeri .side{
     cursor: pointer;
 }
 .mo_srch{
+    width: 24px;
+    height: 24px;
     display: none;
     position: absolute;
-    top: 32px;
+    top: 38px;
     left: 36px;
     background-color: transparent;
     border: none;
