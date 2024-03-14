@@ -1072,7 +1072,6 @@ footer {
     height: 36px;
     line-height: 36px;
     letter-spacing: 0.2rem;
-
 }
 
 }
@@ -1143,10 +1142,10 @@ footer {
         margin-top: 45rem;
     }
     .section_3 .slide p {
-        font-size: 0.7rem;
-        width: 138px;
-        height:30px ;
-        line-height:30px ;
+        font-size: 0.6rem;
+        width: 136px;
+        height:32px ;
+        line-height:32px ;
     }
 }
 
