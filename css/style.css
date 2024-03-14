@@ -937,8 +937,15 @@ footer {
 }
 
 @media screen and (max-width:768px) {
+    header .headeri {
+        height: 80px;
+    }
+    .menu{
+    top: 26px;
+    }
     .mo_srch {
         display: block;
+        top: 26px;
     }
 
     .web_srch {
@@ -946,14 +953,17 @@ footer {
     }
 
     h1 {
-        top: 30px;
+        top: 20px;
     }
 
     .logo {
         width: 100%;
         height: 40px;
     }
-    
+header .icon{
+    margin-top: 26px;
+
+}
     .section_1 .titleBox {
         top: 28vw;
     }
@@ -981,7 +991,7 @@ footer {
 
 @media screen and (max-width:576px) {
     h1 {
-        top: 34px;
+        top: 24px;
     }
 
     .logo {
@@ -996,19 +1006,19 @@ footer {
     .menu {
         width: 26px;
         height: 26px;
-        top: 37px;
+        top: 27px;
 
     }
 
     .mo_srch {
         width: 26px;
         height: 26px;
-        top: 37px;
+        top: 27px;
         margin-left: 0.8rem;
     }
 
     header .icon {
-        margin-top: 37px;
+        margin-top: 27px;
     }
 
     header .icon a {
@@ -1074,31 +1084,29 @@ footer {
 /* 아이폰 */
 @media screen and (max-width:394px) {
     h1 {
-        top: 35px;
-        top: 37px;
+        top: 27px;
     }
 
     .logo {
-        height: 30px;
         height: 26px;
        
     }
     .menu {
         width: 22px;
         height: 22px;
-        top: 39px;
+        top: 29px;
 
     }
 
     .mo_srch {
         width: 22px;
         height: 22px;
-        top: 39px;
+        top: 29px;
 
         margin-left: 0.3rem;
     }
     header .icon {
-        margin-top: 39px;
+        margin-top: 29px;
     }
     header .icon a {
         width: 22px;
@@ -1150,7 +1158,7 @@ footer {
 
 @media screen and (max-width:280px) {
     h1 {
-        top: 38px;
+        top: 28px;
     }
 
     .logo {
