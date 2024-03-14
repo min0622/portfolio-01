@@ -1148,6 +1148,10 @@ header .icon{
         margin: 0 auto;
         margin-top: 45rem;
     }
+.section_3 .slide {
+    margin-bottom: 1.6rem;
+
+}
     .section_3 .slide p {
         font-size: 0.6rem;
         width: 136px;
@@ -1178,5 +1182,22 @@ header .icon{
 
     .section_1 .titleBox p {
         font-size: 0.9rem;
+    }
+    .section_2 .itemBox .item .itemInfo p {
+        font-size: 0.9rem;
+    }
+
+    .section_2 .itemBox .item .itemInfo .underline {
+        font-size: 1.2rem;
+        height: 5rem;
+
+    }
+    .section_2 .more{
+        font-size: 0.8rem;
+    }
+    .section_3 {
+        width: 100%;
+        margin: 40rem auto;
+        margin-top: 32rem;
     }
 }
