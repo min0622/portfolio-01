@@ -10,7 +10,7 @@ $(function(){
         slidesToScroll: 3,
         responsive: [
             {
-                breakpoint: 968,
+                breakpoint: 969,
                 settings: {
                     slidesToShow: 2,
                     slidesToScroll: 2,
@@ -19,7 +19,7 @@ $(function(){
                 }
             },
             {
-                breakpoint: 575,
+                breakpoint: 576,
                 settings: {
                     slidesToShow: 1,
                     slidesToScroll: 1
@@ -28,6 +28,55 @@ $(function(){
     
 ]
 });
+
+
+$('#wrap .section_3').slick({
+    dots: true,
+    infinite: false,
+    speed: 300,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    responsive: [
+      
+      {
+        breakpoint: 576,
+        settings: "unslick"
+      }
+      // You can unslick at a given breakpoint now by adding:
+      // settings: "unslick"
+      // instead of a settings object
+    ]
+  });
+
+
+// $('#wrap .section_3').slick({
+//     dots: true,
+//     infinite: true,
+//     speed: 300,
+//     slidesToShow: 1,
+//     adaptiveHeight: true
+
+//     responsive: [
+       
+//         {
+//           breakpoint: 576,
+//           settings:"unslick"
+//         }
+//         // You can unslick at a given breakpoint now by adding:
+//         // settings: "unslick"
+//         // instead of a settings object
+//       ]
+
+
+//   });
+
+
+
+
+
+
+
+
 
 
 
