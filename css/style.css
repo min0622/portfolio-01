@@ -159,7 +159,7 @@ h1 {
     position: absolute;
     top: 27px;
     left: 0;
-    background-color:beige;
+    background-color:gold;
 
 }
 
@@ -370,9 +370,9 @@ header .icon a {
     display: block;
     background-color: transparent;
     border: none;
-    margin-left: 1.2rem;
-    width: 40px;
-    height: 40px;
+    margin-left: 1.4rem;
+    width: 34px;
+    height: 34px;
 
 }
 
@@ -842,8 +842,8 @@ footer {
 
     .section_2 .itemBox .item .imgBox .btn button {
         margin-left: 1.2rem;
-        width: 36px;
-        height: 36px;
+        width: 32px;
+        height: 32px;
 
     }
 
@@ -970,11 +970,6 @@ footer {
         font-size: 1.9rem;
     }
 
-    .section_2 .itemBox .item .imgBox .btn button {
-        width: 32px;
-        height: 32px;
-        margin-left: 0.8rem;
-    }
       .section_3 .slide p {
         font-size: 0.7rem;
         width: 140px;
@@ -984,7 +979,7 @@ footer {
 }
 
 
-@media screen and (max-width:575px) {
+@media screen and (max-width:576px) {
     h1 {
         top: 34px;
     }
@@ -1042,10 +1037,10 @@ footer {
         font-size: 1.4rem;
     }
 
-    .title {
+    /* .title {
         font-size: 1.5rem;
 
-    }
+    } */
 
     .section_2 {
         top: 150vw;
@@ -1054,13 +1049,10 @@ footer {
     .section_2 .itemBox .item .imgBox {
         width: 100%;
     }
-
-    .section_2 .itemBox .item .imgBox .btn button {
-        width: 40px;
-        height: 40px;
-        margin-left: 1.2rem;
-
+    .section_2 .itemBox .item .itemInfo {
+        padding-right: 0;
     }
+   
     .section_2 .more{
         font-size: 0.9rem;
     }
@@ -1082,13 +1074,14 @@ footer {
 /* 아이폰 */
 @media screen and (max-width:394px) {
     h1 {
-        top: 37px;
         top: 35px;
+        top: 37px;
     }
 
     .logo {
-        height: 26px;
         height: 30px;
+        height: 26px;
+       
     }
     .menu {
         width: 22px;
@@ -1131,7 +1124,7 @@ footer {
     }
 
     .title {
-        font-size: 1.2rem;
+        font-size: 1.6rem;
     }
     .section_2 {
         top: 136vw;
@@ -1139,7 +1132,8 @@ footer {
 
     .section_2 .itemBox .item .imgBox .btn button {
         width: 26px;
-        margin-left: 0.7rem;
+        height: 26px;
+        margin-left: 1rem;
     }
     .section_3 {
         width: 100%;
