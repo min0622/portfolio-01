@@ -159,7 +159,7 @@ h1 {
     position: absolute;
     top: 27px;
     left: 0;
-    background-color: saddlebrown;
+    background-color:beige;
 
 }
 
@@ -413,6 +413,8 @@ header .icon a {
 
 .section_2 .itemBox .item .itemInfo p:nth-of-type(3) {
     font-weight: 400;
+
+
 }
 
 .section_2 .more {
@@ -1081,12 +1083,12 @@ footer {
 @media screen and (max-width:394px) {
     h1 {
         top: 37px;
-        top: 36px;
+        top: 35px;
     }
 
     .logo {
         height: 26px;
-        height: 28px;
+        height: 30px;
     }
     .menu {
         width: 22px;
