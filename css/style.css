@@ -159,7 +159,7 @@ h1 {
     position: absolute;
     top: 27px;
     left: 0;
-    background-color: beige;
+    background-color: saddlebrown;
 
 }
 
@@ -1081,12 +1081,12 @@ footer {
 @media screen and (max-width:394px) {
     h1 {
         top: 37px;
-        top: 38px;
+        top: 36px;
     }
 
     .logo {
         height: 26px;
-        height: 24px;
+        height: 28px;
     }
     .menu {
         width: 22px;
