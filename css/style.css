@@ -140,11 +140,11 @@ header .headeri .side {
 
 /* 모바일버전 search*/
 .mo_srch {
-    width: 32px;
-    height: 32px;
+    width: 28px;
+    height: 28px;
     display: none;
     position: absolute;
-    top: 34px;
+    top: 36px;
     left: 32px;
     background-color: transparent;
     border: none;
@@ -192,13 +192,13 @@ nav ul li {
 
 header .icon {
     float: right;
-    margin-top: 40px;
+    margin-top: 36px;
     display: flex;
 }
 
 .web_srch {
-    width: 32px;
-    height: 32px;
+    width: 28px;
+    height: 28px;
     display: block;
     margin-left: 1.2rem;
     cursor: pointer;
@@ -208,9 +208,9 @@ header .icon {
 
 header .icon a {
     display: block;
-    margin-left: 1.2rem;
-    width: 32px;
-    height: 32px;
+    margin-left: 1.6rem;
+    width: 28px;
+    height: 28px;
 }
 
 /* 모바일 버전 메뉴 */
@@ -435,6 +435,7 @@ header .icon a {
 .section_3 .slide {
     width: 100%;
     position: relative;
+    margin-bottom: 2rem;
 }
 
 .section_3 .slide img {
@@ -443,16 +444,19 @@ header .icon a {
 }
 
 .section_3 .slide p {
-    width: 219px;
+    /* width: 219px;
+    height: 45px; */
+
+    width: 184px;
     height: 45px;
+    padding:0 6px;
+    
     background-color: #fff;
     position: absolute;
     right: 3.5%;
 
-
     top: 50%;
     transform: translateY(-50%);
-
     font-family: "inter";
     font-size: 0.9rem;
     font-weight: 600;
@@ -886,6 +890,11 @@ footer {
 
     .menu {
         display: block;
+            width: 28px;
+            height: 28px;
+            top: 36px;
+    
+    
     }
 
     nav ul {
@@ -914,18 +923,14 @@ footer {
 
     }
 
-    /* .section_2 .itemBox .item .imgBox .btn button{
-        width: 40px;
-        height: 40px;
-        margin-left: 0.4rem;
-    } */
-    .section_3 .slide p {
+
+    /* .section_3 .slide p {
         width: 186px;
         width: 24vw;
         height: 5vw;
         line-height: 5vw;
         font-size: 0.8rem;
-    }
+    } */
 }
 
 @media screen and (max-width:768px) {
@@ -945,7 +950,7 @@ footer {
         width: 100%;
         height: 40px;
     }
-
+    
     .section_1 .titleBox {
         top: 28vw;
     }
@@ -967,6 +972,12 @@ footer {
         height: 32px;
         margin-left: 0.8rem;
     }
+      .section_3 .slide p {
+        font-size: 0.7rem;
+        width: 140px;
+        height:30px ;
+        line-height:30px ;
+    }
 }
 
 
@@ -985,27 +996,27 @@ footer {
     }
 
     .menu {
-        width: 28px;
-        height: 28px;
-        top: 36px;
+        width: 26px;
+        height: 26px;
+        top: 37px;
 
     }
 
     .mo_srch {
-        width: 28px;
-        height: 28px;
-        top: 36px;
+        width: 26px;
+        height: 26px;
+        top: 37px;
         margin-left: 0.8rem;
     }
 
     header .icon {
-        margin-top: 36px;
+        margin-top: 37px;
     }
 
     header .icon a {
-        width: 28px;
-        height: 28px;
-        margin-left: 1.1rem;
+        width: 26px;
+        height: 26px;
+        margin-left: 1.2rem;
     }
 
     .section_1 .main {
@@ -1047,10 +1058,22 @@ footer {
         margin-left: 1.2rem;
 
     }
+    .section_2 .more{
+        font-size: 0.9rem;
+    }
 
     .section_3 {
-        margin: 60rem auto;
+        width: 100%;
+        margin: 40em auto;
+        margin-top: 65rem;
     }
+.section_3 .slide p {
+    width: 142px;
+    height: 36px;
+    line-height: 36px;
+    letter-spacing: 0.2rem;
+
+}
 
 }
 
@@ -1064,20 +1087,16 @@ footer {
         height: 26px;
     }
     .menu {
-        width: 20px;
-        height: 20px;
-        top: 40px;
+        width: 22px;
+        height: 22px;
+        top: 39px;
 
     }
 
     .mo_srch {
-        width: 24px;
-        height: 24px;
-        top: 38px;
-
-        width: 20px;
-        height: 20px;
-        top: 40px;
+        width: 22px;
+        height: 22px;
+        top: 39px;
 
         margin-left: 0.3rem;
     }
@@ -1087,7 +1106,8 @@ footer {
     header .icon a {
         width: 22px;
         height: 22px;
-        /* margin-left: 1.1rem; */
+        margin-left: 0.8rem;
+
     }
 
     .section_1 .titleBox {
@@ -1109,10 +1129,24 @@ footer {
     .title {
         font-size: 1.2rem;
     }
+    .section_2 {
+        top: 136vw;
+    }
 
     .section_2 .itemBox .item .imgBox .btn button {
         width: 26px;
         margin-left: 0.7rem;
+    }
+    .section_3 {
+        width: 100%;
+        margin: 0 auto;
+        margin-top: 45rem;
+    }
+    .section_3 .slide p {
+        font-size: 0.7rem;
+        width: 138px;
+        height:30px ;
+        line-height:30px ;
     }
 }
 
