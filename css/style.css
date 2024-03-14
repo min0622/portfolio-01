@@ -159,6 +159,7 @@ h1 {
     position: absolute;
     top: 27px;
     left: 0;
+    background-color: beige;
 
 }
 
@@ -1080,6 +1081,7 @@ footer {
 @media screen and (max-width:394px) {
     h1 {
         top: 37px;
+        top: 38px;
     }
 
     .logo {
