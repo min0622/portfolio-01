@@ -299,7 +299,7 @@ header .icon a {
     width: 100%;
     height: 100%;
     position: absolute;
-    top: 100px;
+    top: 80px;
     left: 0;
     display: none;
 }
@@ -963,6 +963,9 @@ footer {
 header .icon{
     margin-top: 26px;
 
+}
+.section_1 .main {
+    top: 80px;
 }
     .section_1 .titleBox {
         top: 28vw;
