@@ -916,7 +916,7 @@ footer {
         font-size: 2rem;
         margin-top: 14rem;
     }
-    .section_5 h3{
+    .section_5 .left h3{
         font-size: 2rem;
     }
     .section_2 .itemBox{
@@ -1091,6 +1091,9 @@ header .icon{
     color: #fff;
     margin: auto;
 }
+.section_5 .left h3 {
+    font-size: 1.9rem;
+}
 
 }
 
@@ -1194,10 +1197,12 @@ header .icon{
 .section_4 h3 {
     margin-top: 10rem;
     margin-left:8%;
+
 }
 .section_4>p{
     margin-left:8%;
-    
+    margin-right:8%;
+    font-size: 1rem;
 }
 .section_4 .container{
     width: 84%;
@@ -1205,7 +1210,7 @@ header .icon{
 .section_4 .container .when p:first-of-type{
     font-size: 1.2rem;
     margin-top: 10vw;
-    
+    font-weight: 700;
 }
 
 .section_4 .container .when p:nth-of-type(2){
@@ -1300,7 +1305,9 @@ header .icon{
         height:32px ;
         line-height:32px ;
     }
-
+    .section_4>p{
+        margin-right:12%;
+    }
     .section_4 .container .when p:first-of-type{
         font-size: 0.9rem;
         
@@ -1311,6 +1318,9 @@ header .icon{
         height: 26px;
         line-height: 26px;
         font-size: 0.7rem;
+    }
+    .section_5 .left h3 {
+        font-size: 1.6rem;
     }
 
 }
