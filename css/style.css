@@ -1156,6 +1156,9 @@ header .icon{
     .section_2 {
         top: 150vw;
     }
+    .section_2 h3{
+        margin-left:4.6%;
+    }
     .section_2 .itemBox{
         margin-top: 2.4rem; 
     }
