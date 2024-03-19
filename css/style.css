@@ -558,8 +558,6 @@ header .icon a {
     /* background-color: antiquewhite; */
     margin-top: 0;
     margin-left: 0;
-    /* 260/1900*100 = 13.8% */
-   
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -588,6 +586,7 @@ header .icon a {
     font-family: "noto";
     font-size: 1rem;
     font-weight: 400;
+
 }
 
 .section_5 .right {
@@ -617,7 +616,8 @@ header .icon a {
 /* section_6  review*/
 .section_6 {
     width: 100%;
-    margin-top: 200px;
+    overflow: hidden;
+    margin-top: 98rem;
     background-color: #F7F6F2;
     padding-bottom: 50px;
 
@@ -637,29 +637,29 @@ header .icon a {
 }
 
 .section_6 .review {
-    width: 88.25%;
+    /* width: 88.25%; */
     /* 1694/1900*100 */
-
-    /* background-color: sandybrown; */
-    margin: auto;
-    display: grid;
+    margin: auto 6%;
+    /* display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 1.9vw;
+    gap: 1.9vw; */
     /* gap: 1vw; */
-
 }
 
 .section_6 .review .rBox {
+ 
     height: 210px;
     padding: 2.1rem 1.2rem;
     background-color: #fff;
     font-family: "noto";
     font-size: 0.9rem;
     font-weight: 400;
-    width: 100%;
+    /* width: 100%; */
     position: relative;
+ margin-right: 0.8rem;
 
 }
+
 
 .section_6 .review .rBox .rStar {
     width: 100%;
@@ -703,11 +703,11 @@ header .icon a {
 
 /* 한문장 */
 .stn {
+    width: fit-content;
     font-family: "cormo";
     font-size: 2.5rem;
     font-weight: 500;
-    text-align: center;
-    margin: 135px 0;
+    margin: 135px auto;
 }
 
 /* //wrap 끝 */
@@ -958,6 +958,10 @@ footer {
     .section_5 .left{
         width: 50%;
     }
+    .section_5 .left p{
+        margin-top:2rem;
+    
+        }
 }
 
 
@@ -1014,7 +1018,13 @@ footer {
 
     .section_5 .right{
         width: 100%;
+    }
+    .section_5 a .more{
+    margin-top:5rem;
 
+    }
+    .section_6{
+        margin-top: 136rem;
     }
 }
 
@@ -1102,6 +1112,10 @@ header .icon{
     font-size: 1.9rem;
 }
 
+.section_6{
+    margin-top: 124rem;
+}
+
 }
 
 
@@ -1184,7 +1198,10 @@ header .icon{
     .section_2 .more{
         font-size: 0.9rem;
     }
-
+    .section_5 a .more,
+    .section_6 a .more{
+        font-size: 0.9rem;
+    }
     .section_3 {
         width: 100%;
         margin-top: 65rem;
@@ -1204,7 +1221,6 @@ header .icon{
 .section_4 h3 {
     margin-top: 10rem;
     margin-left:8%;
-
 }
 .section_4>p{
     margin-left:8%;
@@ -1225,6 +1241,15 @@ header .icon{
     height: 32px;
     line-height: 32px;
     font-size: 0.8rem;
+}
+.section_5 .left span{
+    font-size: 0.9rem;
+    margin-bottom: 0.8rem;
+} 
+.section_5 .left p {
+    font-size: 0.9rem;
+    /* margin-top:1rem; */
+
 }
 
 }
@@ -1304,7 +1329,6 @@ header .icon{
     }
 .section_3 .slide {
     margin-bottom: 1.6rem;
-
 }
     .section_3 .slide p {
         font-size: 0.6rem;
@@ -1369,7 +1393,27 @@ header .icon{
     }
     .section_3 {
         width: 100%;
-        margin: 40rem auto;
         margin-top: 32rem;
+    }
+    .section_4>p{
+        margin-top: 8px;
+    margin-bottom:36px;
+
+    }
+    .section_4 .container .when p:first-of-type{
+        font-size: 0.8rem;
+        font-weight: 500;
+        
+    }
+    
+    .section_4 .container .when p:nth-of-type(2){
+        width:92px;
+        height: 18px;
+        line-height: 18px;
+        font-size: 0.5rem;
+    }
+   .section_5 a .more,
+    .section_6 a .more{
+        font-size: 0.8rem;
     }
 }
