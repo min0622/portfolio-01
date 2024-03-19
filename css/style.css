@@ -371,7 +371,7 @@ header .icon a {
 }
 
 .section_2 .itemBox .item .itemInfo {
-    /* background-color: antiquewhite; */
+    background-color: antiquewhite;
     margin-top: 3.2rem;
     padding-right: 28px;
 }
@@ -1157,7 +1157,7 @@ header .icon{
         top: 150vw;
     }
     .section_2 h3{
-        margin-left:4.6%;
+        margin-left:8%;
     }
     .section_2 .itemBox{
         margin-top: 2.4rem; 
