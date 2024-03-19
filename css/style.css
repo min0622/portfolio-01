@@ -1193,11 +1193,18 @@ header .icon{
 }
 .section_4 h3 {
     margin-top: 10rem;
+    margin-left:8%;
 }
-
+.section_4>p{
+    margin-left:8%;
+    
+}
+.section_4 .container{
+    width: 84%;
+}
 .section_4 .container .when p:first-of-type{
     font-size: 1.2rem;
-    margin-top: 9vw;
+    margin-top: 10vw;
     
 }
 
