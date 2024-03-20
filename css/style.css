@@ -554,13 +554,15 @@ header .icon a {
 .section_5 .left {
     /* width: 40.4%; */
     width: 38%;
-  
     /* background-color: antiquewhite; */
-    margin-top: 0;
+    /* margin-top: 0; */
     margin-left: 0;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    padding:0;
+    
+
 }
 
 .section_5 .left h3 {
@@ -590,9 +592,6 @@ header .icon a {
 }
 
 .section_5 .right {
-    width: 40.4%;
-    /* 772/1900*100 */
-    width: fit-content;
     width: 38.6%;
     /* position: absolute;
     right: 0;
@@ -617,7 +616,7 @@ header .icon a {
 .section_6 {
     width: 100%;
     overflow: hidden;
-    margin-top: 98rem;
+    margin-top: 86rem;
     background-color: #F7F6F2;
     padding-bottom: 50px;
 
@@ -630,8 +629,11 @@ header .icon a {
     justify-content: center;
     padding-top: 67px;
     margin-bottom: 42px;
+    font-family: "noto";
 }
-
+.section_6 .reviewTitle p>.bold{
+    font-family: 700;
+}
 .section_6 .reviewTitle .star {
     margin: 0 20px;
 }
@@ -891,7 +893,7 @@ footer {
     }
     .section_5 .left{
         width: 37%;
-        padding: 8vw 0;
+        padding: 6vw 0;
 
     }
     .section_5 .left span{
@@ -900,6 +902,9 @@ footer {
     .section_5 .left p{
     margin-top:3rem;
 
+    }
+    .section_6{
+        margin-top: 75rem;
     }
  
 }
@@ -962,6 +967,9 @@ footer {
         margin-top:2rem;
     
         }
+.section_6 {
+    margin-top: 58rem;
+}
 }
 
 
@@ -1010,10 +1018,10 @@ footer {
 
     }
     .section_5 .left{
-        width: 73.63%;
+        width: 73.8%;
         margin-left: 13.1%;
-    margin-top: 5rem;
-
+    /* margin-top: 1rem; */
+    padding:14vw 0;
     }
 
     .section_5 .right{
@@ -1024,7 +1032,7 @@ footer {
 
     }
     .section_6{
-        margin-top: 136rem;
+        margin-top: 140rem;
     }
 }
 
@@ -1107,6 +1115,9 @@ header .icon{
     background-color: #4B3939;
     color: #fff;
     margin: auto;
+}
+.section_5 .left{
+    padding: 16vw 0 ;
 }
 .section_5 .left h3 {
     font-size: 1.9rem;
@@ -1225,6 +1236,7 @@ header .icon{
 .section_4>p{
     margin-left:8%;
     margin-right:8%;
+    margin-bottom: 38px;
     font-size: 1rem;
 }
 .section_4 .container{
@@ -1242,6 +1254,11 @@ header .icon{
     line-height: 32px;
     font-size: 0.8rem;
 }
+.section_5 .left{
+    width:84% ;
+    /* 100-8*2 */
+    margin-left:8%;
+}
 .section_5 .left span{
     font-size: 0.9rem;
     margin-bottom: 0.8rem;
@@ -1251,7 +1268,9 @@ header .icon{
     /* margin-top:1rem; */
 
 }
-
+.section_6{
+    margin-top: 106rem;
+}
 }
 
 /* 아이폰 */
@@ -1350,10 +1369,16 @@ header .icon{
         line-height: 26px;
         font-size: 0.7rem;
     }
+    .section_5 .left{
+        padding: 18vw 0;
+    }
     .section_5 .left h3 {
         font-size: 1.6rem;
     }
-
+    .section_6{
+        margin-top: 88rem;
+    }
+  
 }
 
 @media screen and (max-width:280px) {
@@ -1396,8 +1421,8 @@ header .icon{
         margin-top: 32rem;
     }
     .section_4>p{
-        margin-top: 8px;
-    margin-bottom:36px;
+        margin-top: 6px;
+    margin-bottom:24px;
 
     }
     .section_4 .container .when p:first-of-type{
@@ -1415,5 +1440,11 @@ header .icon{
    .section_5 a .more,
     .section_6 a .more{
         font-size: 0.8rem;
+    }
+    .section_5{
+        margin-top: 12rem;
+    }
+    .section_6{
+        margin-top: 78rem;
     }
 }
