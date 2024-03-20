@@ -592,11 +592,11 @@ header .icon a {
 .section_5 .right {
     width: 40.4%;
     /* 772/1900*100 */
-    width: 46%;
+    width: fit-content;
+    width: 38.6%;
     /* position: absolute;
     right: 0;
     top: 0; */
-
 }
 .section_5 .right img{
     width: 100%;
