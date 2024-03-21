@@ -554,15 +554,13 @@ header .icon a {
 .section_5 .left {
     /* width: 40.4%; */
     width: 38%;
+  
     /* background-color: antiquewhite; */
-    /* margin-top: 0; */
+    margin-top: 0;
     margin-left: 0;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding:0;
-    
-
 }
 
 .section_5 .left h3 {
@@ -592,10 +590,13 @@ header .icon a {
 }
 
 .section_5 .right {
-    width: 38.6%;
+    width: 40.4%;
+    /* 772/1900*100 */
+    width: 46%;
     /* position: absolute;
     right: 0;
     top: 0; */
+
 }
 .section_5 .right img{
     width: 100%;
@@ -616,23 +617,31 @@ header .icon a {
 .section_6 {
     width: 100%;
     overflow: hidden;
-    margin-top: 86rem;
+    margin-top: 98rem;
     background-color: #F7F6F2;
-    padding-bottom: 50px;
+    padding-bottom: 72px;
 
 }
 
 .section_6 .reviewTitle {
-    width: 100%;
+    /* width: 100%; */
     display: flex;
     align-items: center;
     justify-content: center;
     padding-top: 67px;
+    margin: 0 auto;
     margin-bottom: 42px;
+    font-size: 1rem;
     font-family: "noto";
+
 }
-.section_6 .reviewTitle p>.bold{
-    font-family: 700;
+.section_6 .reviewTitle p:first-of-type{
+    font-family: "inter";
+    font-weight: 500
+
+}
+.section_6 .reviewTitle p>span{
+    font-weight: 600
 }
 .section_6 .reviewTitle .star {
     margin: 0 20px;
@@ -699,7 +708,7 @@ header .icon a {
     border-bottom: solid 1px #000;
     padding-bottom: 0.5px;
     margin: auto;
-    margin-top: 67px;
+    margin-top:48px;
     /* margin-bottom: 50px; */
 }
 
@@ -709,7 +718,9 @@ header .icon a {
     font-family: "cormo";
     font-size: 2.5rem;
     font-weight: 500;
-    margin: 135px auto;
+    margin: 14rem auto;
+    text-align: center;
+    line-height: 100%;
 }
 
 /* //wrap 끝 */
@@ -893,7 +904,7 @@ footer {
     }
     .section_5 .left{
         width: 37%;
-        padding: 6vw 0;
+        padding: 8vw 0;
 
     }
     .section_5 .left span{
@@ -904,9 +915,8 @@ footer {
 
     }
     .section_6{
-        margin-top: 75rem;
+    margin-top: 80rem;
     }
- 
 }
 
 
@@ -967,9 +977,9 @@ footer {
         margin-top:2rem;
     
         }
-.section_6 {
-    margin-top: 58rem;
-}
+        .section_6{
+            margin-top: 63rem;
+            }
 }
 
 
@@ -1018,10 +1028,10 @@ footer {
 
     }
     .section_5 .left{
-        width: 73.8%;
+        width: 73.63%;
         margin-left: 13.1%;
-    /* margin-top: 1rem; */
-    padding:14vw 0;
+    margin-top: 5rem;
+
     }
 
     .section_5 .right{
@@ -1034,6 +1044,10 @@ footer {
     .section_6{
         margin-top: 140rem;
     }
+    /* .stn{
+    margin: 14rem 13.1%;
+
+    } */
 }
 
 @media screen and (max-width:768px) {
@@ -1116,17 +1130,17 @@ header .icon{
     color: #fff;
     margin: auto;
 }
-.section_5 .left{
-    padding: 16vw 0 ;
-}
 .section_5 .left h3 {
     font-size: 1.9rem;
 }
 
 .section_6{
-    margin-top: 124rem;
+    margin-top: 126rem;
 }
+    .stn{
+    margin: 14rem 8%;
 
+    } 
 }
 
 
@@ -1222,7 +1236,6 @@ header .icon{
  margin-bottom: 4rem;
 }
 
-
 .section_3 .slide p {
     width: 142px;
     height: 36px;
@@ -1236,7 +1249,6 @@ header .icon{
 .section_4>p{
     margin-left:8%;
     margin-right:8%;
-    margin-bottom: 38px;
     font-size: 1rem;
 }
 .section_4 .container{
@@ -1254,11 +1266,6 @@ header .icon{
     line-height: 32px;
     font-size: 0.8rem;
 }
-.section_5 .left{
-    width:84% ;
-    /* 100-8*2 */
-    margin-left:8%;
-}
 .section_5 .left span{
     font-size: 0.9rem;
     margin-bottom: 0.8rem;
@@ -1269,8 +1276,19 @@ header .icon{
 
 }
 .section_6{
-    margin-top: 106rem;
+    margin-top: 110rem;
 }
+.section_6 .reviewTitle{
+    margin: 0 8.3%;
+    margin-bottom: 42px;
+    justify-content: space-between;
+
+}
+.stn{
+    margin: 11rem 8%;
+    font-size: 2rem;    
+}
+
 }
 
 /* 아이폰 */
@@ -1369,16 +1387,17 @@ header .icon{
         line-height: 26px;
         font-size: 0.7rem;
     }
-    .section_5 .left{
-        padding: 18vw 0;
-    }
     .section_5 .left h3 {
         font-size: 1.6rem;
     }
     .section_6{
-        margin-top: 88rem;
+        margin-top: 100rem;
     }
-  
+    .stn{
+        margin: 10rem 8%;
+        font-size: 1.8rem;    
+    }
+
 }
 
 @media screen and (max-width:280px) {
@@ -1421,8 +1440,8 @@ header .icon{
         margin-top: 32rem;
     }
     .section_4>p{
-        margin-top: 6px;
-    margin-bottom:24px;
+        margin-top: 8px;
+    margin-bottom:36px;
 
     }
     .section_4 .container .when p:first-of-type{
@@ -1441,10 +1460,7 @@ header .icon{
     .section_6 a .more{
         font-size: 0.8rem;
     }
-    .section_5{
-        margin-top: 12rem;
-    }
     .section_6{
-        margin-top: 78rem;
+        margin-top: 94rem;
     }
 }
