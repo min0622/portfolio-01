@@ -735,29 +735,32 @@ footer {
 }
 
 .footerI {
-    width: 73.63%;
+    /* width: 73.63%; */
     /* 1400/1900*100 = 73.68%  ...스크롤빼서 1900이다! */
-    margin: auto;
+    margin: auto 13.1%;
     font-family: "noto";
     font-size: 1rem;
     font-weight: 400;
+    /* background-color: gold; */
 
 }
 
 .footerI .lineBox {
     /* background-color: bisque; */
-    padding-top: 60px;
-    padding-bottom: 46px;
-    margin-bottom: 60px;
+    padding-top: 5rem;
+    padding-bottom: 2.9rem;
+    margin-bottom: 3.8rem;
     border-bottom: solid 1px #000;
     display: flex;
+    flex-direction: row;
 }
 
 .footerI .lineBox .csBox,
 .footerI .lineBox .serBox {
-    width: 25%;
-    /* background-color: #fff; */
-    margin-right: 20px;
+    width: 30%;
+    /* background-color: gold; */
+    margin-right:8rem;
+    margin-top:0 ;
 
 }
 
@@ -774,17 +777,23 @@ footer {
 }
 
 .footerI .underTop {
-    width: 80%;
+    width: 56%;
+    height: fit-content;
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
     font-weight: 500;
-    margin-bottom: 30px;
-    /* background-color: gold; */
+    margin-bottom: 1.9rem;
+    /* background-color:slateblue; */
+
 }
 
-.footerI .underTop li {
-    margin-right: 6rem;
+/*.footerI .underTop li {
+     margin-right: 1rem; 
+    background-color: gold;
+
 }
+ */
 
 .footerI .under {
     width: 100%;
@@ -980,6 +989,9 @@ footer {
         .section_6{
             margin-top: 63rem;
             }
+            .footerI .underTop{
+                width: 70%;
+            }
 }
 
 
@@ -1044,10 +1056,13 @@ footer {
     .section_6{
         margin-top: 140rem;
     }
-    /* .stn{
-    margin: 14rem 13.1%;
+    .footerI .lineBox .csBox,
+.footerI .lineBox .serBox {
+    width: 50%;
+    margin-right:1rem;
 
-    } */
+
+}
 }
 
 @media screen and (max-width:768px) {
@@ -1141,6 +1156,10 @@ header .icon{
     margin: 14rem 8%;
 
     } 
+    .footerI .underTop{
+        width: 100%;
+    }
+
 }
 
 
@@ -1288,7 +1307,24 @@ header .icon{
     margin: 11rem 8%;
     font-size: 2rem;    
 }
+.footerI{
+    margin: auto 8%;
 
+}
+.footerI .lineBox{
+    flex-direction: column;
+
+}
+.footerI .lineBox .serBox{
+    margin-top:3.6rem ;
+
+}
+.footerI .underTop{
+    flex-direction: column;
+    height: 22vw;
+
+
+}
 }
 
 /* 아이폰 */
