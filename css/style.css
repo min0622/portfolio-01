@@ -739,7 +739,7 @@ footer {
     /* 1400/1900*100 = 73.68%  ...스크롤빼서 1900이다! */
     margin: auto 13.1%;
     font-family: "noto";
-    font-size: 1rem;
+    font-size: 0.9rem;
     font-weight: 400;
     /* background-color: gold; */
 
@@ -771,9 +771,9 @@ footer {
 
 .footerI .lineBox .bold {
     font-family: 'inter';
-    font-size: 1.1rem;
+    font-size: 1rem;
     font-weight: 600;
-    margin-bottom: 1rem;
+    margin-bottom: 0.9rem;
 }
 
 .footerI .underTop {
@@ -788,27 +788,25 @@ footer {
 
 }
 
-/*.footerI .underTop li {
-     margin-right: 1rem; 
-    background-color: gold;
-
-}
- */
 
 .footerI .under {
-    width: 100%;
+    /* width: 100%; */
     /* height: 200px; */
     /* background-color: steelblue; */
     display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 .footerI .under .underLeft {
-    width: 700px;
-    background-color: beige;
+    width: 70%;
+    font-size: 0.8rem;
+    /* background-color: beige; */
 }
 
 .footerI .under .underLeft p {
-    margin-bottom: 1.2rem;
+    /* margin-bottom: 1.2rem; */
+    line-height: 170%;
 }
 
 .footerI .under .underLeft .email {
@@ -817,24 +815,31 @@ footer {
 }
 
 .footerI .under .underLeft .copy {
+    display: inline-block;
+    width: fit-content;
     font-family: "inter";
     color: #777;
+    margin-top: 1.8rem;
+    line-height: 150%;
 
+    /* background-color: gold; */
 }
 
 .footerI .under .underRight {
-    width: 700px;
-    /* background-color: gold; */
-    float: right;
     display: flex;
     align-items: flex-end;
     justify-content: flex-end;
+    /* background-color: gold; */
+    margin-top: 0;
 }
 
-.footerI .under .underRight a {
-    margin-left: 1.2rem;
+.footerI .under .underRight a:not(:nth-of-type(1)) {
+    margin-left: 1.5rem;
 }
-
+.footerI .under .underRight a span i{
+    display: inline-block;
+    font-size: 1.6rem;
+}
 
 
 
@@ -1321,8 +1326,18 @@ header .icon{
 }
 .footerI .underTop{
     flex-direction: column;
-    height: 22vw;
+    height: 7rem;
+}
+.footerI .under{
+    flex-direction: column;
 
+}
+.footerI .under .underLeft .copy{
+    width: 420px;
+}
+.footerI .under .underRight{
+    justify-content: flex-start;
+    margin-top: 1.5rem;
 
 }
 }
@@ -1432,6 +1447,10 @@ header .icon{
     .stn{
         margin: 10rem 8%;
         font-size: 1.8rem;    
+    }
+    .footerI .under .underLeft .copy{
+        width: fit-content;
+        width: 100%;
     }
 
 }
