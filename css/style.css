@@ -353,30 +353,6 @@ header .icon a {
     /* background-color: gold; */
 }
 
-.section_2 .itemBox .item .imgBox>figure {
-    position: relative;
-}
-
-.section_2 .itemBox .item .imgBox .btn {
-    position: absolute;
-    top: 0;
-    right: 3%;
-    display: flex;
-    justify-content: space-between;
-    /* background-color: beige; */
-    /* width: 90px; */
-}
-
-.section_2 .itemBox .item .imgBox .btn button {
-    display: block;
-    background-color: transparent;
-    border: none;
-    margin-left: 1.4rem;
-    width: 34px;
-    height: 34px;
-
-}
-
 .section_2 .itemBox .item .itemInfo {
     /* background-color: antiquewhite; */
     margin-top: 3.2rem;
@@ -897,14 +873,7 @@ footer {
         margin-top: 18rem;
     }
     
-    
-    .section_2 .itemBox .item .imgBox .btn button {
-        margin-left: 1.2rem;
-        width: 32px;
-        height: 32px;
-        
-    }
-    
+
     .section_2 .itemBox .item .itemInfo .underline {
         height: 5.2rem;
         flex-direction: column;
@@ -1432,9 +1401,9 @@ header .icon{
         margin: 0 auto;
         margin-top: 45rem;
     }
-.section_3 .slide {
+/* .section_3 .slide {
     margin-bottom: 1.6rem;
-}
+} */
     .section_3 .slide p {
         font-size: 0.6rem;
         width: 136px;
@@ -1510,7 +1479,7 @@ header .icon{
     }
     .section_3 {
         width: 100%;
-        margin-top: 32rem;
+        /* margin-top: 32rem; */
     }
     .section_4>p{
         margin-top: 8px;
