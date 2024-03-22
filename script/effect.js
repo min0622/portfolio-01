@@ -1,7 +1,25 @@
 $(function(){
 
+    $('header .headeri .side .hide .menu').click(function(){
+      // $('.mo_menu').toggleClass('add');
+
+      // if($('.mo_menu').hasClass('add')){
+      //   $('.mo_menu').fadeIn()
+      // } else{
+      //   $('.mo_menu').fadeOut()
+
+      // }
+      $('.mo_menu').fadeIn();
+
+
+    })
     
-    
+    $('.mo_menu button').click(function(){
+      $('.mo_menu').fadeOut()
+    })
+
+
+
     $('#wrap .section_2 .itemBox').slick({
         dots: true,
         infinite: false,
@@ -43,9 +61,7 @@ $('#wrap .section_3').slick({
         breakpoint: 576,
         settings: "unslick"
       }
-      // You can unslick at a given breakpoint now by adding:
-      // settings: "unslick"
-      // instead of a settings object
+      
     ]
   });
 
