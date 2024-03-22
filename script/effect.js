@@ -15,10 +15,10 @@ $(function () {
   $('#wrap .section_2 .itemBox .i1 .imgBox').on({
 
     mouseover: function () {
-      $('.m2-1').css({ opacity: '0' }).stop(true).attr('src', 'img/web/main/hmain2-1.png').animate({ opacity: '1' }, 800, 'easeInOutQuad')
+      $('.m2-1').css({ opacity: '0' }).stop(true).attr('src', 'img/web/main/hmain2-1.png').animate({ opacity: '1' }, 400, 'easeInOutQuad')
     },
     mouseout: function () {
-      $('.m2-1').css({ opacity: '0' }).stop(true).attr('src', 'img/web/main/main2-1.png').animate({ opacity: '1'}, 800, 'easeInOutQuad')
+      $('.m2-1').css({ opacity: '0' }).stop(true).attr('src', 'img/web/main/main2-1.png').animate({ opacity: '1'}, 400, 'easeInOutQuad')
 
     }
   });
