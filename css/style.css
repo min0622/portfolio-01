@@ -74,7 +74,7 @@
     padding: 0;
     box-sizing: border-box;
     scroll-behavior: smooth;
-
+  
 }
 
 a {
@@ -416,7 +416,9 @@ header .icon a {
     width: 100%;
     position: relative;
     margin-bottom: 0;
+    
 }
+
 
 .section_3 .slide img {
     margin: auto;
@@ -517,6 +519,7 @@ header .icon a {
     background-color: #4B3939;
     color: #fff;
     margin: auto;
+    cursor: pointer;
 }
 
 /* section_5 */
