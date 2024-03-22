@@ -121,6 +121,7 @@ header .headeri {
 
 }
 
+/* 메뉴바가 사이드에 있을때 */
 header .headeri .side {
     width: 100%;
     height: 100px;
@@ -152,6 +153,7 @@ header .headeri .side {
     cursor: pointer;
 
 }
+/* */
 
 h1 {
     float: left;
@@ -557,12 +559,10 @@ header .icon a {
 }
 
 .section_5 .left {
-    /* width: 40.4%; */
     width: 38%;
-  
     /* background-color: antiquewhite; */
+    margin: 0 0;
     margin-top: 0;
-    margin-left: 0;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -862,14 +862,16 @@ footer {
     }
 
     header .headeri {
-        height: 140px;
+        /* height: 140px; */
+        height: 156px;
         margin: auto 4vw;
 
     }
 
     nav ul {
         width: 100%;
-        height: 40px;
+        /* height: 40px; */
+        height: 56px;
         top: 100px;
         left: 0;
         justify-content: center;
@@ -1052,7 +1054,7 @@ footer {
     }
     .section_5 .left{
         width: 73.63%;
-        margin-left: 13.1%;
+       margin: 0 13.1%;
     margin-top: 5rem;
 
     }
@@ -1297,6 +1299,9 @@ header .icon{
     height: 32px;
     line-height: 32px;
     font-size: 0.8rem;
+}
+.section_5 .left {
+    margin:0 8%;
 }
 .section_5 .left span{
     font-size: 0.9rem;
