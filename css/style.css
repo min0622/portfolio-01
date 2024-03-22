@@ -222,10 +222,13 @@ header .icon a {
     z-index: 999;
     top: 0;
     display: none;
+    /* display: block; */
 }
 
 .mo_menu button {
     display: block;
+    width: 28px;
+            height: 28px;
     cursor: pointer;
     background-color: transparent;
     border: none;
@@ -243,7 +246,9 @@ header .icon a {
 
 .mo_menu ul li {
     width: 100%;
-    padding-bottom: 20px;
+   padding: 25px 0;
+    /* background-color: steelblue; */
+    /* padding-bottom: 20px; */
     border-bottom: #777 1px solid;
 }
 
@@ -804,7 +809,7 @@ footer {
 .footerI .under .underLeft {
     width: 70%;
     font-size: 0.8rem;
-    background-color: beige;
+    /* background-color: beige; */
 }
 
 .footerI .under .underLeft p {
@@ -1013,8 +1018,6 @@ footer {
             width: 28px;
             height: 28px;
             top: 36px;
-    
-    
     }
 
     nav ul {
@@ -1084,7 +1087,6 @@ footer {
         display: block;
         top: 26px;
     }
-
     .web_srch {
         display: none;
     }
@@ -1191,7 +1193,10 @@ header .icon{
         top: 27px;
 
     }
-
+    .mo_menu button {
+        width: 26px;
+        height: 26px;
+    }
     .mo_srch {
         width: 26px;
         height: 26px;
