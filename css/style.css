@@ -778,7 +778,6 @@ footer {
 }
 
 .footerI .underTop {
-    width: 56%;
     width: 46%;
     height: fit-content;
     display: flex;
@@ -805,7 +804,7 @@ footer {
 .footerI .under .underLeft {
     width: 70%;
     font-size: 0.8rem;
-    /* background-color: beige; */
+    background-color: beige;
 }
 
 .footerI .under .underLeft p {
@@ -1337,6 +1336,9 @@ header .icon{
     flex-direction: column;
 
 }
+.footerI .under .underLeft {
+    width: 100%;
+}
 .footerI .under .underLeft .copy{
     width: 420px;
 }
@@ -1455,7 +1457,8 @@ header .icon{
     }
     .footerI .under .underLeft .copy{
         width: fit-content;
-        width: 100%;
+        width: 300px;
+    
     }
 
 }
