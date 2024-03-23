@@ -308,13 +308,6 @@ header .icon a {
     display: none;
 }
 
-/* .section_1 .mo_main1 img{
-    width: 100%;
-
-    height: fit-content;
-} */
-
-
 
 /* section_2  슬라이드*/
 .section_2 {
@@ -349,7 +342,7 @@ header .icon a {
 
 .section_2 .itemBox .item .imgBox {
     width: 91.5%;
-    position: relative;
+    /* position: relative; */
     /* background-color: gold; */
 }
 
@@ -1274,6 +1267,8 @@ header .icon{
 }
 .section_5 .left {
     margin:0 8%;
+    margin-top: 5rem;
+
 }
 .section_5 .left span{
     font-size: 0.9rem;
