@@ -319,21 +319,83 @@ font-size: 1.7rem;
     margin-right: 13.1%;
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
-    background-color: beige;
+    justify-content: space-between;
+    /* background-color: beige; */
 }
 
 .s1_section4 .s_left{
-    width:46.9%;
+    width:54%;
 }
 .s1_section4 .s_right{
     width: 42%;
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.s1_section4 .s_right h3{
+    font-family: 'cormo';
+    font-size: 2.9rem;
+    font-weight: 600;
+    margin-bottom: 2rem;
+}
+.s1_section4 .s_right p{
+    font-family: 'noto';
+    font-size: 1.1rem;
+    font-weight: 400;
+    line-height: 170%;
+
 }
 
+.s1_section4 .s_right .s_more {
+    width: fit-content;
+    font-weight: 500;
+    font-size: 1rem;
+    border-bottom: solid 1px #000;
+    padding-bottom: 0.5px;
+    position: absolute;
+    top:26rem;
+   right: 0;
+    
+}
 
-
-
-
+.s1_section5{
+    width: 100%;
+    position: relative;
+    margin-top: 22rem;
+    /* background-color: beige; */
+}
+.s1_section5 h3{
+    font-family: 'noto';
+    font-size: 2.3rem;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 6rem;
+}
+.s1_section5 .s_btn{
+    /* display: flex;
+    justify-content: space-evenly; */
+    /* margin: auto 19.8%; */
+    width: fit-content;
+    margin:auto;
+}
+.s1_section5 .s_btn .s_btnBox{
+    width: 320px;
+    height: 76px;
+    line-height: 76px;
+    font-family: 'noto';
+    font-size: 1.5rem;
+    font-weight: 500;
+    border: 1px solid #000;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 1.8rem;
+    align-items: center;
+    float: left;
+}
+.s1_section5 .s_btn .s_btnBox:nth-of-type(2){
+    margin: 0 6.2rem;
+}
 
 
 
@@ -343,6 +405,7 @@ footer {
     overflow: hidden;
     background-color: #F3F3F3;
     padding-bottom: 4rem;
+    margin-top: 21rem;
 }
 
 .footerI {
