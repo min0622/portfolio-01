@@ -256,6 +256,8 @@ header .icon a {
     overflow: hidden;
     position: relative;
 }
+
+
 .s1_section1{
     width: 100%;
     position: relative;
@@ -268,24 +270,35 @@ header .icon a {
     display: block;
 }
 .s1_section1 .s_title{
-    /* width: 50%; */
+    /* width: fit-content; */
     position: absolute;
-    top: 53%;
-    left: 50%;
-    /* background-color: salmon; */
+    top: 22.5vw;
+    right:8%;
     color: #fff;
-    font-family: 'noto'
+    font-family: 'noto';
+   display: flex;
+   flex-direction: column;
+   align-items: flex-end;
+text-align: right;
+    /* background-color: steelblue; */
+ 
 }
 .s1_section1 .s_title h2{
-    font-size: 1.9rem;
+    width: fit-content;
+    font-size: 2.2rem;
     margin-bottom: 1rem;
+    
 }
 .s1_section1 .s_title p{
+    width: fit-content;
     font-size: 1.5rem;
     font-weight: 400;
     line-height: 150%;
-    padding-left: 1rem;
+    padding-left: 1.2rem;
 }
+
+
+
 .s1_section2{
     margin:0  13.1%; 
     margin-top: 6.2rem;
@@ -300,11 +313,9 @@ font-family: 'noto';
 font-size: 1.7rem;
 }
 
-
 .s1_section3 .ibox{
     width: 100%;
     height:40vw;
-
 }
 
 .s1_section3 .ibox iframe{
@@ -381,10 +392,10 @@ font-size: 1.7rem;
 }
 .s1_section5 .s_btn .s_btnBox{
     width: 320px;
-    height: 76px;
-    line-height: 76px;
+    height: 72px;
+    line-height: 72px;
     font-family: 'noto';
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     font-weight: 500;
     border: 1px solid #000;
     display: flex;
@@ -516,4 +527,266 @@ footer {
 .footerI .under .underRight a span i{
     display: inline-block;
     font-size: 1.6rem;
+}
+
+
+/* 반응형 */
+@media screen and (max-width:1446px){
+    h1 {
+        clear: left;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    header .headeri {
+        height: 156px;
+        margin: auto 4vw;
+
+    }
+
+    nav ul {
+        width: 100%;
+        height: 56px;
+        top: 100px;
+        left: 0;
+        justify-content: center;
+    }
+    .s1_section1 figure{
+        top: 156px;
+    }
+    .s1_section1 .s_title{
+        top: 28.6vw;
+        right: 5%;
+    }
+    .s1_section1 .s_title h2{
+        font-size: 1.8rem;
+    } 
+    .s1_section1 .s_title p{
+    font-size: 1.4rem;
+        
+    }
+}
+@media screen and (max-width:1024px){
+    .footerI .underTop{
+        width: 70%;
+    }
+    .s1_section1 .s_title h2{
+        font-size: 1.6rem;
+    } 
+    .s1_section1 .s_title p{
+        width: 380px;
+    font-size: 1.3rem;
+        
+    }
+}
+@media screen and (max-width:968px){
+    header .headeri {
+        height: 100px;
+    }
+
+    .menu {
+        display: block;
+            width: 28px;
+            height: 28px;
+            top: 36px;
+    }
+
+    nav ul {
+        display: none;
+    }
+    .s1_section1 figure{
+        top: 100px;
+    }
+.s1_section1 .s_title{
+    top: 23.6vw;
+
+}
+    .s1_section1 .s_title h2{
+        width: 340px;
+        font-size: 1.5rem;
+    margin-bottom: 0.9rem;
+
+    } 
+    .s1_section1 .s_title p{
+        width: 380px;
+    font-size: 1.2rem;
+        
+    }
+
+
+    .footerI .lineBox .csBox,
+    .footerI .lineBox .serBox {
+        width: 50%;
+        margin-right:1rem;
+    }
+
+
+}
+@media screen and (max-width:768px){
+    header .headeri {
+        height: 80px;
+    }
+    .menu{
+    top: 26px;
+    }
+    .mo_srch {
+        display: block;
+        top: 26px;
+    }
+    .web_srch {
+        display: none;
+    }
+
+    h1 {
+        top: 20px;
+    }
+
+    .logo {
+        width: 100%;
+        height: 40px;
+    }
+header .icon{
+    margin-top: 26px;
+}
+.s1_section1 figure{
+    top: 80px;
+}
+/* .s1_section1 .s_title{
+    top: 23.6vw;
+
+} */
+    .s1_section1 .s_title h2{
+        width: 300px;
+        font-size: 1.3rem;
+    margin-bottom: 0.7rem;
+
+    } 
+    .s1_section1 .s_title p{
+        width: 320px;
+    font-size: 1rem;
+        
+    }
+
+
+.footerI .underTop{
+    width: 100%;
+}
+}
+@media screen and (max-width:576px){
+    h1 {
+        top: 24px;
+    }
+
+    .logo {
+        height: 32px;
+    }
+
+    header .headeri {
+        margin: auto 5.2vw;
+
+    }
+
+    .menu {
+        width: 26px;
+        height: 26px;
+        top: 27px;
+
+    }
+    .mo_menu button {
+        width: 26px;
+        height: 26px;
+    }
+    .mo_srch {
+        width: 26px;
+        height: 26px;
+        top: 27px;
+        margin-left: 0.8rem;
+    }
+
+    header .icon {
+        margin-top: 27px;
+    }
+
+    header .icon a {
+        width: 26px;
+        height: 26px;
+        margin-left: 1.2rem;
+    }
+    .footerI{
+        margin: auto 8%;
+    
+    }
+    .footerI .lineBox{
+        flex-direction: column;
+    
+    }
+    .footerI .lineBox .serBox{
+        margin-top:2.2rem ;
+        margin-top:1.8rem ;
+    
+    }
+    .footerI .underTop{
+        flex-direction: column;
+        height: 7rem;
+    }
+    .footerI .under{
+        flex-direction: column;
+    
+    }
+    .footerI .under .underLeft {
+        width: 100%;
+    }
+    .footerI .under .underLeft .copy{
+        width: 420px;
+    }
+    .footerI .under .underRight{
+        justify-content: flex-start;
+        margin-top: 1.5rem;
+    
+    }
+}
+@media screen and (max-width:394px){
+    h1 {
+        top: 27px;
+    }
+
+    .logo {
+        height: 26px;
+       
+    }
+    .menu {
+        width: 22px;
+        height: 22px;
+        top: 29px;
+
+    }
+
+    .mo_srch {
+        width: 22px;
+        height: 22px;
+        top: 29px;
+
+        margin-left: 0.3rem;
+    }
+    header .icon {
+        margin-top: 29px;
+    }
+    header .icon a {
+        width: 22px;
+        height: 22px;
+        margin-left: 0.8rem;
+    }
+    .footerI .under .underLeft .copy{
+        width: fit-content;
+        width: 300px;
+    }
+}
+@media screen and (max-width:280px){
+    h1 {
+        top: 28px;
+    }
+
+    .logo {
+        height: 24px;
+    }
 }
