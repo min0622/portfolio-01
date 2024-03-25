@@ -157,7 +157,6 @@ header .headeri .side {
 
 h1 {
     float: left;
-    /* margin-top: 24px; */
     position: absolute;
     top: 27px;
     left: 0;
@@ -165,7 +164,9 @@ h1 {
 
 .logo {
     width: 100%;
+    width: fit-content;
     height: 46px;
+    background-color: beige;
 }
 
 h1 span {
@@ -1038,9 +1039,8 @@ footer {
 .footerI .lineBox .serBox {
     width: 50%;
     margin-right:1rem;
-
-
 }
+
 }
 
 @media screen and (max-width:768px) {
@@ -1331,6 +1331,7 @@ header .icon{
 
     .logo {
         height: 26px;
+    
        
     }
     .menu {
