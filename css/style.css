@@ -164,9 +164,7 @@ h1 {
 
 .logo {
     width: 100%;
-    width: fit-content;
     height: 46px;
-    background-color: beige;
 }
 
 h1 span {
