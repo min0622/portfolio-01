@@ -262,13 +262,20 @@ header .icon a {
     width: 100%;
     position: relative;
 }
-.s1_section1 figure{
+.s1_section1 .main{
     width: 100%;
     height: 100%;
     position: relative;
     top: 100px;
     display: block;
 }
+.s1_section1 .mo_main{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    display: none;
+}
+
 .s1_section1 .s_title{
     /* width: fit-content; */
     position: absolute;
@@ -551,7 +558,7 @@ footer {
         left: 0;
         justify-content: center;
     }
-    .s1_section1 figure{
+    .s1_section1 .main{
         top: 156px;
     }
     .s1_section1 .s_title{
@@ -594,7 +601,7 @@ footer {
     nav ul {
         display: none;
     }
-    .s1_section1 figure{
+    .s1_section1 .main{
         top: 100px;
     }
 .s1_section1 .s_title{
@@ -648,13 +655,10 @@ footer {
 header .icon{
     margin-top: 26px;
 }
-.s1_section1 figure{
+.s1_section1 .main{
     top: 80px;
 }
-/* .s1_section1 .s_title{
-    top: 23.6vw;
 
-} */
     .s1_section1 .s_title h2{
         width: 300px;
         font-size: 1.3rem;
@@ -672,6 +676,7 @@ header .icon{
     width: 100%;
 }
 }
+
 @media screen and (max-width:576px){
     h1 {
         top: 24px;
@@ -711,6 +716,28 @@ header .icon{
         width: 26px;
         height: 26px;
         margin-left: 1.2rem;
+    }
+
+    .s1_section1 .main{
+        display: none;
+    }
+    .s1_section1 .mo_main{
+        display: block;
+    }
+    .s1_section1 .s_title{
+        top: 50vw;
+    
+    }
+    .s1_section1 .s_title h2{
+        width: 440px;
+        font-size: 2rem;
+    margin-bottom: 0.7rem;
+
+    } 
+    .s1_section1 .s_title p{
+        width: 440px;
+    font-size: 1.4rem;
+        
     }
     .footerI{
         margin: auto 8%;
@@ -776,6 +803,24 @@ header .icon{
         height: 22px;
         margin-left: 0.8rem;
     }
+    .s1_section1 .s_title{
+        top: 54vw;
+    
+    }
+    .s1_section1 .s_title h2{
+        width: 300px;
+        font-size: 1.4rem;
+    margin-bottom: 0.7rem;
+
+    } 
+    .s1_section1 .s_title p{
+        width: 290px;
+    font-size: 1rem;
+        
+    }
+
+
+
     .footerI .under .underLeft .copy{
         width: fit-content;
         width: 300px;
