@@ -569,9 +569,7 @@ header .icon a {
     width: 40.4%;
     /* 772/1900*100 */
     width: 46%;
-    /* position: absolute;
-    right: 0;
-    top: 0; */
+   
 
 }
 .section_5 .right img{
@@ -1261,9 +1259,9 @@ header .icon{
     font-size: 0.8rem;
 }
 .section_5 .left {
+    width: auto;
     margin:0 8%;
-    margin-top: 5rem;
-
+    margin-top: 5rem
 }
 .section_5 .left span{
     font-size: 0.9rem;

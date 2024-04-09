@@ -323,7 +323,7 @@ text-align: right;
    top: 100px;
    left: 0;
     margin:0  13.1%; 
-    background-color: beige;
+    /* background-color: beige; */
     padding: 18rem 0 ;
     font-family: 'seri';
     text-align: center;
@@ -365,9 +365,10 @@ font-weight: 600;
 .s1_section4{
     /* width: 100%; */
     position: relative;
-    margin-top: 25rem;
+    margin-top: 28rem;
     margin-right: 13.1%;
     display: flex;
+    /* align-items: center; */
     flex-direction: row;
     justify-content: space-between;
     /* background-color: beige; */
@@ -378,10 +379,12 @@ font-weight: 600;
 }
 .s1_section4 .s_right{
     width: 42%;
+    /* height: 524px; */
     text-align: right;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    margin-top: 0;
 }
 .s1_section4 .s_right h3{
     font-family: 'cormo';
@@ -405,6 +408,7 @@ font-weight: 600;
     padding-bottom: 0.5px;
     position: absolute;
     top:26rem;
+    /* bottom: 6rem; */
    right: 0;
     
 }
@@ -674,6 +678,23 @@ footer {
     .s1_section2{
         top: 100px;
     }
+
+.s1_section4{
+    flex-direction: column;
+    margin-right:0;
+
+}
+.s1_section4 .s_left{
+    width:100%;
+}
+.s1_section4 .s_right{
+    width: 100%;
+    margin-top: 5rem;
+
+}
+.s1_section4 .s_right .s_more {
+    top: 40rem;
+}
     .footerI .lineBox .csBox,
     .footerI .lineBox .serBox {
         width: 50%;
@@ -824,6 +845,12 @@ header .icon{
 .s1_section3{
     top: 2rem;
 }
+.s1_section4{
+    margin-right: 8%;
+
+}
+
+
     .footerI{
         margin: auto 8%;
     
