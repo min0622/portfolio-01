@@ -379,37 +379,44 @@ font-weight: 600;
 }
 .s1_section4 .s_right{
     width: 42%;
-    /* height: 524px; */
+    height: 300px;
     text-align: right;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    margin-top: 0;
+    align-items: end;
+    justify-content: space-between;
+    margin-top: 6vw;
+    /* background-color: beige; */
 }
 .s1_section4 .s_right h3{
     font-family: 'cormo';
     font-size: 2.9rem;
     font-weight: 600;
-    margin-bottom: 2rem;
+    /* background-color: gold; */
+    padding-bottom: 1rem;
+  
 }
 .s1_section4 .s_right p{
     font-family: 'noto';
     font-size: 1.1rem;
     font-weight: 400;
     line-height: 170%;
-
 }
 
 .s1_section4 .s_right .s_more {
+    display: inline-block;
     width: fit-content;
+    font-family: 'noto';
     font-weight: 500;
     font-size: 1rem;
     border-bottom: solid 1px #000;
-    padding-bottom: 0.5px;
-    position: absolute;
-    top:26rem;
-    /* bottom: 6rem; */
-   right: 0;
+    padding-bottom: 0.5px; 
+    padding-top: 2rem;
+    /* position: absolute;
+ top: 0;
+   right: 0; */
+    background-color: salmon;
+   
     
 }
 
@@ -618,6 +625,14 @@ footer {
     .s1_section2 .bold{
     font-size: 2.2rem;
     }
+.s1_section4 .s_right{
+    margin-top: 2vw;
+
+}
+.s1_section4 .s_right h3{
+    font-size: 2.4rem;
+
+}
 
 }
 @media screen and (max-width:1024px){
@@ -641,6 +656,18 @@ footer {
     .s1_section2 .bold{
     font-size: 2rem;
     }
+    .s1_section4 .s_right{
+        margin-top: 2vw;
+    
+    }
+    .s1_section4 .s_right h3{
+        font-size: 2rem;
+    
+    }
+.s1_section4 .s_right p{
+    font-size: 1rem;
+}
+
 }
 @media screen and (max-width:968px){
     header .headeri {
