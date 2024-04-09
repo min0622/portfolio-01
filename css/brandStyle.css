@@ -424,21 +424,30 @@ font-weight: 600;
     /* background-color: beige; */
 }
 .s1_section5 h3{
+    width: fit-content;
+    margin: auto;
     font-family: 'noto';
     font-size: 2.3rem;
     font-weight: 400;
-    text-align: center;
     margin-bottom: 6rem;
+    text-align: center;
+    line-height: 160%;
+    /* background-color: beige; */
 }
 .s1_section5 .s_btn{
-    /* display: flex;
-    justify-content: space-evenly; */
+    width: fit-content;
+    height: fit-content;
+     display: flex;
+    flex-direction: row;
+    justify-content: space-evenly; 
     /* margin: auto 19.8%; */
     width: fit-content;
     margin:auto;
+    
 }
 .s1_section5 .s_btn .s_btnBox{
-    width: 320px;
+    /* width: 320px; */
+    width: 240px;
     height: 72px;
     line-height: 72px;
     font-family: 'noto';
@@ -632,7 +641,6 @@ footer {
 }
 .s1_section4 .s_right h3{
     font-size: 2.4rem;
-
 }
 
 }
@@ -678,7 +686,17 @@ footer {
     font-size: 2rem;
 
 }
+ .s1_section5 h3{
+    margin-bottom: 3rem;
 
+}
+.s1_section5 .s_btn{
+    height: 340px;
+   flex-direction: column;
+}
+.s1_section5 .s_btn .s_btnBox:nth-of-type(2){
+    margin: 0;
+} 
 
 }
 @media screen and (max-width:968px){
@@ -804,7 +822,9 @@ header .icon{
     .s1_section3 .ibox{
         height:50vw;
     }
-
+    .s1_section5 h3{
+        width: 420px;
+    }
 .footerI .underTop{
     width: 100%;
 }
@@ -902,7 +922,9 @@ header .icon{
     margin-top: 7rem;
     
 }
-
+.s1_section4 .s_right .s_more {
+    font-size: 0.9rem
+}
     .footerI{
         margin: auto 8%;
     
