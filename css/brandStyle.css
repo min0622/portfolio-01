@@ -324,7 +324,7 @@ text-align: right;
    left: 0;
     margin:0  13.1%; 
     /* background-color: beige; */
-    padding: 18rem 0 ;
+    padding: 16rem 0 ;
     font-family: 'seri';
     text-align: center;
 }
@@ -376,6 +376,7 @@ font-weight: 600;
 
 .s1_section4 .s_left{
     width:54%;
+ padding: 0;
 }
 .s1_section4 .s_right{
     width: 42%;
@@ -385,6 +386,7 @@ font-weight: 600;
     flex-direction: column;
     align-items: end;
     justify-content: space-between;
+    margin: 0;
     margin-top: 6vw;
     /* background-color: beige; */
 }
@@ -412,12 +414,7 @@ font-weight: 600;
     border-bottom: solid 1px #000;
     padding-bottom: 0.5px; 
     padding-top: 2rem;
-    /* position: absolute;
- top: 0;
-   right: 0; */
-    background-color: salmon;
-   
-    
+
 }
 
 .s1_section5{
@@ -625,6 +622,10 @@ footer {
     .s1_section2 .bold{
     font-size: 2.2rem;
     }
+    .s1_section4{
+        margin-right: 12%;
+    
+    }
 .s1_section4 .s_right{
     margin-top: 2vw;
 
@@ -656,8 +657,12 @@ footer {
     .s1_section2 .bold{
     font-size: 2rem;
     }
+.s1_section4{
+    margin-right: 8%;
+
+}
     .s1_section4 .s_right{
-        margin-top: 2vw;
+        margin-top: 0vw;
     
     }
     .s1_section4 .s_right h3{
@@ -666,7 +671,14 @@ footer {
     }
 .s1_section4 .s_right p{
     font-size: 1rem;
+    line-height: 160%;
+
 }
+.s1_section5 h3{
+    font-size: 2rem;
+
+}
+
 
 }
 @media screen and (max-width:968px){
@@ -708,20 +720,26 @@ footer {
 
 .s1_section4{
     flex-direction: column;
+    justify-content: center;
     margin-right:0;
-
+    margin-top: 28rem;
 }
 .s1_section4 .s_left{
     width:100%;
-}
-.s1_section4 .s_right{
-    width: 100%;
-    margin-top: 5rem;
+   padding:0  calc((100% - 900px) / 2);
+
 
 }
-.s1_section4 .s_right .s_more {
-    top: 40rem;
+.s1_section4 .s_right{
+    width: 73.63%;
+    margin: 0 13.1%;
+    margin-top: 6rem;
+    text-align: left;
+    align-items: start;
+
+
 }
+
     .footerI .lineBox .csBox,
     .footerI .lineBox .serBox {
         width: 50%;
@@ -774,6 +792,8 @@ header .icon{
     .s1_section2{
         margin:0 8%; 
         top: 80px;
+    padding: 14rem 0 ;
+
         }
     .s1_section2 p:nth-of-type(2){
         font-size: 1.3rem;
@@ -859,7 +879,7 @@ header .icon{
     .s1_section2{
         top: 0;
     margin:0  4%; 
-    padding: 15rem 0 ;
+    padding: 10rem 0 ;
 
     }
     .s1_section2 p:nth-of-type(2){
@@ -873,10 +893,15 @@ header .icon{
     top: 2rem;
 }
 .s1_section4{
-    margin-right: 8%;
-
+    margin-top:16rem;
 }
-
+.s1_section4 .s_right{
+    width: 84%;
+    height:340px;
+    margin: 0 8%;
+    margin-top: 7rem;
+    
+}
 
     .footerI{
         margin: auto 8%;
@@ -934,6 +959,10 @@ header .icon{
     .s1_section2 .bold{
     font-size: 1.5rem;
     }
+    .s1_section4 .s_right{
+        height:380px;
+        
+    }
 }
 
 
@@ -990,7 +1019,21 @@ header .icon{
     .s1_section2 .bold{
     font-size: 1.4rem;
     }
+    /* .s1_section4{
+   
+    } */
+    .s1_section4 .s_right{
+        margin-top: 6rem;
+    }
+    .s1_section4 .s_right h3{
+        font-size: 1.8rem;
+        /* padding-bottom: 1.6rem; */
 
+    }
+    .s1_section4 .s_right p{
+    font-size: 0.9rem;
+
+    }
 
     .footerI .under .underLeft .copy{
         width: fit-content;
