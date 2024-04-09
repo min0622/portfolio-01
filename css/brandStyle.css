@@ -322,7 +322,6 @@ text-align: right;
    position: relative;
    top: 100px;
    left: 0;
-
     margin:0  13.1%; 
     /* background-color: beige; */
     padding: 15rem 0 ;
@@ -337,9 +336,12 @@ text-align: right;
     line-height: 180%;
 }
 .s1_section2 .bold{
+    width: fit-content;
+    margin: auto;
+    /* background-color: gold; */
+    margin-bottom: 1rem;
 font-size: 2.5rem;
 font-weight: 600;
-margin-bottom: 1rem;
 }
 .s1_section2 p>span{
     color: #BD9F57;
@@ -603,13 +605,15 @@ footer {
     font-size: 1.4rem;
         
     }
+.s1_section2{
+    top: 156px;
+}
     .s1_section2 p:nth-of-type(2){
         font-size: 1.5rem;
         line-height: 170%;
     }
     .s1_section2 .bold{
     font-size: 2.2rem;
-    margin-bottom: 1rem;
     }
 
 }
@@ -627,15 +631,12 @@ footer {
     }
     .s1_section2{
         margin:0  10%; 
-
         }
     .s1_section2 p:nth-of-type(2){
         font-size: 1.4rem;
-        line-height: 170%;
     }
     .s1_section2 .bold{
     font-size: 2rem;
-    margin-bottom: 1rem;
     }
 }
 @media screen and (max-width:968px){
@@ -671,8 +672,9 @@ footer {
     font-size: 1.2rem;
         
     }
-
-
+    .s1_section2{
+        top: 100px;
+    }
     .footerI .lineBox .csBox,
     .footerI .lineBox .serBox {
         width: 50%;
@@ -724,15 +726,13 @@ header .icon{
     }
     .s1_section2{
         margin:0 8%; 
-
+        top: 80px;
         }
     .s1_section2 p:nth-of-type(2){
         font-size: 1.3rem;
-        line-height: 170%;
     }
     .s1_section2 .bold{
     font-size: 1.9rem;
-    margin-bottom: 1rem;
     }
 
 .footerI .underTop{
@@ -812,11 +812,10 @@ header .icon{
     }
     .s1_section2 p:nth-of-type(2){
         font-size: 1.2rem;
-        line-height: 170%;
+
     }
     .s1_section2 .bold{
     font-size: 1.6rem;
-    margin-bottom: 1rem;
     }
     .footerI{
         margin: auto 8%;
@@ -868,13 +867,11 @@ header .icon{
     margin:0  8%; 
     }
     .s1_section2 p:nth-of-type(2){
-        width: 260px;
-        /* font-size: 1.1rem; */
-        line-height: 170%;
+        width: 240px;
+        font-size: 1.1rem;
     }
     .s1_section2 .bold{
-    /* font-size: 1.5rem; */
-    margin-bottom: 1rem;
+    font-size: 1.5rem;
     }
 }
 
@@ -922,7 +919,16 @@ header .icon{
     font-size: 1rem;
         
     }
-
+    .s1_section2{
+        margin:0 ; 
+        }
+    .s1_section2 p:nth-of-type(2){
+        /* width: 240px; */
+        font-size: 1rem;
+    }
+    .s1_section2 .bold{
+    font-size: 1.4rem;
+    }
 
 
     .footerI .under .underLeft .copy{
@@ -948,5 +954,13 @@ header .icon{
         width: 256px;
     font-size: 0.9rem;
         
+    }
+
+    .s1_section2 p:nth-of-type(2){
+        /* width: 240px; */
+        font-size: 0.9rem;
+    }
+    .s1_section2 .bold{
+    font-size: 1.2rem;
     }
 }
