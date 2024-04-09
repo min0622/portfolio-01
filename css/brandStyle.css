@@ -323,8 +323,8 @@ text-align: right;
    top: 100px;
    left: 0;
     margin:0  13.1%; 
-    /* background-color: beige; */
-    padding: 15rem 0 ;
+    background-color: beige;
+    padding: 18rem 0 ;
     font-family: 'seri';
     text-align: center;
 }
@@ -338,7 +338,6 @@ text-align: right;
 .s1_section2 .bold{
     width: fit-content;
     margin: auto;
-    /* background-color: gold; */
     margin-bottom: 1rem;
 font-size: 2.5rem;
 font-weight: 600;
@@ -351,7 +350,7 @@ font-weight: 600;
     width: 100%;
     /* margin-top: 3rem; */
     position: relative;
-    top: 8rem;
+    top: 10rem;
 }
 .s1_section3 .ibox{
     width: 100%;
@@ -734,6 +733,9 @@ header .icon{
     .s1_section2 .bold{
     font-size: 1.9rem;
     }
+    .s1_section3 .ibox{
+        height:50vw;
+    }
 
 .footerI .underTop{
     width: 100%;
@@ -809,6 +811,8 @@ header .icon{
     .s1_section2{
         top: 0;
     margin:0  4%; 
+    padding: 15rem 0 ;
+
     }
     .s1_section2 p:nth-of-type(2){
         font-size: 1.2rem;
@@ -817,6 +821,9 @@ header .icon{
     .s1_section2 .bold{
     font-size: 1.6rem;
     }
+.s1_section3{
+    top: 2rem;
+}
     .footerI{
         margin: auto 8%;
     
