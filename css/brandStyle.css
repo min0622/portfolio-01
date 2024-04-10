@@ -380,22 +380,26 @@ font-weight: 600;
 }
 .s1_section4 .s_right{
     width: 42%;
-    height: 300px;
+    /* height: 300px; */
     text-align: right;
     display: flex;
     flex-direction: column;
     align-items: end;
-    justify-content: space-between;
-    margin: 0;
-    margin-top: 6vw;
+    /* margin-top: 6vw; */
+    margin:0;
+    margin-top: 1rem;
+    margin-bottom: 6rem;
     /* background-color: beige; */
 }
 .s1_section4 .s_right h3{
     font-family: 'cormo';
     font-size: 2.9rem;
-    font-weight: 600;
+    /* font-weight: 600; */
     /* background-color: gold; */
-    padding-bottom: 1rem;
+    /* padding-bottom: 1rem; */
+    margin-top:2rem;
+    padding-bottom: 2rem;
+
   
 }
 .s1_section4 .s_right p{
@@ -403,6 +407,10 @@ font-weight: 600;
     font-size: 1.1rem;
     font-weight: 400;
     line-height: 170%;
+    /* background-color: salmon; */
+    padding-bottom:2rem ;
+    margin-bottom: 4rem;
+
 }
 
 .s1_section4 .s_right .s_more {
@@ -413,7 +421,8 @@ font-weight: 600;
     font-size: 1rem;
     border-bottom: solid 1px #000;
     padding-bottom: 0.5px; 
-    padding-top: 2rem;
+    /* background-color: brown; */
+    
 
 }
 
@@ -448,11 +457,12 @@ font-weight: 600;
 .s1_section5 .s_btn .s_btnBox{
     /* width: 320px; */
     width: 240px;
-    height: 72px;
+    height: 65px;
     line-height: 72px;
     font-family: 'noto';
     font-size: 1.2rem;
-    font-weight: 500;
+    /* font-weight: 500; */
+    font-weight: 400;
     border: 1px solid #000;
     display: flex;
     justify-content: space-between;
@@ -636,14 +646,20 @@ footer {
     
     }
 .s1_section4 .s_right{
-    margin-top: 2vw;
+    margin-top: 0;
 
 }
 .s1_section4 .s_right h3{
     font-size: 2.4rem;
+    padding-bottom: 1rem;
+
+}
+.s1_section4 .s_right p{
+    margin-bottom: 0.8rem;
 }
 
 }
+
 @media screen and (max-width:1024px){
     .footerI .underTop{
         width: 70%;
@@ -669,12 +685,13 @@ footer {
     margin-right: 8%;
 
 }
-    .s1_section4 .s_right{
+    /* .s1_section4 .s_right{
         margin-top: 0vw;
     
-    }
+    } */
     .s1_section4 .s_right h3{
         font-size: 2rem;
+        margin-top:0;
     
     }
 .s1_section4 .s_right p{
@@ -691,7 +708,7 @@ footer {
 
 }
 .s1_section5 .s_btn{
-    height: 340px;
+    height: 240px;
    flex-direction: column;
 }
 .s1_section5 .s_btn .s_btnBox:nth-of-type(2){
@@ -754,10 +771,14 @@ footer {
     margin-top: 6rem;
     text-align: left;
     align-items: start;
-
+}
+.s1_section4 .s_right h3{
+    padding-bottom: 1.3rem;
 
 }
-
+.s1_section4 .s_right p{
+    margin-bottom: 3rem;
+}
     .footerI .lineBox .csBox,
     .footerI .lineBox .serBox {
         width: 50%;
@@ -822,6 +843,9 @@ header .icon{
     .s1_section3 .ibox{
         height:50vw;
     }
+.s1_section4 .s_right{
+    margin-top: 4rem;
+}
     .s1_section5 h3{
         width: 420px;
     }
@@ -917,10 +941,8 @@ header .icon{
 }
 .s1_section4 .s_right{
     width: 84%;
-    height:340px;
     margin: 0 8%;
-    margin-top: 7rem;
-    
+    margin-top: 4rem;
 }
 .s1_section4 .s_right .s_more {
     font-size: 0.9rem
@@ -981,10 +1003,7 @@ header .icon{
     .s1_section2 .bold{
     font-size: 1.5rem;
     }
-    .s1_section4 .s_right{
-        height:380px;
-        
-    }
+
 }
 
 
@@ -1041,20 +1060,14 @@ header .icon{
     .s1_section2 .bold{
     font-size: 1.4rem;
     }
-    /* .s1_section4{
    
-    } */
-    .s1_section4 .s_right{
-        margin-top: 6rem;
-    }
+
     .s1_section4 .s_right h3{
         font-size: 1.8rem;
-        /* padding-bottom: 1.6rem; */
-
+    
     }
     .s1_section4 .s_right p{
     font-size: 0.9rem;
-
     }
 
     .footerI .under .underLeft .copy{
