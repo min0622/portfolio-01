@@ -430,7 +430,7 @@ font-weight: 600;
     position: relative;
     margin-top: 19rem;
     margin-bottom:18rem;
-    background-color: beige;
+    /* background-color: beige; */
 }
 .s1_section5 h3{
     width: fit-content;
@@ -951,10 +951,10 @@ header .icon{
 .s1_section4 .s_right .s_more {
     font-size: 0.9rem
 }
-/* .s1_section5{
-    margin-top:19rem;
-    margin-bottom:15rem;
-} */
+.s1_section5{
+    margin-top:20rem;
+    /* margin-bottom:15rem; */
+}
 
 .s1_section5 h3{
     width: 340px;
