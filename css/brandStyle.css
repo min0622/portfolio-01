@@ -849,7 +849,11 @@ header .icon{
 .s1_section4 .s_right{
     margin-top: 4rem;
 }
-    .s1_section5 h3{
+.s1_section5{
+    margin-top:18rem;
+
+}   
+.s1_section5 h3{
         width: 420px;
     }
 .footerI .underTop{
@@ -1075,7 +1079,10 @@ header .icon{
     }
     .s1_section4 .s_right p{
     font-size: 0.9rem;
+    margin-bottom: 2rem;
+
     }
+   
     .s1_section5 h3{
         /* width:300px; */
         /* font-size: 1.4rem; */
