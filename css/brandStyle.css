@@ -441,7 +441,7 @@ font-weight: 600;
     margin-bottom: 6rem;
     text-align: center;
     line-height: 160%;
-    /* background-color: beige; */
+    background-color: beige;
 }
 .s1_section5 .s_btn{
     width: fit-content;
@@ -1087,7 +1087,7 @@ header .icon{
         /* width:300px; */
         /* font-size: 1.4rem; */
 
-        width:240px;
+        width:220px;
         font-size: 1.5rem;
     }
 
