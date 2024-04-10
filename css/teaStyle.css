@@ -188,7 +188,7 @@ nav ul li {
     color: #777;
 
 }
-nav ul li:first-of-type {
+nav ul li:nth-of-type(2) {
     font-weight: 500;
     margin-right: 3rem;
     color: #000;
