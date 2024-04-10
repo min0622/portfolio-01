@@ -304,7 +304,7 @@ text-align: right;
     width: fit-content;
     font-size: 2.2rem;
     margin-bottom: 1rem;
-    background-color: beige;
+    /* background-color: beige; */
     
 }
 .s1_section1 .s_title p{
@@ -662,12 +662,12 @@ footer {
 }
 
 }
-
+/* 1194px */
 @media screen and (max-width:1194px){
     .s1_section1 .s_title h2{
         width: 370px;
         font-size: 1.6rem;
-    background-color: gold;
+    /* background-color: gold; */
 
     } 
     .s1_section1 .s_title p{
@@ -697,7 +697,7 @@ footer {
         line-height: 160%;
         
     }
-    .s1_section5{
+    /* .s1_section5{
         margin-top: 16.8rem;
         margin-bottom:15rem;
     }
@@ -712,7 +712,7 @@ footer {
     }
     .s1_section5 .s_btn .s_btnBox:nth-of-type(2){
         margin: 0;
-    } 
+    }  */
     
     .footerI .underTop{
         width: 70%;
@@ -782,6 +782,22 @@ footer {
 .s1_section4 .s_right p{
     margin-bottom: 3rem;
 }
+  .s1_section5{
+        margin-top: 16.8rem;
+        margin-bottom:15rem;
+    }
+    .s1_section5 h3{
+        font-size: 2rem;
+        margin-bottom: 3rem;
+    }
+    
+    .s1_section5 .s_btn{
+        height: 240px;
+        flex-direction: column;
+    }
+    .s1_section5 .s_btn .s_btnBox:nth-of-type(2){
+        margin: 0;
+    }  
     .footerI .lineBox .csBox,
     .footerI .lineBox .serBox {
         width: 50%;
