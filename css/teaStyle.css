@@ -1,0 +1,467 @@
+@font-face {
+    font-family: "noto";
+    src: url(../font/NotoSansKR-Light.ttf);
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: "noto";
+    src: url(../font/NotoSansKR-Regular.ttf);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "noto";
+    src: url(../font/NotoSansKR-Medium.ttf);
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: "noto";
+    src: url(../font/NotoSansKR-Bold.ttf);
+    font-weight: 700;
+}
+
+
+
+@font-face {
+    font-family: "cormo";
+    src: url(../font/CormorantGaramond-Medium.ttf);
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: "cormo";
+    src: url(../font/CormorantGaramond-SemiBold.ttf);
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: "inter";
+    src: url(./font/Inter-Regular.ttf),
+        url(../font/Inter-Light.ttf),
+        url(../font/Inter-Medium.ttf),
+        url(../font/Inter-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: "inter";
+    src: url(../font/Inter-Light.ttf);
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: "inter";
+    src: url(../font/Inter-Regular.ttf);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "inter";
+    src: url(../font/Inter-Medium.ttf);
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: "inter";
+    src: url(../font/Inter-SemiBold.ttf);
+    font-weight: 600;
+}
+
+@font-face{
+    font-family: 'seri';
+    src:url(../font/NotoSerifKR-SemiBold.otf);
+    font-weight: 600;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color:  inherit;
+}
+figure{
+    width: fit-content;
+    height: fit-content;
+}
+img{
+    max-width: 100%;
+    display: block;
+}
+ul,li{
+    list-style: none;
+}
+
+header {
+    width: 100%;
+    overflow: hidden;
+    background-color: #fff;
+    position: fixed;
+    z-index: 998;
+    /* border-bottom: 1px solid rgba(0,0,0, .1); */
+    box-shadow: 0 1px 20px rgba(0, 0, 0, 0.3);
+
+}
+
+header .headeri {
+    max-width: 100%;
+    height: 100px;
+    /* margin: auto 113px; */
+    margin: auto 6.6vw;
+    /* background-color: steelblue; */
+    position: relative;
+
+}
+
+/* 메뉴바가 사이드에 있을때 */
+header .headeri .side {
+    width: 100%;
+    height: 100px;
+}
+
+.menu {
+    width: 32px;
+    height: 32px;
+    display: none;
+    position: absolute;
+    top: 34px;
+    left: 0;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+/* 모바일버전 search*/
+.mo_srch {
+    width: 28px;
+    height: 28px;
+    display: none;
+    position: absolute;
+    top: 36px;
+    left: 32px;
+    background-color: transparent;
+    border: none;
+    margin-left: 1.2rem;
+    cursor: pointer;
+
+}
+
+/*  */
+
+h1 {
+    float: left;
+    /* margin-top: 24px; */
+    position: absolute;
+    top: 27px;
+    left: 0;
+}
+
+.logo {
+    width: 100%;
+    height: 46px;
+}
+
+h1 span {
+    display: none;
+}
+
+nav ul {
+    width: 50vw;
+    height: 100px;
+    /* background-color: salmon; */
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 18rem;
+    font-family: "noto";
+    font-size: 1.1rem;
+}
+
+nav ul li {
+    font-weight: 400;
+    margin-right: 3rem;
+    color: #777;
+
+}
+nav ul li:first-of-type {
+    font-weight: 500;
+    margin-right: 3rem;
+    color: #000;
+}
+
+header .icon {
+    float: right;
+    margin-top: 36px;
+    display: flex;
+}
+
+.web_srch {
+    width: 28px;
+    height: 28px;
+    display: block;
+    margin-left: 1.2rem;
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+}
+
+header .icon a {
+    display: block;
+    margin-left: 1.6rem;
+    width: 28px;
+    height: 28px;
+}
+
+/* 모바일 버전 메뉴 */
+.mo_menu {
+    width: 320px;
+    height: 100%;
+    padding-left: 20px;
+    background-color: #fff;
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    display: none;
+    /* display: block; */
+}
+
+.mo_menu button {
+    display: block;
+    width: 28px;
+            height: 28px;
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    margin-top: 30px;
+}
+
+.mo_menu ul {
+    width: 90%;
+    height: 56%;
+    margin-top: 65px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.mo_menu ul li {
+    width: 100%;
+   padding: 25px 0;
+    border-bottom: #777 1px solid;
+}
+
+
+/* sub2_wrap */
+#sub2_wrap{
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    top: 160px;
+}
+
+.s2_section1{
+    /* width: 100%; */
+    margin-left: 13.1%;
+
+}
+
+.s2_section1 h2{
+    font-family: "cormo";
+    font-size: 2.2rem;
+    font-weight: 600;
+    margin-bottom: 3rem;
+
+}
+.s2_section1 .teaBox{
+    width: 100%;
+    display: flex;
+    position: relative;
+}
+.s2_section1 .teaBox .box{
+    position: relative;
+    
+}
+.s2_section1 .teaBox .box .tea{
+   font-family: 'inter';
+   font-weight: 500;
+   font-size: 0.9rem;
+   text-align: center;
+   width: 184px;
+   height: 40px;
+   line-height: 40px;
+   background-color: #fff;
+   position: absolute;
+  bottom: 25px;
+  left: 50%;
+   transform: translateX(-50%);
+
+}
+.s2_section1 .desc{
+    font-family: "noto";
+    /* font-weight: 400; */
+    font-weight: 300;
+    font-size: 1.2rem;
+    line-height: 160%;
+    width: 990px;
+    margin-top: 2.6rem;
+}
+.s2_section2{
+margin: 12rem 13.1%;
+}
+.s2_section2 .dropFilter {
+    /* background-color: gainsboro; */
+    width: 40%;
+    /* margin-right: 2rem; */
+    display: flex;
+    justify-content: space-between;
+    
+}
+.s2_section2 .dropFilter select{
+    display: inline-block;
+    /* width: 107px;
+    height: 36px; */
+    padding: 6px 9px;
+    font-family: 'noto';
+    font-size: 15px;
+    font-size: 500;
+    background-color: #f5f5f5;
+    border: none; 
+}
+
+.s2_section2 .check{
+display: inline-block;
+font-family: 'noto';
+font-size: 15px;
+font-size: 500;
+padding: 6px 9px;
+background-color: #f5f5f5;
+
+
+}
+
+
+
+
+/* footer */
+footer {
+    width: 100%;
+    overflow: hidden;
+    background-color: #F3F3F3;
+    padding-bottom: 4rem;
+    /* margin-top: 21rem; */
+}
+
+.footerI {
+    /* width: 73.63%; */
+    /* 1400/1900*100 = 73.68%  ...스크롤빼서 1900이다! */
+    margin: auto 13.1%;
+    font-family: "noto";
+    font-size: 0.9rem;
+    font-weight: 400;
+    /* background-color: gold; */
+
+}
+
+.footerI .lineBox {
+    /* background-color: bisque; */
+    padding-top: 3rem;
+    /* padding-bottom: 2.9rem; */
+    margin-bottom: 3.8rem;
+    margin-bottom: 2.8rem;
+    /* border-bottom: solid 1px #000; */
+    display: flex;
+    flex-direction: row;
+}
+
+.footerI .lineBox .csBox,
+.footerI .lineBox .serBox {
+    width: 30%;
+    /* background-color: gold; */
+    margin-right:8rem;
+    margin-top:0 ;
+
+}
+
+.footerI .lineBox .csBox ul li,
+.footerI .lineBox .serBox ul li {
+    margin-bottom: 0.4rem;
+}
+
+.footerI .lineBox .bold {
+    font-family: 'inter';
+    font-size: 1rem;
+    font-weight: 600;
+    margin-bottom: 0.9rem;
+}
+
+.footerI .underTop {
+    width: 46%;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-weight: 500;
+    margin-bottom: 1.9rem;
+    /* background-color:slateblue; */
+    font-size: 0.8rem;
+
+
+}
+
+
+.footerI .under {
+    /* width: 100%; */
+    /* height: 200px; */
+    /* background-color: steelblue; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.footerI .under .underLeft {
+    width: 70%;
+    font-size: 0.8rem;
+    /* background-color: beige; */
+}
+
+.footerI .under .underLeft p {
+    /* margin-bottom: 1.2rem; */
+    line-height: 170%;
+}
+
+.footerI .under .underLeft .email {
+    font-family: "inter";
+
+}
+
+.footerI .under .underLeft .copy {
+    display: inline-block;
+    width: fit-content;
+    font-family: "inter";
+    color: #777;
+    margin-top: 1.8rem;
+    line-height: 150%;
+
+    /* background-color: gold; */
+}
+
+.footerI .under .underRight {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    /* background-color: gold; */
+    margin-top: 0;
+}
+
+.footerI .under .underRight a:not(:nth-of-type(1)) {
+    margin-left: 1.5rem;
+}
+.footerI .under .underRight a span i{
+    display: inline-block;
+    font-size: 1.6rem;
+}
