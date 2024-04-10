@@ -430,7 +430,7 @@ font-weight: 600;
     position: relative;
     margin-top: 19rem;
     margin-bottom:18rem;
-    /* background-color: beige; */
+    background-color: beige;
 }
 .s1_section5 h3{
     width: fit-content;
@@ -663,7 +663,7 @@ footer {
 
 }
 
-@media screen and (max-width:1024px){
+@media screen and (max-width:1025px){
     .footerI .underTop{
         width: 70%;
     }
@@ -699,7 +699,7 @@ footer {
 
 }
 .s1_section5{
-    margin-top: 16rem;
+    margin-top: 16.8rem;
     margin-bottom:15rem;
 }
 .s1_section5 h3{
@@ -847,7 +847,9 @@ header .icon{
 .s1_section4 .s_right{
     margin-top: 4rem;
 }
- 
+.s1_section5{
+    margin-top: 19rem;
+}
 .s1_section5 h3{
         width: 420px;
     }
@@ -949,9 +951,11 @@ header .icon{
 .s1_section4 .s_right .s_more {
     font-size: 0.9rem
 }
-.s1_section5{
-    margin:14rem 0;  
-}
+/* .s1_section5{
+    margin-top:19rem;
+    margin-bottom:15rem;
+} */
+
 .s1_section5 h3{
     width: 340px;
     font-size: 1.6rem;
