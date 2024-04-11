@@ -450,8 +450,7 @@ font-weight: 600;
     flex-direction: row;
     justify-content: space-evenly; 
     /* margin: auto 19.8%; */
-    margin:auto;
-    
+    margin:auto;   
 }
 .s1_section5 .s_btn .s_btnBox{
     /* width: 320px; */
@@ -1083,6 +1082,8 @@ header .icon{
     }
     .s1_section2{
         margin:0 ; 
+    padding: 9rem 0 ;
+
         }
     .s1_section2 p:nth-of-type(2){
         /* width: 240px; */
@@ -1102,7 +1103,10 @@ header .icon{
     margin-bottom: 2rem;
 
     }
-   
+    .s1_section5{
+        margin-top:16rem;
+        margin-bottom:14rem;
+    }    
     .s1_section5 h3{
         /* width:300px; */
         /* font-size: 1.4rem; */
