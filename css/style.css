@@ -870,8 +870,7 @@ footer {
     .section_2 .itemBox .item .itemInfo .underline {
         height: 5.2rem;
         flex-direction: column;
-        padding-top: 6px;
-        
+        padding-top: 6px; 
     }
     
     .section_3 {
@@ -932,7 +931,6 @@ footer {
     .section_2 .itemBox .item .itemInfo .underline {
         height: 4.5rem;
         font-size: 1.1rem;
-
     }
 
     .section_2 .more {
@@ -1007,7 +1005,6 @@ footer {
     .section_2 .itemBox .item .itemInfo .underline {
         font-size: 1.3rem;
         height: 5rem;
-
     }
     .section_5{
     flex-direction: column-reverse;
@@ -1084,6 +1081,9 @@ header .icon{
     .section_2 h3 {
         font-size: 1.9rem;
     }
+.section_2 .itemBox .item .itemInfo {
+    padding-right: 28px; 
+}
     
 
       .section_3 .slide p {
