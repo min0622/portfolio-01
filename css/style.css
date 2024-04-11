@@ -348,7 +348,8 @@ header .icon a {
 .section_2 .itemBox .item .itemInfo {
     /* background-color: antiquewhite; */
     margin-top: 3.2rem;
-    padding-right: 28px;
+    /* padding-right: 28px; */
+    padding-right: 40px;
 }
 
 .section_2 .itemBox .item .itemInfo p {
@@ -360,6 +361,7 @@ header .icon a {
 }
 
 .section_2 .itemBox .item .itemInfo .underline {
+    /* width: 440px; */
     height: fit-content;
     display: flex;
     flex-direction: row;
@@ -382,8 +384,6 @@ header .icon a {
 
 .section_2 .itemBox .item .itemInfo p:nth-of-type(3) {
     font-weight: 400;
-
-
 }
 
 .section_2 .more {
@@ -906,7 +906,7 @@ footer {
 }
 
 
-@media screen and (max-width:1024px) {
+@media screen and (max-width:1194px) {
     .section_1 .titleBox {
         top: 30vw;
 
@@ -954,7 +954,7 @@ footer {
         font-weight: 400;
     }
     .section_5{
-        margin-top: 16rem;
+        margin:10rem 0;
     }
     .section_5 .left{
         width: 50%;
