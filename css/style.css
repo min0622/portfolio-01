@@ -100,6 +100,8 @@ figure {
     height: fit-content;
 }
 
+
+
 header {
     width: 100%;
     overflow: hidden;
@@ -254,6 +256,48 @@ header .icon a {
 }
 
 
+
+/* 슬릭 화살표 */
+.section_2 .itemBox .slick-prev
+{
+    display: block;
+    position: absolute;
+    top: 40%;
+    left: -50px;
+}
+.section_2 .itemBox .slick-next
+{  display: block;
+    position: absolute;
+    top: 40%;
+    right: -50px;
+}
+
+.section_3 .slick-prev
+{
+    display: block;
+    position: absolute;
+    left: -50px;
+}
+.section_3 .slick-next{
+    display: block;
+    position: absolute;
+    right: -50px;
+}
+
+.section_6 .slick-prev
+{
+    display: block;
+    position: absolute;
+    left: -50px;
+}
+.section_6 .slick-next{
+    display: block;
+    position: absolute;
+    right: -50px;
+}
+
+
+
 /* wrap */
 #wrap {
     width: 100%;
@@ -402,6 +446,9 @@ header .icon a {
     width: 73.63%;
     margin: 0 auto;
     margin-top: 22rem;
+    position: relative;
+
+
 }
 
 .section_3 .slide {
@@ -594,7 +641,7 @@ header .icon a {
     margin-top: 98rem;
     background-color: #F7F6F2;
     padding-bottom: 72px;
-
+position: relative;
 }
 
 .section_6 .reviewTitle {
