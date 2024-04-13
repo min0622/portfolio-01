@@ -550,7 +550,9 @@ footer {
    line-height: 36px;
    font-size: 0.8rem;
    bottom: 18px;
-
+}
+.s2_section2 .itemBox{
+   row-gap: 11rem;
 
 }
         .s2_section2 .itemBox .item .itemInfo{
