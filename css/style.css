@@ -262,12 +262,14 @@ header .icon a {
 {
     display: block;
     position: absolute;
+    z-index: 990;
     top: 40%;
     left: -50px;
 }
 .section_2 .itemBox .slick-next
 {  display: block;
     position: absolute;
+    z-index: 990;
     top: 40%;
     right: -50px;
 }
@@ -276,11 +278,13 @@ header .icon a {
 {
     display: block;
     position: absolute;
+    z-index: 990;
     left: -50px;
 }
 .section_3 .slick-next{
     display: block;
     position: absolute;
+    z-index: 990;
     right: -50px;
 }
 
@@ -288,11 +292,13 @@ header .icon a {
 {
     display: block;
     position: absolute;
+    z-index: 990;
     left: -50px;
 }
 .section_6 .slick-next{
     display: block;
     position: absolute;
+    z-index: 990;
     right: -50px;
 }
 
@@ -672,25 +678,26 @@ position: relative;
     /* width: 88.25%; */
     /* 1694/1900*100 */
     margin: auto 6%;
-    /* display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 1.9vw; */
-    /* gap: 1vw; */
+  
+}
+.section_6 .review .slick-slide{
+   margin: 0 0.5rem;
 }
 
 .section_6 .review .rBox {
- 
     height: 210px;
     padding: 2.1rem 1.2rem;
+    padding: 2.1rem 1.8rem;
     background-color: #fff;
     font-family: "noto";
     font-size: 0.9rem;
     font-weight: 400;
-    /* width: 100%; */
     position: relative;
- margin-right: 0.8rem;
+ /* margin-right: 0.8rem; */
+
 
 }
+
 
 
 .section_6 .review .rBox .rStar {
@@ -705,13 +712,14 @@ position: relative;
 
 .section_6 .review .rBox p:first-of-type {
     width: 86.84%;
+    width: 100%;
     margin-top: 18px;
 }
 
 .section_6 .review .rBox p:nth-of-type(2) {
     position: absolute;
-    right: 1.2vw;
-    bottom: 1.5vw;
+    right: 1.4vw;
+    bottom: 1.4vw;
     font-size: 0.7rem;
     font-weight: 400;
     color: #999;
