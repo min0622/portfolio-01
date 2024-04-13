@@ -911,7 +911,10 @@ footer {
         left: 0;
         justify-content: center;
     }
-
+    #sub2_wrap {
+    top: 296px;
+        
+    }
     .section_1 .main {
         top: 100px;
     }
