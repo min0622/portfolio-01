@@ -555,7 +555,10 @@ footer {
         left: 0;
         justify-content: center;
     }
-
+    #sub2_wrap {
+        top: 196px;
+            
+        }
     .s2_section2 .itemBox .item .itemInfo .underline {
         height: 5.2rem;
         flex-direction: column;
@@ -564,6 +567,9 @@ footer {
 }
 
 @media screen and (max-width:1194px) {
+    .s2_section1 h2{
+        font-size: 2rem;
+    }
     .s2_section1 .teaBox .box .tea {
         width: 146px;
         height: 36px;
@@ -606,7 +612,10 @@ footer {
     nav ul {
         display: none;
     }
-
+    #sub2_wrap {
+        top: 140px;
+            
+        }
     .s2_section2 .itemBox {
         grid-template-columns: repeat(2, 1fr);
         row-gap: 8rem;
@@ -659,7 +668,13 @@ footer {
         margin-top: 26px;
 
     }
-
+    #sub2_wrap {
+        top: 120px;
+            
+        }
+    .s2_section1 h2{
+        font-size: 1.9rem;
+    }
     .s2_section2 .itemBox .item .itemInfo {
         padding-right: 28px;
     }
@@ -811,6 +826,10 @@ footer {
         height: 22px;
         margin-left: 0.8rem;
     }
+    .s2_section1 h2{
+        font-size: 1.6rem;
+    }
+
     .s2_section1 .desc {
         font-size: 0.9rem;
     
@@ -851,8 +870,12 @@ footer {
     .logo {
         height: 24px;
     }
+    .s2_section1 h2{
+        font-size: 1.3rem;
+    }
 
     .s2_section2 {
         margin: 12rem 4%;
     }
+    
 }
