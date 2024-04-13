@@ -267,11 +267,10 @@ header .icon a {
     width: 100%;
     overflow: hidden;
     position: relative;
-    top: 160px;
+    top: 140px;
 }
 
 .s2_section1 {
-    /* margin-left: 13.1%; */
     margin: 0 13.1%;
 }
 
@@ -287,15 +286,20 @@ header .icon a {
     width: 100%;
     display: flex;
     position: relative;
+    
 }
 
-.s2_section1 .teaBox>button:first-of-type {
+.s2_section1 .teaBox .slick-prev {
     position: absolute;
     z-index: 990;
-    top: 50%;
-    left: -50px;
-    display: block;
-
+    /* top: 50%; */
+    left: -45px;
+}
+.s2_section1 .teaBox .slick-next {
+    position: absolute;
+    z-index: 990;
+    /* top: 50%; */
+    right: -25px;
 }
 
 .s2_section1 .teaBox .box {
@@ -717,9 +721,16 @@ footer {
     }
 
     .s2_section1 {
-        margin-left: 8%;
+        margin:0 6%;
     }
-
+    .s2_section1 .teaBox .slick-prev {
+        left:-60px;
+    }
+    .s2_section1 .teaBox .slick-next {
+        right: -60px;
+       
+    }
+   
     .s2_section2 {
         margin: 12rem 6%;
     }
@@ -800,6 +811,10 @@ footer {
         height: 22px;
         margin-left: 0.8rem;
     }
+    .s2_section1 .desc {
+        font-size: 0.9rem;
+    
+        }
 
     .s2_section2 .itemBox .item .itemInfo {
         padding-right: 20px;
