@@ -847,7 +847,9 @@ footer {
         font-size: 0.9rem;
     
         }
-
+        .s2_section2 {
+            margin:10rem 6%;
+        }
     .s2_section2 .itemBox .item .itemInfo {
         padding-right: 20px;
     }
@@ -867,7 +869,10 @@ footer {
         margin-top: 12px;
 
     }
+    footer {
+    margin-top: 14rem;
 
+    }
     .footerI .under .underLeft .copy {
         width: fit-content;
         width: 300px;
