@@ -78,6 +78,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    transition-duration: .5s;
 }
 a{
     text-decoration: none;
@@ -282,6 +283,7 @@ header .icon a {
     position: relative;
 }
 
+/* 슬라이드 화살표 */
 .s2_section1 .teaBox>button:first-of-type{
     position: absolute;
     z-index: 990;
@@ -292,25 +294,42 @@ header .icon a {
 }
 
 .s2_section1 .teaBox .box{
-    position: relative;
-    
-    
+    position: relative;  
 }
-.s2_section1 .teaBox .box .tea{
-   font-family: 'inter';
-   font-weight: 500;
-   font-size: 0.9rem;
-   text-align: center;
-   width: 184px;
-   height: 40px;
-   line-height: 40px;
-   background-color: #fff;
-   position: absolute;
-  bottom: 25px;
-  left: 50%;
-   transform: translateX(-50%);
+.s2_section1 .teaBox .box figure{
+    overflow: hidden;
+}
+.s2_section1 .teaBox .box .m:hover{
+    transform: scale(1.2);
+}
 
+.s2_section1 .teaBox .box .tea{
+    font-family: 'inter';
+    font-weight: 500;
+    font-size: 0.9rem;
+    text-align: center;
+    width: 184px;
+    height: 40px;
+    line-height: 40px;
+    background-color: #fff;
+    position: absolute;
+    bottom: 25px;
+    left: 50%;
+    transform: translateX(-50%);
 }
+
+/* .s2_section1 .teaBox .box .tea .blank:hover{
+    animation: trans .5s linear;
+}
+@keyframes trans{
+    0%{
+        transform: translateX(0);
+    }
+    100%{
+        transform: translateX(50%);
+        background-color: transparent;
+         }
+} */
 .s2_section1 .desc{
     font-family: "noto";
     /* font-weight: 400; */
