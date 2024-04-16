@@ -75,14 +75,65 @@ $(function () {
 
 $('.section_3>.slide>a>img').on({
   mouseover:function(){
-    $(this).css({transform:'scale(1.1)'}),
-    $(this).css({transition:'all .7s'})
+    $(this).css({transform:'scale(1.1)',transitionDuration:'.5s'},)
+    // $(this).css({transition:'all .7s'})
   },
   mouseout:function(){
-    $(this).css({transform:'scale(1)'}),
-    $(this).css({transition:'all .7s'})
+    $(this).css({transform:'scale(1)',transitionDuration:'.5s'})
+    // $(this).css({transition:'all .7s'})
   }
 })
+
+
+// section4 mouseover 효과
+
+$('.section_4 .container .box .num .when .c1').on({
+  mouseover:function(){
+    $('.n1').css({transform:'scale(1.2)', transitionDuration:'.5s'}),
+    $('.f').css({overflow:'hidden'})
+   
+  },
+  mouseout:function(){
+    $('.n1').css({transform:'scale(1)', transitionDuration:'.5s'})
+  }
+})
+
+
+$('.section_4 .container .box .num .when .c2').on({
+  mouseover:function(){
+    $('.n2').css({transform:'scale(1.2)', transitionDuration:'.5s'}),
+    $('.f').css({overflow:'hidden'})
+   
+  },
+  mouseout:function(){
+    $('.n2').css({transform:'scale(1)', transitionDuration:'.5s'})
+  }
+})
+
+$('.section_4 .container .box .num .when .c3').on({
+  mouseover:function(){
+    $('.n3').css({transform:'scale(1.2)', transitionDuration:'.5s'}),
+    $('.f1').css({overflow:'hidden'})
+   
+  },
+  mouseout:function(){
+    $('.n3').css({transform:'scale(1)', transitionDuration:'.5s'})
+  }
+})
+
+$('.section_4 .container .box .num .when .c4').on({
+  mouseover:function(){
+    $('.n4').css({transform:'scale(1.2)', transitionDuration:'.5s'}),
+    $('.f1').css({overflow:'hidden'})
+   
+  },
+  mouseout:function(){
+    $('.n4').css({transform:'scale(1)', transitionDuration:'.5s'})
+  }
+})
+
+
+
 
 
   // section2 슬라이드
