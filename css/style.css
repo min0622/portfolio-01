@@ -74,7 +74,7 @@
     padding: 0;
     box-sizing: border-box;
     scroll-behavior: smooth;
-
+  
 }
 
 a {
@@ -155,7 +155,6 @@ header .headeri .side {
     cursor: pointer;
 
 }
-
 /* */
 
 h1 {
@@ -232,7 +231,7 @@ header .icon a {
 .mo_menu button {
     display: block;
     width: 28px;
-    height: 28px;
+            height: 28px;
     cursor: pointer;
     background-color: transparent;
     border: none;
@@ -250,7 +249,7 @@ header .icon a {
 
 .mo_menu ul li {
     width: 100%;
-    padding: 25px 0;
+   padding: 25px 0;
     /* background-color: steelblue; */
     /* padding-bottom: 20px; */
     border-bottom: #777 1px solid;
@@ -259,47 +258,41 @@ header .icon a {
 
 
 /* 슬릭 화살표 */
-.section_2 .itemBox .slick-prev {
+.section_2 .itemBox .slick-prev
+{
     display: block;
     position: absolute;
-    z-index: 990;
     top: 40%;
     left: -50px;
 }
-
-.section_2 .itemBox .slick-next {
-    display: block;
+.section_2 .itemBox .slick-next
+{  display: block;
     position: absolute;
-    z-index: 990;
     top: 40%;
     right: -50px;
 }
 
-.section_3 .slick-prev {
+.section_3 .slick-prev
+{
     display: block;
     position: absolute;
-    z-index: 990;
     left: -50px;
 }
-
-.section_3 .slick-next {
+.section_3 .slick-next{
     display: block;
     position: absolute;
-    z-index: 990;
     right: -50px;
 }
 
-.section_6 .slick-prev {
+.section_6 .slick-prev
+{
     display: block;
     position: absolute;
-    z-index: 990;
     left: -50px;
 }
-
-.section_6 .slick-next {
+.section_6 .slick-next{
     display: block;
     position: absolute;
-    z-index: 990;
     right: -50px;
 }
 
@@ -325,7 +318,6 @@ header .icon a {
     /* top: 100px; */
     display: block;
 }
-
 .section_1 .titleBox {
     /* width: 50%; */
     width: 600px;
@@ -369,8 +361,7 @@ header .icon a {
     /* top: 20rem; */
 
 }
-
-.section_2 h3 {
+.section_2 h3{
     /* background-color: antiquewhite; */
     margin-top: 10rem;
     margin-left: 13.1%;
@@ -380,7 +371,6 @@ header .icon a {
     font-size: 2.2rem;
     line-height: 130%;
 }
-
 .section_2 .itemBox {
 
     width: 73.63%;
@@ -389,7 +379,7 @@ header .icon a {
     display: flex;
     justify-content: space-between;
     margin: auto;
-    margin-top: 4.2rem;
+    margin-top:4.2rem;
 }
 
 
@@ -465,7 +455,7 @@ header .icon a {
     width: 100%;
     position: relative;
     margin-bottom: 0;
-
+    
 }
 
 
@@ -477,8 +467,8 @@ header .icon a {
 .section_3 .slide p {
     width: 184px;
     height: 45px;
-    padding: 0 6px;
-
+    padding:0 6px;
+    
     background-color: #fff;
     position: absolute;
     right: 3.5%;
@@ -503,8 +493,7 @@ header .icon a {
     justify-content: center; */
 
 }
-
-.section_4 h3 {
+.section_4 h3{
     /* background-color: antiquewhite; */
     margin-top: 18rem;
     margin-left: 13.1%;
@@ -514,11 +503,10 @@ header .icon a {
     font-size: 2.2rem;
     line-height: 130%;
 }
-
 .section_4>p {
     margin-left: 13.1%;
     /* 260/1900*100 = 13.8% */
-    margin-right: 13.1%;
+    margin-right:13.1%;
     font-family: "noto";
     font-weight: 400;
     font-size: 1rem;
@@ -548,19 +536,19 @@ header .icon a {
     font-family: "noto";
     display: flex;
     flex-direction: column;
-    justify-content: center;
+   justify-content: center;
 }
 
-.section_4 .container .when p:first-of-type {
+.section_4 .container .when p:first-of-type{
     color: #4B3939;
     font-size: 1.4rem;
     font-weight: 500;
-    margin-top: 5.5vw;
-    /* margin-bottom: 4.2vw;
+     margin-top: 5.5vw;
+   /* margin-bottom: 4.2vw;
     margin-bottom: 3vw; */
 }
 
-.section_4 .container .when p:nth-of-type(2) {
+.section_4 .container .when p:nth-of-type(2){
     display: inline-block;
     width: 181px;
     height: 37px;
@@ -585,7 +573,7 @@ header .icon a {
     flex-direction: row;
     justify-content: space-between;
 
-
+    
 }
 
 .section_5 .left {
@@ -616,7 +604,7 @@ header .icon a {
 
 .section_5 .left p {
     /* width: 50%; */
-    margin-top: 3.7rem;
+    margin-top:3.7rem;
     line-height: 160%;
     font-family: "noto";
     font-size: 1rem;
@@ -628,11 +616,10 @@ header .icon a {
     width: 40.4%;
     /* 772/1900*100 */
     width: 46%;
-
+   
 
 }
-
-.section_5 .right img {
+.section_5 .right img{
     width: 100%;
 }
 
@@ -643,7 +630,7 @@ header .icon a {
     font-size: 1rem;
     border-bottom: solid 1px #000;
     padding-bottom: 0.5px;
-    margin-top: 6rem;
+    margin-top:6rem;
 }
 
 
@@ -654,7 +641,7 @@ header .icon a {
     margin-top: 98rem;
     background-color: #F7F6F2;
     padding-bottom: 72px;
-    position: relative;
+position: relative;
 }
 
 .section_6 .reviewTitle {
@@ -669,16 +656,14 @@ header .icon a {
     font-family: "noto";
 
 }
-
-.section_6 .reviewTitle p:first-of-type {
+.section_6 .reviewTitle p:first-of-type{
     font-family: "inter";
     font-weight: 500
-}
 
-.section_6 .reviewTitle p>span {
+}
+.section_6 .reviewTitle p>span{
     font-weight: 600
 }
-
 .section_6 .reviewTitle .star {
     margin: 0 20px;
 }
@@ -687,27 +672,25 @@ header .icon a {
     /* width: 88.25%; */
     /* 1694/1900*100 */
     margin: auto 6%;
-
-}
-
-.section_6 .review .slick-slide {
-    margin: 0 0.5rem;
+    /* display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1.9vw; */
+    /* gap: 1vw; */
 }
 
 .section_6 .review .rBox {
+ 
     height: 210px;
     padding: 2.1rem 1.2rem;
-    padding: 2.1rem 1.8rem;
     background-color: #fff;
     font-family: "noto";
     font-size: 0.9rem;
     font-weight: 400;
+    /* width: 100%; */
     position: relative;
-    /* margin-right: 0.8rem; */
-
+ margin-right: 0.8rem;
 
 }
-
 
 
 .section_6 .review .rBox .rStar {
@@ -722,14 +705,13 @@ header .icon a {
 
 .section_6 .review .rBox p:first-of-type {
     width: 86.84%;
-    width: 100%;
     margin-top: 18px;
 }
 
 .section_6 .review .rBox p:nth-of-type(2) {
     position: absolute;
-    right: 1.4vw;
-    bottom: 1.4vw;
+    right: 1.2vw;
+    bottom: 1.5vw;
     font-size: 0.7rem;
     font-weight: 400;
     color: #999;
@@ -747,7 +729,7 @@ header .icon a {
     border-bottom: solid 1px #000;
     padding-bottom: 0.5px;
     margin: auto;
-    margin-top: 48px;
+    margin-top:48px;
     /* margin-bottom: 50px; */
 }
 
@@ -799,8 +781,8 @@ footer {
 .footerI .lineBox .serBox {
     width: 30%;
     /* background-color: gold; */
-    margin-right: 8rem;
-    margin-top: 0;
+    margin-right:8rem;
+    margin-top:0 ;
 
 }
 
@@ -878,8 +860,7 @@ footer {
 .footerI .under .underRight a:not(:nth-of-type(1)) {
     margin-left: 1.5rem;
 }
-
-.footerI .under .underRight a span i {
+.footerI .under .underRight a span i{
     display: inline-block;
     font-size: 1.6rem;
 }
@@ -911,10 +892,7 @@ footer {
         left: 0;
         justify-content: center;
     }
-    #sub2_wrap {
-    top: 296px;
-        
-    }
+
     .section_1 .main {
         top: 100px;
     }
@@ -931,50 +909,45 @@ footer {
         font-size: 2rem;
     }
 
-    .section_2 h3 {
+    .section_2 h3{
         margin-top: 18rem;
     }
-
+    
 
     .section_2 .itemBox .item .itemInfo .underline {
         height: 5.2rem;
         flex-direction: column;
-        padding-top: 6px;
+        padding-top: 6px; 
     }
-
+    
     .section_3 {
         margin-top: 20rem;
     }
-
-    .section_4 .container .when p:first-of-type {
+    
+    .section_4 .container .when p:first-of-type{
         font-size: 1.2rem;
         font-weight: 500;
     }
-
     .section_4 .container .when p:nth-of-type(2) {
         width: 160px;
         height: 34px;
         line-height: 34px;
         font-weight: 400;
     }
-
-    .section_5 .left {
+    .section_5 .left{
         width: 37%;
         padding: 8vw 0;
 
     }
-
-    .section_5 .left span {
+    .section_5 .left span{
         margin-bottom: 0.8rem;
     }
-
-    .section_5 .left p {
-        margin-top: 3rem;
+    .section_5 .left p{
+    margin-top:3rem;
 
     }
-
-    .section_6 {
-        margin-top: 80rem;
+    .section_6{
+    margin-top: 80rem;
     }
 }
 
@@ -989,24 +962,19 @@ footer {
         font-size: 2rem;
         margin-top: 15rem;
     }
-
     .section_4 h3 {
         font-size: 2rem;
         margin-top: 14rem;
     }
-
-    .section_5 .left h3 {
+    .section_5 .left h3{
         font-size: 2rem;
     }
-
-    .section_2 .itemBox {
-        margin-top: 3rem;
+    .section_2 .itemBox{
+        margin-top: 3rem; 
     }
-
-    .section_2 .itemBox .item .itemInfo {
-        margin-top: 2.6rem;
+    .section_2 .itemBox .item .itemInfo{
+    margin-top: 2.6rem;
     }
-
     .section_2 .itemBox .item .itemInfo .underline {
         height: 4.5rem;
         font-size: 1.1rem;
@@ -1020,9 +988,8 @@ footer {
     .section_3 {
         margin-top: 18rem;
     }
-
-    .section_4 .container .when p:first-of-type {
-        font-size: 1rem;
+    .section_4 .container .when p:first-of-type{
+        font-size: 1rem; 
     }
 
     .section_4 .container .when p:nth-of-type(2) {
@@ -1031,28 +998,22 @@ footer {
         line-height: 30px;
         font-weight: 400;
     }
-
-    .section_5 {
-        margin-top: 14rem;
-
+    .section_5{
+        margin:10rem 0;
     }
-
-    .section_5 .left {
+    .section_5 .left{
         width: 50%;
     }
-
-    .section_5 .left p {
-        margin-top: 2rem;
-
-    }
-
-    .section_6 {
-        margin-top: 66rem;
-    }
-
-    .footerI .underTop {
-        width: 70%;
-    }
+    .section_5 .left p{
+        margin-top:2rem;
+    
+        }
+        .section_6{
+            margin-top: 63rem;
+            }
+            .footerI .underTop{
+                width: 70%;
+            }
 }
 
 
@@ -1063,9 +1024,9 @@ footer {
 
     .menu {
         display: block;
-        width: 28px;
-        height: 28px;
-        top: 36px;
+            width: 28px;
+            height: 28px;
+            top: 36px;
     }
 
     nav ul {
@@ -1092,38 +1053,33 @@ footer {
         font-size: 1.3rem;
         height: 5rem;
     }
-
-    .section_5 {
-        flex-direction: column-reverse;
-        width: 100%;
+    .section_5{
+    flex-direction: column-reverse;
+    width: 100%;
 
     }
-
-    .section_5 .left {
+    .section_5 .left{
         width: 73.63%;
-        margin: 0 13.1%;
-        margin-top: 5rem;
+       margin: 0 13.1%;
+    margin-top: 5rem;
 
     }
 
-    .section_5 .right {
+    .section_5 .right{
         width: 100%;
     }
-
-    .section_5 a .more {
-        margin-top: 5rem;
+    .section_5 a .more{
+    margin-top:5rem;
 
     }
-
-    .section_6 {
+    .section_6{
         margin-top: 140rem;
     }
-
     .footerI .lineBox .csBox,
-    .footerI .lineBox .serBox {
-        width: 50%;
-        margin-right: 1rem;
-    }
+.footerI .lineBox .serBox {
+    width: 50%;
+    margin-right:1rem;
+}
 
 }
 
@@ -1131,16 +1087,13 @@ footer {
     header .headeri {
         height: 80px;
     }
-
-    .menu {
-        top: 26px;
+    .menu{
+    top: 26px;
     }
-
     .mo_srch {
         display: block;
         top: 26px;
     }
-
     .web_srch {
         display: none;
     }
@@ -1153,16 +1106,13 @@ footer {
         width: 100%;
         height: 40px;
     }
+header .icon{
+    margin-top: 26px;
 
-    header .icon {
-        margin-top: 26px;
-
-    }
-
-    .section_1 .main {
-        top: 80px;
-    }
-
+}
+.section_1 .main {
+    top: 80px;
+}
     .section_1 .titleBox {
         top: 28vw;
     }
@@ -1178,62 +1128,55 @@ footer {
     .section_2 h3 {
         font-size: 1.9rem;
     }
+.section_2 .itemBox .item .itemInfo {
+    padding-right: 28px; 
+}
+    
 
-    .section_2 .itemBox .item .itemInfo {
-        padding-right: 28px;
-    }
-
-
-    .section_3 .slide p {
+      .section_3 .slide p {
         font-size: 0.7rem;
         width: 140px;
-        height: 30px;
-        line-height: 30px;
+        height:30px ;
+        line-height:30px ;
     }
-
     .section_4 h3 {
         font-size: 1.9rem;
     }
+.section_4 .container {
+    grid-template-columns: repeat(1, 1fr);
 
-    .section_4 .container {
-        grid-template-columns: repeat(1, 1fr);
+}
+.section_4 .container .when p:first-of-type{
+    color: #4B3939;
+    font-size: 1.4rem;
+    font-weight: 500;
+    margin-top: 9vw;
+    
+}
 
-    }
+.section_4 .container .when p:nth-of-type(2){
+    display: inline-block;
+    width: 181px;
+    height: 37px;
+    line-height: 37px;
+    font-size: 0.9rem;
+    font-weight: 400;
+    background-color: #4B3939;
+    color: #fff;
+    margin: auto;
+}
+.section_5 .left h3 {
+    font-size: 1.9rem;
+}
 
-    .section_4 .container .when p:first-of-type {
-        color: #4B3939;
-        font-size: 1.4rem;
-        font-weight: 500;
-        margin-top: 9vw;
+.section_6{
+    margin-top: 126rem;
+}
+    .stn{
+    margin: 14rem 8%;
 
-    }
-
-    .section_4 .container .when p:nth-of-type(2) {
-        display: inline-block;
-        width: 181px;
-        height: 37px;
-        line-height: 37px;
-        font-size: 0.9rem;
-        font-weight: 400;
-        background-color: #4B3939;
-        color: #fff;
-        margin: auto;
-    }
-
-    .section_5 .left h3 {
-        font-size: 1.9rem;
-    }
-
-    .section_6 {
-        margin-top: 126rem;
-    }
-
-    .stn {
-        margin: 14rem 8%;
-
-    }
-
-    .footerI .underTop {
+    } 
+    .footerI .underTop{
         width: 100%;
     }
 
@@ -1260,12 +1203,10 @@ footer {
         top: 27px;
 
     }
-
     .mo_menu button {
         width: 26px;
         height: 26px;
     }
-
     .mo_srch {
         width: 26px;
         height: 26px;
@@ -1306,147 +1247,123 @@ footer {
     .section_2 {
         top: 150vw;
     }
-
-    .section_2 h3 {
-        margin-left: 8%;
+    .section_2 h3{
+        margin-left:8%;
     }
-
-    .section_2 .itemBox {
+    .section_2 .itemBox{
         width: 84%;
-        margin-top: 2.4rem;
+        margin-top: 2.4rem; 
     }
-
     .section_2 .itemBox .item .imgBox {
         width: 100%;
     }
-
     .section_2 .itemBox .item .itemInfo {
         margin-top: 2rem;
         padding-right: 0;
     }
 
-    .section_2 .more {
+    .section_2 .more{
         font-size: 0.9rem;
     }
-
     .section_5 a .more,
-    .section_6 a .more {
+    .section_6 a .more{
         font-size: 0.9rem;
     }
-
     .section_3 {
         width: 100%;
         margin-top: 65rem;
     }
 
 
-    .section_3 .slide p {
-        width: 142px;
-        height: 36px;
-        line-height: 36px;
-        letter-spacing: 0.2rem;
-    }
+.section_3 .slide p {
+    width: 142px;
+    height: 36px;
+    line-height: 36px;
+    letter-spacing: 0.2rem;
+}
+.section_4 h3 {
+    margin-top: 10rem;
+    margin-left:8%;
+}
+.section_4>p{
+    margin-left:8%;
+    margin-right:8%;
+    font-size: 1rem;
+}
+.section_4 .container{
+    width: 84%;
+}
+.section_4 .container .when p:first-of-type{
+    font-size: 1.2rem;
+    margin-top: 10vw;
+    font-weight: 700;
+}
 
-    .section_4 h3 {
-        margin-top: 10rem;
-        margin-left: 8%;
-    }
+.section_4 .container .when p:nth-of-type(2){
+    width: 146px;
+    height: 32px;
+    line-height: 32px;
+    font-size: 0.8rem;
+}
+.section_5 .left {
+    width: auto;
+    margin:0 8%;
+    margin-top: 5rem
+}
+.section_5 .left span{
+    font-size: 0.9rem;
+    margin-bottom: 0.8rem;
+} 
+.section_5 .left p {
+    font-size: 0.9rem;
+    /* margin-top:1rem; */
 
-    .section_4>p {
-        margin-left: 8%;
-        margin-right: 8%;
-        font-size: 1rem;
-    }
+}
+.section_6{
+    margin-top: 108rem;
+}
+.section_6 .reviewTitle{
+    margin: 0 8.3%;
+    margin-bottom: 42px;
+    justify-content: space-between;
 
-    .section_4 .container {
-        width: 84%;
-    }
+}
+.stn{
+    margin: 11rem 8%;
+    font-size: 2rem;    
+}
+.footerI{
+    margin: auto 8%;
 
-    .section_4 .container .when p:first-of-type {
-        font-size: 1.2rem;
-        margin-top: 10vw;
-        font-weight: 700;
-    }
+}
+.footerI .lineBox{
+    flex-direction: column;
 
-    .section_4 .container .when p:nth-of-type(2) {
-        width: 146px;
-        height: 32px;
-        line-height: 32px;
-        font-size: 0.8rem;
-    }
+}
+.footerI .lineBox .serBox{
+    margin-top:2.2rem ;
+    margin-top:1.8rem ;
 
-    .section_5 .left {
-        width: auto;
-        margin: 0 8%;
-        margin-top: 5rem
-    }
+}
+.footerI .underTop{
+    flex-direction: column;
+    height: 7rem;
+}
+.footerI .under{
+    flex-direction: column;
 
-    .section_5 .left span {
-        font-size: 0.9rem;
-        margin-bottom: 0.8rem;
-    }
+}
+.footerI .under .underLeft {
+    width: 100%;
+}
+.footerI .under .underLeft .copy{
+    width: 420px;
+}
+.footerI .under .underRight{
+    justify-content: flex-start;
+    margin-top: 1.5rem;
 
-    .section_5 .left p {
-        font-size: 0.9rem;
-        /* margin-top:1rem; */
-
-    }
-
-    .section_6 {
-        margin-top: 105rem;
-    }
-
-    .section_6 .reviewTitle {
-        margin: 0 8.3%;
-        margin-bottom: 42px;
-        justify-content: space-between;
-
-    }
-
-    .stn {
-        margin: 11rem 8%;
-        font-size: 2rem;
-    }
-
-    .footerI {
-        margin: auto 8%;
-
-    }
-
-    .footerI .lineBox {
-        flex-direction: column;
-
-    }
-
-    .footerI .lineBox .serBox {
-        margin-top: 2.2rem;
-        margin-top: 1.8rem;
-
-    }
-
-    .footerI .underTop {
-        flex-direction: column;
-        height: 7rem;
-    }
-
-    .footerI .under {
-        flex-direction: column;
-
-    }
-
-    .footerI .under .underLeft {
-        width: 100%;
-    }
-
-    .footerI .under .underLeft .copy {
-        width: 420px;
-    }
-
-    .footerI .under .underRight {
-        justify-content: flex-start;
-        margin-top: 1.5rem;
-
-    }
+}
 }
 
 /* 아이폰 */
@@ -1457,10 +1374,9 @@ footer {
 
     .logo {
         height: 26px;
-
-
+    
+       
     }
-
     .menu {
         width: 22px;
         height: 22px;
@@ -1475,11 +1391,9 @@ footer {
 
         margin-left: 0.3rem;
     }
-
     header .icon {
         margin-top: 29px;
     }
-
     header .icon a {
         width: 22px;
         height: 22px;
@@ -1494,7 +1408,7 @@ footer {
         /* background-color: beige; */
     }
 
-
+ 
     .section_1 .titleBox h2 {
         font-size: 1.4rem;
     }
@@ -1503,16 +1417,15 @@ footer {
         font-size: 1.2rem;
     }
 
-    .section_2 h3 {
+    .section_2 h3{
         font-size: 1.6rem;
         margin-top: 15rem;
 
     }
 
-    .section_4 h3 {
+    .section_4 h3{
         font-size: 1.6rem;
     }
-
     .section_2 {
         top: 136vw;
     }
@@ -1522,56 +1435,48 @@ footer {
         height: 26px;
         margin-left: 1rem;
     }
-
     .section_3 {
         width: 100%;
         margin: 0 auto;
         margin-top: 45rem;
     }
-
-    /* .section_3 .slide {
+/* .section_3 .slide {
     margin-bottom: 1.6rem;
 } */
     .section_3 .slide p {
         font-size: 0.6rem;
         width: 136px;
-        height: 32px;
-        line-height: 32px;
+        height:32px ;
+        line-height:32px ;
     }
-
-    .section_4>p {
-        margin-right: 12%;
+    .section_4>p{
+        margin-right:12%;
     }
-
-    .section_4 .container .when p:first-of-type {
+    .section_4 .container .when p:first-of-type{
         font-size: 0.9rem;
-
+        
     }
-
-    .section_4 .container .when p:nth-of-type(2) {
+    
+    .section_4 .container .when p:nth-of-type(2){
         width: 116px;
         height: 26px;
         line-height: 26px;
         font-size: 0.7rem;
     }
-
     .section_5 .left h3 {
         font-size: 1.6rem;
     }
-
-    .section_6 {
-        margin-top: 94rem;
+    .section_6{
+        margin-top: 98rem;
     }
-
-    .stn {
+    .stn{
         margin: 10rem 8%;
-        font-size: 1.8rem;
+        font-size: 1.8rem;    
     }
-
-    .footerI .under .underLeft .copy {
+    .footerI .under .underLeft .copy{
         width: fit-content;
         width: 300px;
-
+    
     }
 
 }
@@ -1599,7 +1504,6 @@ footer {
     .section_1 .titleBox p {
         font-size: 0.9rem;
     }
-
     .section_2 .itemBox .item .itemInfo p {
         font-size: 0.9rem;
     }
@@ -1609,41 +1513,35 @@ footer {
         height: 5rem;
 
     }
-
-    .section_2 .more {
+    .section_2 .more{
         font-size: 0.8rem;
     }
-
     .section_3 {
         width: 100%;
         /* margin-top: 32rem; */
     }
-
-    .section_4>p {
+    .section_4>p{
         margin-top: 8px;
-        margin-bottom: 36px;
+    margin-bottom:36px;
 
     }
-
-    .section_4 .container .when p:first-of-type {
+    .section_4 .container .when p:first-of-type{
         font-size: 0.8rem;
         font-weight: 500;
-
+        
     }
-
-    .section_4 .container .when p:nth-of-type(2) {
-        width: 92px;
+    
+    .section_4 .container .when p:nth-of-type(2){
+        width:92px;
         height: 18px;
         line-height: 18px;
         font-size: 0.5rem;
     }
-
-    .section_5 a .more,
-    .section_6 a .more {
+   .section_5 a .more,
+    .section_6 a .more{
         font-size: 0.8rem;
     }
-
-    .section_6 {
-        margin-top: 89rem;
+    .section_6{
+        margin-top: 92rem;
     }
 }
