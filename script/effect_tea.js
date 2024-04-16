@@ -12,43 +12,16 @@ $(function(){
 
 
 //s2_section1
-$('#sub2_wrap .s2_section1 .teaBox .box .tea').on({
-    mouseover:function(){
-        $(this).stop(true).animate({opacity:'0.6'},400,'easeInOutQuad')
+// $('#sub2_wrap .s2_section1 .teaBox .box .tea').on({
+//     mouseover:function(){
+//         $(this).stop(true).animate({opacity:'0.6'},400,'easeInOutQuad')
    
-    },
-    mouseout:function(){
-        $(this).stop(true).animate({opacity:'1'},400,'easeInOutQuad')
+//     },
+//     mouseout:function(){
+//         $(this).stop(true).animate({opacity:'1'},400,'easeInOutQuad')
    
-    }
-})
-
-
-
-$('#sub2_wrap .s2_section1 .teaBox .box .m').on({
-    mouseover:function(){
-        $(this).stop(true).animate({scale:'1.2'},400),
-        $('figure').css({overflow:'hidden'})
-   
-    },
-    mouseout:function(){
-        $(this).stop(true).animate({scale:'1'},400,'easeInOutQuad')
-   
-    }
-})
-
-
-
-
-
-
-
-
-
-
-
-
-
+//     }
+// })
 
 
 
