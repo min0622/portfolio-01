@@ -584,11 +584,8 @@ header .icon a {
 }
 
 .section_5 .right {
-    width: 40.4%;
     /* 772/1900*100 */
     width: 46%;
-   
-
 }
 .section_5 .right img{
     width: 100%;
@@ -1003,13 +1000,13 @@ footer {
     .section_5{
     flex-direction: column-reverse;
     width: 100%;
+    margin-top: 20rem;
+
 
     }
     .section_5 .left{
         width: 73.63%;
        margin: 0 13.1%;
-    margin-top: 5rem;
-
     }
 
     .section_5 .right{
@@ -1255,7 +1252,7 @@ header .icon{
 .section_5 .left {
     width: auto;
     margin:0 8%;
-    margin-top: 5rem
+    margin-top: 3rem
 }
 .section_5 .left span{
     font-size: 0.9rem;
@@ -1402,6 +1399,9 @@ header .icon{
         height: 26px;
         line-height: 26px;
         font-size: 0.7rem;
+    }
+    .section_5 {
+        margin-top: 16rem;
     }
     .section_5 .left h3 {
         font-size: 1.6rem;
