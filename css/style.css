@@ -108,19 +108,14 @@ header {
     background-color: #fff;
     position: fixed;
     z-index: 998;
-    /* border-bottom: 1px solid rgba(0,0,0, .1); */
     box-shadow: 0 1px 20px rgba(0, 0, 0, 0.3);
-
 }
 
 header .headeri {
     max-width: 100%;
     height: 100px;
-    /* margin: auto 113px; */
     margin: auto 6.6vw;
-    /* background-color: steelblue; */
     position: relative;
-
 }
 
 /* 메뉴바가 사이드에 있을때 */
@@ -176,7 +171,6 @@ h1 span {
 nav ul {
     width: 50vw;
     height: 100px;
-    /* background-color: salmon; */
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -225,7 +219,6 @@ header .icon a {
     z-index: 999;
     top: 0;
     display: none;
-    /* display: block; */
 }
 
 .mo_menu button {
@@ -250,8 +243,6 @@ header .icon a {
 .mo_menu ul li {
     width: 100%;
    padding: 25px 0;
-    /* background-color: steelblue; */
-    /* padding-bottom: 20px; */
     border-bottom: #777 1px solid;
 }
 
@@ -315,7 +306,6 @@ header .icon a {
     position: relative;
     width: 100%;
     height: 100%;
-    /* top: 100px; */
     display: block;
 }
 .section_1 .titleBox {
@@ -324,14 +314,12 @@ header .icon a {
     position: absolute;
     top: 21vw;
     left: 6.6vw;
-    /* background-color:steelblue; */
     font-family: "noto";
 }
 
 .section_1 .titleBox h2 {
     font-size: 4rem;
     font-weight: 900;
-    /* margin-bottom:20px; */
     margin-bottom: 1.2vw;
 }
 
@@ -356,13 +344,9 @@ header .icon a {
 .section_2 {
     width: 100%;
     position: relative;
-    /* background-color:beige; */
     top: 2.5vw;
-    /* top: 20rem; */
-
 }
 .section_2 h3{
-    /* background-color: antiquewhite; */
     margin-top: 10rem;
     margin-left: 13.1%;
     /* 260/1900*100 = 13.8% */
@@ -385,14 +369,10 @@ header .icon a {
 
 .section_2 .itemBox .item .imgBox {
     width: 91.5%;
-    /* position: relative; */
-    /* background-color: gold; */
 }
 
 .section_2 .itemBox .item .itemInfo {
-    /* background-color: antiquewhite; */
     margin-top: 3.2rem;
-    /* padding-right: 28px; */
     padding-right: 40px;
 }
 
@@ -489,12 +469,8 @@ header .icon a {
 .section_4 {
     width: 100%;
     margin-top: 0;
-    /* display: flex;
-    justify-content: center; */
-
 }
 .section_4 h3{
-    /* background-color: antiquewhite; */
     margin-top: 18rem;
     margin-left: 13.1%;
     /* 260/1900*100 = 13.8% */
@@ -531,7 +507,6 @@ header .icon a {
 .section_4 .container .when {
     width: 100%;
     background-color: #F7F6F2;
-    /* background-color: gold; */
     text-align: center;
     font-family: "noto";
     display: flex;
@@ -544,8 +519,6 @@ header .icon a {
     font-size: 1.4rem;
     font-weight: 500;
      margin-top: 5.5vw;
-   /* margin-bottom: 4.2vw;
-    margin-bottom: 3vw; */
 }
 
 .section_4 .container .when p:nth-of-type(2){
@@ -568,7 +541,6 @@ header .icon a {
     float: right;
     position: relative;
     margin-top: 18rem;
-    /* background-color: gold; */
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -578,7 +550,6 @@ header .icon a {
 
 .section_5 .left {
     width: 38%;
-    /* background-color: antiquewhite; */
     margin: 0 0;
     margin-top: 0;
     display: flex;
@@ -669,13 +640,7 @@ position: relative;
 }
 
 .section_6 .review {
-    /* width: 88.25%; */
-    /* 1694/1900*100 */
     margin: auto 6%;
-    /* display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 1.9vw; */
-    /* gap: 1vw; */
 }
 
 .section_6 .review .rBox {
@@ -730,7 +695,6 @@ position: relative;
     padding-bottom: 0.5px;
     margin: auto;
     margin-top:48px;
-    /* margin-bottom: 50px; */
 }
 
 /* 한문장 */
@@ -762,17 +726,12 @@ footer {
     font-family: "noto";
     font-size: 0.9rem;
     font-weight: 400;
-    /* background-color: gold; */
-
 }
 
 .footerI .lineBox {
-    /* background-color: bisque; */
     padding-top: 3rem;
-    /* padding-bottom: 2.9rem; */
     margin-bottom: 3.8rem;
     margin-bottom: 2.8rem;
-    /* border-bottom: solid 1px #000; */
     display: flex;
     flex-direction: row;
 }
@@ -780,7 +739,6 @@ footer {
 .footerI .lineBox .csBox,
 .footerI .lineBox .serBox {
     width: 30%;
-    /* background-color: gold; */
     margin-right:8rem;
     margin-top:0 ;
 
@@ -806,7 +764,6 @@ footer {
     justify-content: space-between;
     font-weight: 500;
     margin-bottom: 1.9rem;
-    /* background-color:slateblue; */
     font-size: 0.8rem;
 
 
@@ -814,9 +771,6 @@ footer {
 
 
 .footerI .under {
-    /* width: 100%; */
-    /* height: 200px; */
-    /* background-color: steelblue; */
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -825,11 +779,9 @@ footer {
 .footerI .under .underLeft {
     width: 70%;
     font-size: 0.8rem;
-    /* background-color: beige; */
 }
 
 .footerI .under .underLeft p {
-    /* margin-bottom: 1.2rem; */
     line-height: 170%;
 }
 
@@ -845,15 +797,12 @@ footer {
     color: #777;
     margin-top: 1.8rem;
     line-height: 150%;
-
-    /* background-color: gold; */
 }
 
 .footerI .under .underRight {
     display: flex;
     align-items: flex-end;
     justify-content: flex-end;
-    /* background-color: gold; */
     margin-top: 0;
 }
 
@@ -878,7 +827,6 @@ footer {
     }
 
     header .headeri {
-        /* height: 140px; */
         height: 156px;
         margin: auto 4vw;
 
@@ -886,7 +834,6 @@ footer {
 
     nav ul {
         width: 100%;
-        /* height: 40px; */
         height: 56px;
         top: 100px;
         left: 0;
@@ -1316,8 +1263,6 @@ header .icon{
 } 
 .section_5 .left p {
     font-size: 0.9rem;
-    /* margin-top:1rem; */
-
 }
 .section_6{
     margin-top: 108rem;
@@ -1402,10 +1347,8 @@ header .icon{
     }
 
     .section_1 .titleBox {
-        /* width: 60%; */
         width: 288px;
         top: 65vw;
-        /* background-color: beige; */
     }
 
  
@@ -1440,9 +1383,6 @@ header .icon{
         margin: 0 auto;
         margin-top: 45rem;
     }
-/* .section_3 .slide {
-    margin-bottom: 1.6rem;
-} */
     .section_3 .slide p {
         font-size: 0.6rem;
         width: 136px;
@@ -1518,7 +1458,6 @@ header .icon{
     }
     .section_3 {
         width: 100%;
-        /* margin-top: 32rem; */
     }
     .section_4>p{
         margin-top: 8px;
