@@ -617,7 +617,7 @@ position: relative;
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-top: 67px;
+    padding-top: 4.2rem;
     margin: 0 auto;
     margin-bottom: 42px;
     font-size: 1rem;
@@ -1410,6 +1410,10 @@ header .icon{
     }
     .section_6 .reviewTitle{
         margin: 0 8.6%;
+    padding-top: 2rem;
+    margin-bottom: 1.6rem;
+    
+
     }
     .stn{
         margin: 10rem 8%;
