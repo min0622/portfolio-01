@@ -622,7 +622,6 @@ position: relative;
     margin-bottom: 42px;
     font-size: 1rem;
     font-family: "noto";
-
 }
 .section_6 .reviewTitle p:first-of-type{
     font-family: "inter";
@@ -1408,6 +1407,9 @@ header .icon{
     }
     .section_6{
         margin-top: 98rem;
+    }
+    .section_6 .reviewTitle{
+        margin: 0 8.6%;
     }
     .stn{
         margin: 10rem 8%;
