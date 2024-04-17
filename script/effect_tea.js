@@ -53,15 +53,14 @@ $('.s2_section1 .teaBox').slick({
         }
       },
       {
-        breakpoint: 480,
+        // breakpoint: 480,
+        breakpoint: 281,
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1
         }
       }
-      // You can unslick at a given breakpoint now by adding:
-      // settings: "unslick"
-      // instead of a settings object
+      
     ]
   });
 
