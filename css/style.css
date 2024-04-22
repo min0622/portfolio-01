@@ -214,8 +214,8 @@ header .menu{
 
 .mo_menu button {
     display: block;
-    width: 28px;
-    height: 28px;
+    width: 18px;
+    height: 18px;
     cursor: pointer;
     background-color: transparent;
     border: none;
@@ -1025,7 +1025,9 @@ header .icon li{
     }
 } */
 @media screen and (max-width:768px){
-
+    header .headeri{
+        height: 80px;
+    }
     .logo{
         width: 120px;
     }
@@ -1042,9 +1044,9 @@ header .icon li{
         display: none;
     }
 
-/* .section_1 .main {
-    top: 80px;
-} */
+    .section_1 .main{
+        top: 80px;
+    }
     .section_1 .titleBox {
         top: 28vw;
     }
@@ -1116,8 +1118,6 @@ header .icon li{
 
 
 @media screen and (max-width:576px) {
-
-
 
     .menu {
         width: 26px;
