@@ -1288,34 +1288,21 @@ header .icon li{
 
 }
 }
+
+/* 가로모드 */
 @media screen and (orientation:landscape){
     .mo_menu{
         width:100%;
         overflow: scroll;
         }
 }
+
 /* 아이폰 */
 @media screen and (max-width:391px){
-    .menu {
-        width: 22px;
-        height: 22px;
-        top: 29px;
-
+    .logo {
+        width: 100px;
     }
-    /* .mo_menu{
-    background-color: sandybrown;
 
-    } */
-   
-    header .icon {
-        margin-top: 29px;
-    }
-    header .icon a {
-        width: 22px;
-        height: 22px;
-        margin-left: 0.8rem;
-
-    }
 
     .section_1 .titleBox {
         width: 288px;
