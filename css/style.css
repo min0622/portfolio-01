@@ -809,12 +809,12 @@ footer {
 
 
 /* 반응형 */
-@media screen and (min-height:800px){
+/* @media screen and (min-height:800px){
     .mo_menu{
         background-color: steelblue;
         width: 380px;
         }
-}
+} */
 
 
 /* 1446 */
@@ -1290,8 +1290,13 @@ header .icon li{
 }
 
 /* 아이폰 */
-@media screen and (max-width:394px) {
- 
+@media screen and (max-width:394px) and (min-height:780px){
+        .mo_menu{
+            background-color:goldenrod;
+            width: 380px;
+            /* min-height: 780px; */
+            }
+    
 
     .menu {
         width: 22px;
