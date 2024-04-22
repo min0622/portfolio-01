@@ -1,6 +1,6 @@
 @font-face {
     font-family: "noto";
-    src: url(../font/NotoSansKR-Thin.ttf);
+    src: url(../font/NotoSansKR-Light.ttf);
     font-weight: 300;
 }
 
@@ -109,40 +109,28 @@ header {
     position: fixed;
     z-index: 998;
     box-shadow: 0 1px 20px rgba(0, 0, 0, 0.3);
+   padding: 0 4%;
 }
 
 header .headeri {
-    max-width: 100%;
+    max-width: 1400px;
     height: 100px;
-    margin: auto 6.6vw;
+    margin: auto ;
     position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
 }
 
-/* 메뉴바가 사이드에 있을때 */
-header .headeri .side {
-    width: 100%;
-    height: 100px;
-}
-
-.menu {
-    width: 32px;
-    height: 32px;
-    display: none;
-    position: absolute;
-    top: 34px;
-    left: 0;
-    background-color: transparent;
-    border: none;
-    cursor: pointer;
-}
 
 /* 모바일버전 search*/
 .mo_srch {
-    width: 28px;
-    height: 28px;
+    width: 22px;
+    height: 22px;
     display: none;
     position: absolute;
-    top: 36px;
+    top: 39px;
     left: 32px;
     background-color: transparent;
     border: none;
@@ -150,85 +138,91 @@ header .headeri .side {
     cursor: pointer;
 
 }
+
 /* */
 
-h1 {
-    float: left;
-    position: absolute;
-    top: 27px;
-    left: 0;
-}
-
 .logo {
-    width: 100%;
-    height: 46px;
+    width: 140px;
 }
 
 h1 span {
     display: none;
 }
 
-nav ul {
-    width: 50vw;
-    height: 100px;
+.h_right{
     display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    position: absolute;
-    top: 0;
-    left: 18rem;
-    font-family: "noto";
-    font-weight: 400;
-    font-size: 1.1rem;
+    justify-content: space-between;
+    /* background-color: beige; */
 }
 
-nav ul li {
-    margin-right: 3rem;
+nav ul {
+    width: 41vw;
+    /* width: 650px; */
+    /* background-color: slategrey; */
+    /* height: 100%; */
+    margin-right: 5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "noto";
+    font-weight: 300;
+    font-size: 1rem;
+  
 }
+
 
 header .icon {
-    float: right;
-    margin-top: 36px;
+width:fit-content;
     display: flex;
+    align-items: center;
 }
 
-.web_srch {
-    width: 28px;
-    height: 28px;
+header .icon button {
     display: block;
-    margin-left: 1.2rem;
+    width: 20px;
+    height: 20px;
+    margin-right: 1.4rem;
     cursor: pointer;
     background-color: transparent;
     border: none;
 }
-
-header .icon a {
-    display: block;
-    margin-left: 1.6rem;
-    width: 28px;
-    height: 28px;
+header .icon li{
+    margin-left: 1.4em;
+    width: 20px;
+    height: 20px;
+}
+header .menu{
+    display: none;
+    width: 18px;
+    height: 18px;
+    background-color: transparent;
+    border: none;
 }
 
 /* 모바일 버전 메뉴 */
 .mo_menu {
     width: 320px;
+    width: 20px;
     height: 100%;
     padding-left: 20px;
-    background-color: #fff;
+    background-color: gainsboro;
     position: fixed;
     z-index: 999;
     top: 0;
-    display: none;
+    right: 0;
+    display: block;
 }
 
 .mo_menu button {
     display: block;
     width: 28px;
-            height: 28px;
+    height: 28px;
     cursor: pointer;
     background-color: transparent;
     border: none;
-    margin-top: 30px;
+    position: absolute;
+    top: 30px;
+    right: 30px;
 }
 
 .mo_menu ul {
@@ -310,21 +304,24 @@ header .icon a {
 }
 .section_1 .titleBox {
     /* width: 50%; */
-    width: 600px;
+    width: 600px; 
+    margin: auto 10%;
+    /* background-color: beige; */
     position: absolute;
-    top: 21vw;
-    left: 6.6vw;
+    top: 20vw;
+    /* left: 6.6vw; */
+    left: 0;
     font-family: "noto";
 }
 
 .section_1 .titleBox h2 {
-    font-size: 4rem;
+    font-size: 3.4rem;
     font-weight: 900;
     margin-bottom: 1.2vw;
 }
 
 .section_1 .titleBox p {
-    font-size: 2.5rem;
+    font-size: 2.2rem;
     font-weight: 500;
     line-height: 160%;
 }
@@ -617,7 +614,7 @@ position: relative;
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-top: 4.2rem;
+    padding-top: 67px;
     margin: 0 auto;
     margin-bottom: 42px;
     font-size: 1rem;
@@ -813,43 +810,48 @@ footer {
 
 
 /* 반응형 */
+@media screen and (min-height:800px){
+    .mo_menu{
+        background-color: steelblue;
+        width: 380px;
+        }
+}
 
 
-@media screen and (max-width:1446px) {
-    h1 {
-        clear: left;
-        left: 50%;
-        transform: translateX(-50%);
+/* 1446 */
+@media screen and (max-width:1025px){
+    .logo{
+        width: 120px;
     }
-
-    header .headeri {
-        height: 156px;
-        margin: auto 4vw;
+    nav ul{
+        width: 50vw;
+    margin-right: 2.6rem;
 
     }
-
-    nav ul {
-        width: 100%;
-        height: 56px;
-        top: 100px;
-        left: 0;
-        justify-content: center;
-    }
-
-    .section_1 .main {
-        top: 100px;
-    }
+    .section_1 .main{
+    top: 100px;
+}
+header .icon button{
+    width: 18px;
+    height: 18px;
+    margin-right: 1rem;
+}
+header .icon li{
+    margin-left: 1rem;
+    width: 18px;
+    height: 18px;
+}
 
     .section_1 .titleBox {
-        top: 26vw;
+        top: 29vw;
     }
 
     .section_1 .titleBox h2 {
-        font-size: 3.5em;
+        font-size: 2.8rem;
     }
 
     .section_1 .titleBox p {
-        font-size: 2rem;
+        font-size: 1.8rem;
     }
 
     .section_2 h3{
@@ -894,8 +896,8 @@ footer {
     }
 }
 
-
-@media screen and (max-width:1194px) {
+/* 아이패드프로3 */
+/* @media screen and (max-width:1194px) {
     .section_1 .titleBox {
         top: 30vw;
 
@@ -957,25 +959,16 @@ footer {
             .footerI .underTop{
                 width: 70%;
             }
-}
+} */
 
 
-@media screen and (max-width:968px) {
-    header .headeri {
-        height: 100px;
-    }
+/* @media screen and (max-width:968px) {
+
 
     .menu {
         display: block;
-            width: 28px;
-            height: 28px;
-            top: 36px;
+        
     }
-
-    nav ul {
-        display: none;
-    }
-
     .section_1 .titleBox {
         top: 26vw;
     }
@@ -1024,38 +1017,35 @@ footer {
     margin-right:1rem;
 }
 
-}
+} */
+/* @media screen and (min-height:300px){
+    .mo_menu {
+        background-color: gold;
+        width: 300px; 
+        min-height: 900px;
+    }
+} */
+@media screen and (max-width:768px){
 
-@media screen and (max-width:768px) {
-    header .headeri {
-        height: 80px;
+    .logo{
+        width: 120px;
     }
-    .menu{
-    top: 26px;
+    header .icon{
+        display: none;
     }
-    .mo_srch {
+    header{
+        padding: 0 8%;
+    }
+    header .menu{
         display: block;
-        top: 26px;
     }
-    .web_srch {
+    nav ul {
         display: none;
     }
 
-    h1 {
-        top: 20px;
-    }
-
-    .logo {
-        width: 100%;
-        height: 40px;
-    }
-header .icon{
-    margin-top: 26px;
-
-}
-.section_1 .main {
+/* .section_1 .main {
     top: 80px;
-}
+} */
     .section_1 .titleBox {
         top: 28vw;
     }
@@ -1127,18 +1117,8 @@ header .icon{
 
 
 @media screen and (max-width:576px) {
-    h1 {
-        top: 24px;
-    }
 
-    .logo {
-        height: 32px;
-    }
 
-    header .headeri {
-        margin: auto 5.2vw;
-
-    }
 
     .menu {
         width: 26px;
@@ -1204,7 +1184,10 @@ header .icon{
         margin-top: 2rem;
         padding-right: 0;
     }
-
+    /* .section_2 .itemBox .item .itemInfo .underline {
+        font-size: 1.2rem;
+     
+    } */
     .section_2 .more{
         font-size: 0.9rem;
     }
@@ -1309,15 +1292,8 @@ header .icon{
 
 /* 아이폰 */
 @media screen and (max-width:394px) {
-    h1 {
-        top: 27px;
-    }
+ 
 
-    .logo {
-        height: 26px;
-    
-       
-    }
     .menu {
         width: 22px;
         height: 22px;
@@ -1325,13 +1301,7 @@ header .icon{
 
     }
 
-    .mo_srch {
-        width: 22px;
-        height: 22px;
-        top: 29px;
-
-        margin-left: 0.3rem;
-    }
+   
     header .icon {
         margin-top: 29px;
     }
@@ -1410,10 +1380,6 @@ header .icon{
     }
     .section_6 .reviewTitle{
         margin: 0 8.6%;
-    padding-top: 2rem;
-    margin-bottom: 1.6rem;
-    
-
     }
     .stn{
         margin: 10rem 8%;
@@ -1428,13 +1394,7 @@ header .icon{
 }
 
 @media screen and (max-width:280px) {
-    h1 {
-        top: 28px;
-    }
-
-    .logo {
-        height: 24px;
-    }
+  
 
     .section_1 .titleBox {
 
