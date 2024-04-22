@@ -107,7 +107,7 @@ header {
     overflow: hidden;
     background-color: #fff;
     position: fixed;
-    z-index: 998;
+    z-index: 990;
     box-shadow: 0 1px 20px rgba(0, 0, 0, 0.3);
    padding: 0 4%;
 }
@@ -152,14 +152,11 @@ h1 span {
 .h_right{
     display: flex;
     justify-content: space-between;
-    /* background-color: beige; */
 }
 
 nav ul {
     width: 41vw;
-    /* width: 650px; */
-    /* background-color: slategrey; */
-    /* height: 100%; */
+
     margin-right: 5rem;
     display: flex;
     justify-content: space-between;
@@ -191,52 +188,64 @@ header .icon li{
     width: 20px;
     height: 20px;
 }
-header .menu{
-    display: none;
+header .btnBox{
+    width: 18px;
+    height: 18px;
+   position: relative;
+}
+header .btnBox .menu{
+    display: block;
     width: 18px;
     height: 18px;
     background-color: transparent;
     border: none;
+    cursor: pointer;
+    z-index: 997;
+   
 }
+/* .mo_menu button { */
+    header .btnBox .x{
+        display: none;
+        width: 18px;
+        height: 18px;
+        cursor: pointer;
+        background-color: transparent;
+        border: none;
+        position: absolute;
+        top:0;
+        right: 0;
+    } 
 
 /* 모바일 버전 메뉴 */
 .mo_menu {
-    width: 320px;
-    height: 100%;
-    padding-left: 20px;
-    background-color: #fff;
+    width: 100%;
+   height: 100%;
+   background-color: #fff;
     position: fixed;
-    z-index: 999;
-    top: 0;
+    z-index: 980;
+   top: 0;
     right: 0;
-    display: block;
-}
-
-.mo_menu button {
-    display: block;
-    width: 18px;
-    height: 18px;
-    cursor: pointer;
-    background-color: transparent;
-    border: none;
-    position: absolute;
-    top: 30px;
-    right: 30px;
+    display: none;
+    /* display: block; */
 }
 
 .mo_menu ul {
-    width: 90%;
-    height: 56%;
-    margin-top: 65px;
+   max-width: 768px;
+    margin: auto 8%;
+    margin-top: 100px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+
+
 }
 
 .mo_menu ul li {
-    width: 100%;
+  
    padding: 25px 0;
     border-bottom: #777 1px solid;
+    /* display: none; */
+
 }
 
 
@@ -1037,13 +1046,14 @@ header .icon li{
     header{
         padding: 0 8%;
     }
-    header .menu{
+  
+    header .btnBox .menu{
         display: block;
     }
-    nav ul {
+    nav ul{
         display: none;
     }
-
+  
     .section_1 .main{
         top: 80px;
     }
@@ -1119,22 +1129,8 @@ header .icon li{
 
 @media screen and (max-width:576px) {
 
-    .menu {
-        width: 26px;
-        height: 26px;
-        top: 27px;
+ 
 
-    }
-    .mo_menu button {
-        width: 26px;
-        height: 26px;
-    }
-    .mo_srch {
-        width: 26px;
-        height: 26px;
-        top: 27px;
-        margin-left: 0.8rem;
-    }
 
     header .icon {
         margin-top: 27px;
@@ -1290,12 +1286,12 @@ header .icon li{
 }
 
 /* 가로모드 */
-@media screen and (orientation:landscape){
+/* @media screen and (orientation:landscape){
     .mo_menu{
         width:100%;
         overflow: scroll;
         }
-}
+} */
 
 /* 아이폰 */
 @media screen and (max-width:391px){
