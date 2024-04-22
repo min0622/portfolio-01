@@ -809,10 +809,10 @@ footer {
 
 
 /* 반응형 */
-/* @media screen and (min-height:800px){
+/* @media screen and (min-height:391px) and (max-height:940px){
     .mo_menu{
         background-color: steelblue;
-        width: 380px;
+        width: 450px;
         }
 } */
 
@@ -1288,23 +1288,25 @@ header .icon li{
 
 }
 }
+@media screen and (orientation:landscape){
+    .mo_menu{
+        background-color: sandybrown;
 
+        width:100%
+        }
+}
 /* 아이폰 */
-@media screen and (max-width:394px) and (min-height:780px){
-        .mo_menu{
-            background-color:goldenrod;
-            width: 380px;
-            /* min-height: 780px; */
-            }
-    
-
+@media screen and (max-width:391px){
     .menu {
         width: 22px;
         height: 22px;
         top: 29px;
 
     }
+    /* .mo_menu{
+    background-color: sandybrown;
 
+    } */
    
     header .icon {
         margin-top: 29px;
