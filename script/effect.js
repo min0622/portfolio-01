@@ -1,7 +1,7 @@
 $(function () {
 
   // 햄버거바 ; 공통 effect  
-  $('header .headeri .side .hide .menu').click(function () {
+  $('header .headeri .menu').click(function () {
     $('.mo_menu').fadeIn();
   });
 
