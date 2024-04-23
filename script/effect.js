@@ -1,13 +1,34 @@
 $(function () {
 
   // 햄버거바 ; 공통 effect  
-  $('header .headeri .menu').click(function () {
-    $('.mo_menu').fadeIn();
-  });
+$('header .headeri .menu').click(function(){
+ $(this).css({ display:'none', zIndex:'980' })
+ $('.x').css({ display:'block',zIndex:'997' })
 
-  $('.mo_menu button').click(function () {
-    $('.mo_menu').fadeOut()
-  });
+  $('.mo_menu').slideToggle();
+  
+  // $('.mo_menu').css({display:'block'}).stop(true).animate({height:'100%'},1600,'easeOutQuart')
+  // $('.mo_menu ul,.mo_menu ul li').css({display:'block'})
+})
+
+$('.x').click(function(){
+  $(this).css({display:'none',zIndex:'980' })
+  $('header .headeri .menu').css({ display:'block',zIndex:'997' })
+
+
+  $('.mo_menu').slideToggle();
+
+  // $('.mo_menu').stop(true).animate({height:'0'},1600,'easeOutQuart')
+  // $('.mo_menu ul,.mo_menu ul li').css({display:'none'})
+})
+
+  // $('header .headeri .menu').click(function () {
+  //   $('.mo_menu').fadeIn();
+  // });
+
+  // $('.mo_menu button').click(function () {
+  //   $('.mo_menu').fadeOut()
+  // });
 
 //index파일
   // section2 마우스오버
