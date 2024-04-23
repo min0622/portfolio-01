@@ -220,20 +220,25 @@ header .btnBox .menu{
 
 /* 모바일 버전 메뉴 */
 .mo_menu {
-    width: 100%;
-   height: 100%;
+    width: 100vw;
+   height: 100vh;
    background-color: #fff;
+   /* background-color: gold; */
     position: fixed;
     z-index: 980;
-   top: 0;
+     top: 0;
     right: 0;
     display: none;
-    overflow-y: scroll;
+    overflow: scroll;
+  
 }
 
 .mo_menu ul {
+   /* background-color: slategrey; */
    max-width: 768px;
+
     margin: auto 8%;
+    /* margin: auto; */
     margin-top: 100px;
     display: flex;
     flex-direction: column;
@@ -245,7 +250,7 @@ header .btnBox .menu{
 .mo_menu ul li {
   
    padding: 25px 0;
-    border-bottom: #777 1px solid;
+    /* border-bottom: #777 1px solid; */
     /* display: none; */
 
 }
@@ -1293,6 +1298,7 @@ header .icon li{
         width:100%;
         overflow: scroll;
         }
+        
 } */
 
 /* 아이폰 */
