@@ -124,20 +124,6 @@ header .headeri {
 }
 
 
-/* 모바일버전 search*/
-.mo_srch {
-    width: 22px;
-    height: 22px;
-    display: none;
-    position: absolute;
-    top: 39px;
-    left: 32px;
-    background-color: transparent;
-    border: none;
-    margin-left: 1.2rem;
-    cursor: pointer;
-
-}
 
 /* */
 
@@ -189,47 +175,41 @@ header .icon li{
     width: 20px;
     height: 20px;
 }
-/* header .btnBox{
-    width: 18px;
-    height: 18px;
-   position: relative;
-   display: none;
-} */
+
 header .menu{
+    width: 30px;
+    height: 30px;
+    background-color: transparent;
+    /* background-color: gold; */
+    border: none;
+    cursor: pointer;
+    display:none;
+    position: absolute;
+    top: 25px;
+    right:-6px;
+}
+header .menu>img{
     width: 18px;
     height: 18px;
     background-color: transparent;
-    border: none;
-    cursor: pointer;
-    /* z-index: 997; */
-    display:none;
-   
+    /* background-color: #fff; */
+    position: absolute;
+    top: 6px;
+    right: 6px;
 }
-
-    /* header .btnBox .x{
-        width: 18px;
-        height: 18px;
-        cursor: pointer;
-        background-color: transparent;
-        border: none;
-        position: absolute;
-        top:0;
-        right: 0;
-        display:none;
-    }  */
 
 /* 모바일 버전 메뉴 */
 .mo_menu {
     width: 100%;
-   height: 100%;
-   overflow: scroll;
+   height: 100vh;
+   overflow: auto;
+
    background-color: #fff;
    /* background-color: gold; */
     position: fixed;
     z-index: 998;
      top: 0;
     right: 0;
-    /* overflow:hidden; */
     display: none;
   
 }
@@ -252,7 +232,7 @@ header .menu{
 
     margin: auto 8%;
     /* margin: auto; */
-    margin-top: 100px;
+    margin-top: 150px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -263,8 +243,6 @@ header .menu{
 .mo_menu ul li {
   
    padding: 25px 0;
-    /* border-bottom: #777 1px solid; */
-    /* display: none; */
 
 }
 
@@ -323,8 +301,11 @@ header .menu{
 
 .section_1 .main {
     position: relative;
+    position: absolute;
+    top: -50px;
+    left: 0;
     width: 100%;
-    height: 100%;
+    /* height: 100%; */
     display: block;
 }
 .section_1 .titleBox {
@@ -333,8 +314,7 @@ header .menu{
     margin: auto 10%;
     /* background-color: beige; */
     position: absolute;
-    top: 20vw;
-    /* left: 6.6vw; */
+    top: 22vw;
     left: 0;
     font-family: "noto";
 }
@@ -868,7 +848,7 @@ header .icon li{
 }
 
     .section_1 .titleBox {
-        top: 29vw;
+        top: 26vw;
     }
 
     .section_1 .titleBox h2 {
@@ -1075,7 +1055,8 @@ header .icon li{
         top: 80px;
     }
     .section_1 .titleBox {
-        top: 28vw;
+        top:25vw;
+  
     }
 
     .section_1 .titleBox h2 {
@@ -1142,11 +1123,51 @@ header .icon li{
     }
 
 }
+@media screen and (max-width:576px){
+   
+    .section_1 .titleBox {
+        top: 56vw;
+    }
 
+}
+
+
+
+
+/* 
+.section_1 .titleBox {
+    top: 30vw;
+
+}
+
+.section_1 .titleBox h2 {
+    font-size: 2.2em;
+}
+
+.section_1 .titleBox p {
+    font-size: 1.4rem;
+} 
+*/
+
+@media screen and (max-width:451px){
+    .section_1 .titleBox {
+        background-color: beige;
+    }
+    
+    .section_1 .titleBox h2 {
+        font-size: 1.8em;
+    }
+    
+    .section_1 .titleBox p {
+        font-size: 1.2rem;
+    } 
+    
+
+}
+/* 
 
 @media screen and (max-width:576px) {
 
- 
 
 
     header .icon {
@@ -1196,10 +1217,7 @@ header .icon li{
         margin-top: 2rem;
         padding-right: 0;
     }
-    /* .section_2 .itemBox .item .itemInfo .underline {
-        font-size: 1.2rem;
-     
-    } */
+ 
     .section_2 .more{
         font-size: 0.9rem;
     }
@@ -1300,7 +1318,7 @@ header .icon li{
     margin-top: 1.5rem;
 
 }
-}
+} */
 
 /* 가로모드 */
  /* @media screen and (orientation:landscape){
@@ -1321,6 +1339,7 @@ header .icon li{
     .section_1 .titleBox {
         width: 288px;
         top: 65vw;
+
     }
 
  
