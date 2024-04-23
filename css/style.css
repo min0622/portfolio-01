@@ -228,7 +228,7 @@ header .btnBox .menu{
    top: 0;
     right: 0;
     display: none;
-    /* display: block; */
+    overflow-y: scroll;
 }
 
 .mo_menu ul {
