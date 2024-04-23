@@ -2,43 +2,31 @@ $(function () {
 
   // 햄버거바 ; 공통 effect  
 $('header .headeri .menu').click(function(){
- $(this).css({ display:'none', zIndex:'980' })
- $('.x').css({ display:'block',zIndex:'997' })
+  $('.mo_menu').stop(true).slideToggle(800);
 
-  $('.mo_menu').slideToggle();
-  
-  // $('.mo_menu').css({display:'block'}).stop(true).animate({height:'100%'},1600,'easeOutQuart')
-  // $('.mo_menu ul,.mo_menu ul li').css({display:'block'})
 })
+
+
 
 $('.x').click(function(){
-  $(this).css({display:'none',zIndex:'980' })
-  $('header .headeri .menu').css({ display:'block',zIndex:'997' })
 
 
-  $('.mo_menu').slideToggle();
 
-  // $('.mo_menu').stop(true).animate({height:'0'},1600,'easeOutQuart')
-  // $('.mo_menu ul,.mo_menu ul li').css({display:'none'})
+  $('.mo_menu').stop(true).slideToggle(800);
+
 })
 
-  // $('header .headeri .menu').click(function () {
-  //   $('.mo_menu').fadeIn();
-  // });
-
-  // $('.mo_menu button').click(function () {
-  //   $('.mo_menu').fadeOut()
-  // });
+  
 
 //index파일
   // section2 마우스오버
   $('#wrap .section_2 .itemBox .i1 .imgBox').on({
 
     mouseover: function () {
-      $('.m2-1').css({ opacity: '0' }).stop(true).attr('src', 'img/web/main/hmain2-1.png').animate({ opacity: '1' }, 400, 'easeInOutQuad')
+      $('.m2-1').css({ opacity: '0' }).stop(true).attr('src', 'img/web/main/hmain2-1.png').animate({ opacity: '1' }, 1200, 'easeOutQuint')
     },
     mouseout: function () {
-      $('.m2-1').css({ opacity: '0' }).stop(true).attr('src', 'img/web/main/main2-1.png').animate({ opacity: '1'}, 400, 'easeInOutQuad')
+      $('.m2-1').css({ opacity: '0' }).stop(true).attr('src', 'img/web/main/main2-1.png').animate({ opacity: '1'}, 1200, 'easeOutQuint')
 
     }
   });
@@ -46,47 +34,47 @@ $('.x').click(function(){
   $('#wrap .section_2 .itemBox .i2 .imgBox').on({
 
     mouseover: function () {
-      $('.m2-2').css({ opacity: '0' }).stop(true).attr('src', 'img/web/main/hmain2-2.png').animate({ opacity: '1' }, 400, 'easeInOutQuad')
+      $('.m2-2').css({ opacity: '0' }).stop(true).attr('src', 'img/web/main/hmain2-2.png').animate({ opacity: '1' }, 1200, 'easeOutQuint')
     },
 
     mouseout: function () {
-      $('.m2-2').css({ opacity: '0' }).stop(true).attr('src', 'img/web/main/main2-2.png').animate({ opacity: '1' }, 400, 'easeInOutQuad')
+      $('.m2-2').css({ opacity: '0' }).stop(true).attr('src', 'img/web/main/main2-2.png').animate({ opacity: '1' }, 1200, 'easeOutQuint')
     }
   });
 
   $('#wrap .section_2 .itemBox .i3 .imgBox').on({
     mouseover:function(){
-      $('.m2-3').css({opacity:'0'}).stop(true).attr('src','img/web/main/hmain2-3.png').animate({opacity:'1'},400,'easeInOutQuad')
+      $('.m2-3').css({opacity:'0'}).stop(true).attr('src','img/web/main/hmain2-3.png').animate({opacity:'1'},1200, 'easeOutQuint')
     },
     mouseout:function(){
-      $('.m2-3').css({opacity:'0'}).stop(true).attr('src','img/web/main/main2-3.png').animate({opacity:'1'},400,'easeInOutQuad')
+      $('.m2-3').css({opacity:'0'}).stop(true).attr('src','img/web/main/main2-3.png').animate({opacity:'1'},1200, 'easeOutQuint')
     }
   });
 
   $('#wrap .section_2 .itemBox .i4 .imgBox').on({
     mouseover:function(){
-      $('.m2-4').css({opacity:'0'}).stop(true).attr('src','img/web/main/hmain2-4.png').animate({opacity:'1'},400,'easeInOutQuad')
+      $('.m2-4').css({opacity:'0'}).stop(true).attr('src','img/web/main/hmain2-4.png').animate({opacity:'1'},1200, 'easeOutQuint')
     },
     mouseout:function(){
-      $('.m2-4').css({opacity:'0'}).stop(true).attr('src','img/web/main/main2-4.png').animate({opacity:'1'},400,'easeInOutQuad')
+      $('.m2-4').css({opacity:'0'}).stop(true).attr('src','img/web/main/main2-4.png').animate({opacity:'1'},1200, 'easeOutQuint')
     }
   });
 
   $('#wrap .section_2 .itemBox .i5 .imgBox').on({
     mouseover:function(){
-      $('.m2-5').css({opacity:'0'}).stop(true).attr('src','img/web/main/hmain2-5.png').animate({opacity:'1'},400,'easeInOutQuad')
+      $('.m2-5').css({opacity:'0'}).stop(true).attr('src','img/web/main/hmain2-5.png').animate({opacity:'1'},1200, 'easeOutQuint')
     },
     mouseout:function(){
-      $('.m2-5').css({opacity:'0'}).stop(true).attr('src','img/web/main/main2-5.png').animate({opacity:'1'},400,'easeInOutQuad')
+      $('.m2-5').css({opacity:'0'}).stop(true).attr('src','img/web/main/main2-5.png').animate({opacity:'1'},1200, 'easeOutQuint')
     }
   });
 
   $('#wrap .section_2 .itemBox .i6 .imgBox').on({
     mouseover:function(){
-      $('.m2-6').css({opacity:'0'}).stop(true).attr('src','img/web/main/hmain2-6.png').animate({opacity:'1'},400,'easeInOutQuad')
+      $('.m2-6').css({opacity:'0'}).stop(true).attr('src','img/web/main/hmain2-6.png').animate({opacity:'1'},1200, 'easeOutQuint')
     },
     mouseout:function(){
-      $('.m2-6').css({opacity:'0'}).stop(true).attr('src','img/web/main/main2-6.png').animate({opacity:'1'},400,'easeInOutQuad')
+      $('.m2-6').css({opacity:'0'}).stop(true).attr('src','img/web/main/main2-6.png').animate({opacity:'1'},1200, 'easeOutQuint')
     }
   });
 
