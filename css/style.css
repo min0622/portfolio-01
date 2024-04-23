@@ -1152,10 +1152,12 @@ header .icon li{
 @media screen and (max-width:451px){
     .section_1 .titleBox {
         background-color: beige;
+        width: 288px;
+
     }
     
     .section_1 .titleBox h2 {
-        font-size: 1.8em;
+        font-size: 1.6em;
     }
     
     .section_1 .titleBox p {
@@ -1339,7 +1341,6 @@ header .icon li{
     .section_1 .titleBox {
         width: 288px;
         top: 65vw;
-
     }
 
  
