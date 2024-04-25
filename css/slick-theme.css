@@ -91,12 +91,12 @@
 }
 .slick-prev:before
 {
-    content: '<';
+    content: '';
 
 }
 [dir='rtl'] .slick-prev:before
 {
-    content: '>';
+    content: '';
 }
 
 .slick-next
@@ -110,11 +110,11 @@
 }
 .slick-next:before
 {
-    content: '>';
+    content: '';
 }
 [dir='rtl'] .slick-next:before
 {
-    content: '<';
+    content: '';
 }
 
 /* Dots */
@@ -144,8 +144,8 @@
 
     display: inline-block;
 
-    width: 20px;
-    height: 20px;
+    width: 25px;
+    height: 25px;
     margin: 0 5px;
     padding: 0;
 

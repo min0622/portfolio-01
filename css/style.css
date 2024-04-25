@@ -255,39 +255,20 @@ header .menu>img {
 
 /* section_2 상품 여백 조절 */
 /* 슬라이드 부모  마진 음수*/
-.section_2 .slick-list {
-    margin: 0;
-    padding: 0 -1.3%;
-}
+/* .section_2 .slick-list {
+    margin: 0 -44px;
+    margin: 0 -0.43%;
+    padding: 0 ;
+} */
 
 /* 슬라이드 자식 마진 양수 */
-.section_2 .slick-slide {
-    margin: 0;
-    padding: 0 1.3%;
-}
+/* .section_2 .slick-slide {
+    margin: 0 44px;
+    margin: 0 0.43%;
+    padding: 0 ;
+} */
 
 
-/* 슬릭 화살표 */
-.section_2 .itemBox .slick-prev {
-    display: block;
-    position: absolute;
-    top: 40%;
-    left: -50px;
-}
-
-.section_2 .itemBox .slick-next {
-    display: block;
-    position: absolute;
-    top: 40%;
-    right: -50px;
-}
-
-.section_3 .slick-prev::after,
-.section_3 .slick-next::before {
-    /* display: none; */
-    content: '';
-
-}
 
 
 .section_6 .slick-prev {
@@ -370,28 +351,29 @@ header .menu>img {
     margin-left: 13.8%;
     font-family: "cormo";
     font-weight: 600;
-    font-size: 2.2rem;
+    font-size: 2rem;
     line-height: 130%;
+ 
 }
 
 .section_2 .itemBox {
-
-    /* width: 72.92%; */
-    width: 71%;
-    width: 74%;
+ 
+    width: 78%;
+    /* width: 100%; */
     overflow: hidden;
     margin: auto;
     margin-top: 4.2rem;
-    /* display: flex;
-    justify-content: space-between;
-    align-items: center; */
+
     /* background-color:salmon; */
 }
 
 
 .section_2 .itemBox .item {
-    /* width: 1%; */
     overflow: hidden;
+    /* background-color: beige; */
+    /* margin:auto 2.42vw; */
+    margin:auto 0.58%;
+    /* margin:auto 6.1vh; */
 }
 
 .section_2 .itemBox .item .all {
@@ -402,46 +384,56 @@ header .menu>img {
 }
 
 .section_2 .itemBox .item .itemInfo {
+    /* width: 440px; */
     overflow: hidden;
     margin-top: 1.6rem;
     /* background-color:slategrey; */
 }
 
-.section_2 .itemBox .item .itemInfo p {
+.section_2 .itemBox .item .itemInfo>p {
     font-family: "inter";
     font-weight: 300;
     font-size: 0.9rem;
     color: #777;
-
 }
 
-.section_2 .itemBox .item .itemInfo p:first-of-type {
+.section_2 .itemBox .item .itemInfo>p:first-of-type {
     height: 20px;
     line-height: 20px;
 }
 
-.section_2 .itemBox .item .itemInfo .underline {
+.section_2 .itemBox .item .itemInfo .underline
+ {
     width: 100%;
-    height: 52px;
-    line-height: 52px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    padding-top: 8px;
+    padding-bottom:0.9rem; 
+   /* overflow: hidden; */
     font-family: "inter";
     font-weight: 400;
     font-size: 1.1rem;
     border-bottom: 1px solid #ddd;
+    /* background-color:beige;  */
+color: #000;
+}
+.section_2 .itemBox .item .itemInfo .underline>p:first-of-type{
+  margin-bottom: 12px;
+  /* background-color: gold; */
 }
 
-.section_2 .itemBox .item .itemInfo p:nth-of-type(2) {
+.section_2 .itemBox .item .itemInfo>p:nth-of-type(2) {
     height: 50px;
-    line-height: 50px;
+    line-height: 160%;
+  margin-top: 20px;
+  margin-bottom: 16px;
+    /* line-height: 50px; */
     font-family: "noto";
     font-weight: 400;
     color: #000;
+    /* background-color:saddlebrown;  */
+
 }
 
-.section_2 .itemBox .item .itemInfo p:nth-of-type(3) {
+.section_2 .itemBox .item .itemInfo>p:nth-of-type(3) {
     height: 20px;
     line-height: 20px;
     font-weight: 400;
@@ -455,7 +447,7 @@ header .menu>img {
     border-bottom: solid 1px #000;
     padding-bottom: 0.5px;
     margin: auto;
-    margin-top: 6.2rem;
+    margin-top: 10rem;
 }
 
 /* section_3 슬라이드 */
@@ -487,9 +479,14 @@ header .menu>img {
 }
 
 .section_3 .slide p {
-    width: 184px;
+    width: 192px;
+    height: 48px;
+    line-height: 48px;
+    /* padding: 0 8px; */
+    /* width: 184px;
     height: 45px;
-    padding: 0 6px;
+    line-height: 45px; 
+    padding: 0 6px;*/
     background-color: #fff;
     position: absolute;
     right: 3.5%;
@@ -497,11 +494,10 @@ header .menu>img {
     top: 50%;
     transform: translateY(-50%);
     font-family: "inter";
-    font-size: 0.9rem;
+    font-size: 1rem;
     font-weight: 600;
     letter-spacing: 0.2rem;
     text-align: center;
-    line-height: 45px;
 
 }
 
@@ -509,16 +505,15 @@ header .menu>img {
 /* section_4 */
 .section_4 {
     width: 100%;
-    margin-top: 0;
+    margin-top: 300px;
 }
 
 .section_4 h3 {
-    margin-top: 18rem;
     margin-left: 13.8%;
     /* 260/1900*100 = 13.8% */
     font-family: "cormo";
     font-weight: 600;
-    font-size: 2.2rem;
+    font-size: 2rem;
     line-height: 130%;
 }
 
@@ -552,14 +547,15 @@ header .menu>img {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 20% 0;
+    padding: 17% 0;
 }
 
-.section_4 .container .when p:first-of-type {
+/* .section_4 .container .when p:first-of-type { */
+.section_4 .container .when .w ,
+.section_4 .container .when .ice{
     color: #000;
     font-size: 1.6rem;
     font-weight: 500;
-    /* margin-top: 5.5vw; */
     font-family: "yes";
     font-weight: 500;
     width: fit-content;
@@ -567,7 +563,12 @@ header .menu>img {
     margin: auto;
     /* background-color: gold; */
 }
-
+.section_4 .container .when .ice{
+    height:72px;
+    line-height: 130%;
+    /* background-color: salmon; */
+  
+}
 .section_4 .container .when p:nth-of-type(2) {
     display: inline-block;
     width: 181px;
@@ -586,12 +587,14 @@ header .menu>img {
 .section_5 {
     /* width: 100%; */
     width: calc(100% - 13.1%);
+    overflow: hidden;
     float: right;
     position: relative;
-    margin-top: 18rem;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    /* margin-top: 350px; */
+    margin: 350px auto;
 
 
 }
@@ -608,7 +611,7 @@ header .menu>img {
 .section_5 .left h3 {
     font-family: "cormo";
     font-weight: 600;
-    font-size: 2.2rem;
+    font-size: 2rem;
     line-height: 130%;
 
 }
@@ -655,14 +658,15 @@ header .menu>img {
 .section_6 {
     width: 100%;
     overflow: hidden;
-    margin-top: 98rem;
     background-color: #000;
     padding-bottom: 72px;
     position: relative;
+    
 }
 
 .section_6 .reviewTitle {
     /* width: 100%; */
+    width: 73%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -672,7 +676,7 @@ header .menu>img {
     font-size: 1rem;
     font-family: "noto";
     color: #fff;
-
+/* background-color: beige; */
 }
 
 .section_6 .reviewTitle p:first-of-type {
@@ -689,6 +693,7 @@ header .menu>img {
 }
 
 .section_6 .review {
+    overflow: hidden;
     margin: auto 6%;
 }
 
@@ -876,7 +881,30 @@ footer {
 } */
 
 
-/* 1446 */
+@media screen and (max-width:1680px){
+    .section_4 .container .when .w ,
+    .section_4 .container .when .ice{
+    font-size: 1.35rem;
+}
+.section_4 .container .when p:nth-of-type(2) {
+    width: 172px;
+    height: 34px;
+    line-height: 34px;
+    font-size: 0.8rem;
+
+}
+
+.section_3 .slide p {
+    width: 184px;
+    height: 46px;
+    line-height: 46px; 
+    font-size: 0.9rem;
+
+}
+
+}
+
+
 @media screen and (max-width:1025px) {
     .logo {
         width: 120px;
@@ -915,40 +943,69 @@ footer {
     .section_1 .titleBox p {
         font-size: 1.8rem;
     }
-
-    .section_2 h3 {
-        margin-top: 18rem;
+    .section_2 {
+        margin-top: 200px;
     }
+    .section_2 h3,
+    .section_4 h3 {
+        font-size: 1.8rem;
+        margin-left: 8%;
+    }
+    .section_2 .itemBox{
+        width: 88%;
+    }
+    .section_2 .itemBox .item {
+    margin:auto 0.2%;
 
-
+    }
     .section_2 .itemBox .item .itemInfo .underline {
         height: 5.2rem;
         flex-direction: column;
         padding-top: 6px;
     }
+    .section_2 .more {
+        font-size: 0.9rem;
+        margin-top: 7.5rem;
 
-    /* .section_3 {
-        margin-top: 20rem;
-    } */
-    /* .section_3 .slide img{
-   
-   height: fit-content;
-} */
-    .section_4 .container .when p:first-of-type {
-        font-size: 1.2rem;
-        font-weight: 500;
     }
+    .section_3 {
+        margin-top: 300px;
+    width: 83.9%;
+}
+.section_3 .slide p {
+    font-size: 0.8rem;
+    width: 168px;
+    height: 42px;
+    line-height: 42px;
+}
+.section_4 {
+    margin-top: 250px;
+}
+.section_4>p{
+    margin-left: 8%;
+}
+.section_4 .container {
+    width: 84%;
+
+}
+.section_4 .container .when .w ,
+.section_4 .container .when .ice{
+font-size: 1.2rem;
+}
 
     .section_4 .container .when p:nth-of-type(2) {
-        width: 160px;
-        height: 34px;
-        line-height: 34px;
-        font-weight: 400;
+        width: 140px;
+        height: 32px;
+        line-height: 32px;
+       
     }
-
+    .section_5 {
+        width: 92%;
+margin:300px auto;
+    }
     .section_5 .left {
         width: 37%;
-        padding: 8vw 0;
+        padding: 6vw 0;
 
     }
 
@@ -961,9 +1018,6 @@ footer {
 
     }
 
-    .section_6 {
-        margin-top: 80rem;
-    }
 }
 
 /* 아이패드프로3 */
@@ -1095,7 +1149,7 @@ footer {
         min-height: 900px;
     }
 } */
-@media screen and (max-width:768px) {
+@media screen and (max-width:769px) {
     header .headeri {
         height: 80px;
     }
@@ -1136,40 +1190,42 @@ footer {
     .section_1 .titleBox p {
         font-size: 1.4rem;
     }
-
-    .section_2 h3 {
-        font-size: 1.9rem;
+    .section_2 {
+        margin-top: 180px;
     }
-
-    .section_2 .itemBox .item .itemInfo {
-        padding-right: 28px;
+    .section_2 h3,
+    .section_4 h3 {
+        font-size: 1.7rem;
     }
-
-
+    .section_2 .itemBox{
+        width: 87%;
+    }
+    .section_2 .itemBox .item{
+        margin-right: 0.26%;
+    }
     .section_3 .slide p {
         font-size: 0.7rem;
-        width: 140px;
-        height: 30px;
-        line-height: 30px;
+        width: 150px;
+        height: 37.5px;
+        line-height: 37.5px;
     }
+    .section_4>p{
+    margin-top: 6px;
+    margin-bottom: 30px;
 
-    .section_4 h3 {
-        font-size: 1.9rem;
     }
-
     .section_4 .container {
         grid-template-columns: repeat(1, 1fr);
 
     }
 
-    .section_4 .container .when p:first-of-type {
-    
-        font-size: 1.2rem;
-        font-weight: 500;
-       
-
-    }
-
+    .section_4 .container .when .w ,
+    .section_4 .container .when .ice{
+    font-size: 1.4rem;
+}
+.section_4 .container .when .ice{
+    line-height: 145%;
+}
     .section_4 .container .when p:nth-of-type(2) {
         display: inline-block;
         width: 160px;
@@ -1177,7 +1233,6 @@ footer {
         line-height: 37px;
         font-size: 0.9rem;
         font-weight: 400;
-      
         margin: auto;
     }
 
@@ -1205,8 +1260,23 @@ footer {
     .section_1 .titleBox {
         top: 56vw;
     }
-.section_2 h3{
-    font-size: 1.6rem;
+.section_2 .itemBox .item .itemInfo>p{
+    font-size: 0.8rem;
+}
+/* .section_2 .itemBox .item .itemInfo .underline>p:first-of-type{
+    height: 50px;
+    line-height: 136%;
+  margin-bottom:0;
+    
+} */
+.section_2 .itemBox .item .itemInfo .underline{
+    height: 4.8rem;
+font-size: 1rem;
+}
+.section_2 h3,
+.section_4 h3{
+    font-size: 1.5rem;
+    /* margin-left: 8%; */
 }
     .section_3 {
         width: 100%;
@@ -1221,28 +1291,14 @@ footer {
     .section_4 .container {
         width: 100%;
     }
-    .section_4 h3 {
-       font-size: 1.6rem;
-        margin-left:8%;
-    }
+   
     .section_4>p{
-        margin-left:8%;
-        margin-right:8%;
+        /* margin-left:8%;
+        margin-right:8%; */
         font-size: 1rem;
     }
-    
-    .section_4 .container .when p:first-of-type{
-        font-size: 1.2rem;
-      
-     
-    }
-    
-    .section_4 .container .when p:nth-of-type(2){
-        width: 146px;
-        height: 32px;
-        line-height: 32px;
-        font-size: 0.8rem;
-    }
+   
+
 }
 
 
@@ -1279,15 +1335,50 @@ footer {
     .section_1 .titleBox p {
         font-size: 1.2rem;
     }
-
-    /* .section_1 .titleBox h2 {
-        font-size: 1.4rem;
+    .section_2 .itemBox{
+        padding-bottom:3rem;
+    }
+    /* dots */
+    .section_2  .slick-dots{
+    bottom: 0;
     }
 
-    .section_1 .titleBox p {
-        font-size: 1.2rem;
-    } */
+.section_2 .itemBox .item .itemInfo>p {
+    font-size: 0.9rem;
+}
+    .section_2 .itemBox .item .itemInfo .underline{
+    font-size: 1.1rem;
+    }
 
+.section_2 .more {
+    margin-top: 4rem;
+    font-size: 0.8rem;
+}
+.section_3 .slide p {
+    font-size: 0.64rem;
+    width: 142px;
+    height: 35.5px;
+    line-height: 35.5px;
+}
+    .section_4 .container .when{
+        padding: 20% 0;
+    }
+   
+    .section_4 .container .when .w ,
+    .section_4 .container .when .ice{
+    font-size: 1.2rem;
+}
+.section_4 .container .when .ice{
+    line-height: 135%;
+}
+    .section_4 .container .when p:nth-of-type(2) {
+        display: inline-block;
+        width: 140px;
+        height: 32px;
+        line-height: 32px;
+        font-size: 0.8rem;
+     
+    }
 }
 
 /* 
@@ -1491,23 +1582,36 @@ footer {
     }
 
     .section_3 {
-        width: 100%;
-        margin: 0 auto;
+     
         margin-top: 45rem;
     }
 
     .section_3 .slide p {
-        font-size: 0.6rem;
+        font-size: 0.62rem;
         width: 136px;
-        height: 32px;
-        line-height: 32px;
+        height: 34px;
+        line-height: 34px;
     }
-
     .section_4>p {
         margin-right: 12%;
     }
 
-    .section_4 .container .when p:first-of-type {
+    .section_4 .container .when .w ,
+    .section_4 .container .when .ice{
+    font-size: 1rem;
+}
+.section_4 .container .when .ice{
+height: fit-content;
+    line-height: 124%;
+}
+.section_4 .container .when p:nth-of-type(2) {
+    font-size: 0.7rem;
+    width: 116px;
+    height: 26px;
+    line-height: 26px;
+    
+}
+    /* .section_4 .container .when p:first-of-type {
         font-size: 0.9rem;
 
     }
@@ -1517,7 +1621,7 @@ footer {
         height: 26px;
         line-height: 26px;
         font-size: 0.7rem;
-    }
+    } */
 
     .section_5 {
         margin-top: 16rem;
@@ -1552,10 +1656,8 @@ footer {
 
 
     .section_1 .titleBox {
-
         width: 260px;
         top: 65vw;
-
     }
 
     .section_1 .titleBox h2 {
@@ -1566,23 +1668,9 @@ footer {
         font-size: 0.9rem;
     }
 
-    .section_2 .itemBox .item .itemInfo p {
-        font-size: 0.9rem;
-    }
-
-    .section_2 .itemBox .item .itemInfo .underline {
-        font-size: 1.2rem;
-        height: 5rem;
-
-    }
-
-    .section_2 .more {
-        font-size: 0.8rem;
-    }
-
-    .section_3 {
-        width: 100%;
-    }
+    .section_2 .itemBox .item .itemInfo .underline{
+        font-size: 1rem;
+        }
 
     .section_4>p {
         margin-top: 8px;
