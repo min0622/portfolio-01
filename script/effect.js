@@ -95,39 +95,6 @@ $('.section_3>.slide>a>img').on({
 
 
 
-
-
-
-
-
-  // section2 슬라이드
-  // $('#wrap .section_2 .itemBox').slick({
-  //   dots: true,
-  //   infinite: false,
-  //   speed: 300,
-  //   slidesToShow: 3,
-  //   slidesToScroll: 3,
-  //   responsive: [
-  //     {
-  //       breakpoint: 969,
-  //       settings: {
-  //         slidesToShow: 2,
-  //         slidesToScroll: 2,
-  //         infinite: true,
-  //         dots: true
-  //       }
-  //     },
-  //     {
-  //       breakpoint: 577,
-  //       settings: {
-  //         slidesToShow: 1,
-  //         slidesToScroll: 1
-  //       }
-  //     }
-
-  //   ]
-  // });
-
   $('#wrap .section_2 .itemBox').slick({
     centerMode: false,
     centerPadding: '10px',
@@ -177,48 +144,95 @@ $('.section_3>.slide>a>img').on({
 
 
   // section6 리뷰 슬라이드
+  // $('#wrap .section_6 .review').slick({
+  //   dots: true,
+  //   infinite: false,
+  //   speed: 300,
+  //   slidesToShow: 4,
+  //   slidesToScroll: 1,
+  //   responsive: [
+
+  //     {
+  //       breakpoint: 1440,
+  //       settings: {
+  //         slidesToShow: 3,
+  //         slidesToScroll: 2,
+  //         infinite: true,
+  //         dots: true
+  //       }
+  //     },
+  //     {
+  //       breakpoint: 969,
+  //       settings: {
+  //         slidesToShow: 2,
+  //         slidesToScroll: 2,
+  //         infinite: true,
+  //         dots: true
+  //       }
+  //     },
+  //     {
+  //       breakpoint: 576,
+  //       settings: {
+  //         slidesToShow: 1,
+  //         slidesToScroll: 1,
+  //         infinite: true,
+  //         dots: true
+  //       }
+  //     },
+
+
+
+  //   ]
+  // });
+
   $('#wrap .section_6 .review').slick({
-    dots: true,
-    infinite: false,
-    speed: 300,
+    centerMode: false,
+    centerPadding: '0',
+    // centerPadding: '10px',
     slidesToShow: 4,
-    slidesToScroll: 1,
+    slidesToScroll:2,
     responsive: [
-
       {
-        breakpoint: 1440,
+        breakpoint: 1681,
         settings: {
+          arrows: false,
+          centerPadding: '0',
           slidesToShow: 3,
-          slidesToScroll: 2,
-          infinite: true,
-          dots: true
+    slidesToScroll:2
         }
       },
       {
-        breakpoint: 969,
+        breakpoint: 1025,
         settings: {
+          arrows: false,
+          dots:true,
+          slidesToShow: 3,
+          slidesToScroll:2
+
+        }
+      },
+      {
+        breakpoint: 769,
+        settings: {
+          arrows: false,
+          dots:true,
           slidesToShow: 2,
-          slidesToScroll: 2,
-          infinite: true,
-          dots: true
+          slidesToScroll:2
+
         }
       },
       {
-        breakpoint: 576,
+        breakpoint: 451,
         settings: {
+          arrows: false,
+          dots:true,
           slidesToShow: 1,
-          slidesToScroll: 1,
-          infinite: true,
-          dots: true
+          slidesToScroll:1
+
         }
-      },
-
-
-
+      }
     ]
-  });
-
-
+  })
 
 
 
