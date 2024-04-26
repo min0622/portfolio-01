@@ -271,20 +271,6 @@ header .menu>img {
 
 
 
-.section_6 .slick-prev {
-    display: block;
-    position: absolute;
-    left: -50px;
-}
-
-.section_6 .slick-next {
-    display: block;
-    position: absolute;
-    right: -50px;
-}
-
-
-
 /* wrap */
 #wrap {
     width: 100%;
@@ -656,7 +642,8 @@ header .menu>img {
     width: 100%;
     overflow: hidden;
     background-color: #000;
-    padding-bottom: 72px;
+    padding-top: 67px;
+    padding-bottom: 80px;
     position: relative;
 
 }
@@ -667,9 +654,8 @@ header .menu>img {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-top: 67px;
     margin: 0 auto;
-    margin-bottom: 42px;
+    margin-bottom: 2rem;
     font-size: 1rem;
     font-family: "noto";
     color: #fff;
@@ -690,21 +676,26 @@ header .menu>img {
 }
 
 .section_6 .review {
+    width: 89%;
     overflow: hidden;
-    margin: auto 6%;
+    margin: auto ;
+    /* background-color: gold; */
 }
 
 .section_6 .review .rBox {
 
     height: 210px;
-    padding: 2.1rem 1.2rem;
+    padding: 2.1rem ;
     background-color: #fff;
     font-family: "noto";
     font-size: 0.9rem;
     font-weight: 400;
-    /* width: 100%; */
     position: relative;
-    margin-right: 0.8rem;
+   margin: auto 0.8rem;
+   
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
 
 }
 
@@ -720,33 +711,32 @@ header .menu>img {
 }
 
 .section_6 .review .rBox p:first-of-type {
-    width: 86.84%;
-    margin-top: 18px;
+    height: 54px;
 }
 
 .section_6 .review .rBox p:nth-of-type(2) {
-    position: absolute;
-    right: 1.2vw;
-    bottom: 1.5vw;
     font-size: 0.7rem;
     font-weight: 400;
     color: #999;
+    align-self: flex-end;
+    margin-top: 1.6rem;
 }
 
 .section_6 .review .rBox .rStar figure {
     margin-left: 25px;
 }
 
-.section_6 a .more {
+/* .section_6 a .more {
     width: fit-content;
     font-family: "noto";
-    font-weight: 500;
+    font-weight: 400;
     font-size: 1rem;
-    border-bottom: solid 1px #000;
+    border-bottom: solid 1px #fff;
+    color: #fff;
     padding-bottom: 0.5px;
     margin: auto;
-    margin-top: 48px;
-}
+  
+} */
 
 /* 한문장 */
 .stn {
@@ -1077,6 +1067,26 @@ footer {
         margin-top: 3.8rem;
     }
 
+    /* .section_6 .review .rBox {
+   margin: auto 0.5rem;
+        
+    }
+    .section_6 .review .rBox p:first-of-type {
+        height:80px;
+        margin-top: 1rem;
+    } */
+
+    .section_6 .review .rBox {
+        height: 180px;
+        font-size: 0.8rem;
+    
+    }
+    .section_6 .review .rBox p:first-of-type {
+        height: 54px;
+    }
+    .section_6 .review .rBox {
+        margin:auto 0.5rem;
+    }
 
 }
 
@@ -1337,6 +1347,23 @@ footer {
     margin-top: 6.2rem;
 
 }
+.section_6 .review .rBox {
+    /* height: 160px; */
+    margin:auto 0.3rem;
+    padding: 1.8rem 1.4rem;
+
+}
+
+/* .section_6 .review .rBox {
+    height: 180px;
+    font-size: 0.8rem;
+
+}
+.section_6 .review .rBox p:first-of-type {
+    height: 54px;
+} */
+
+
     .stn {
         margin: 14rem 8%;
 
@@ -1394,7 +1421,21 @@ footer {
         margin-right:8%; */
         font-size: 1rem;
     }
+    .section_6 {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .section_6 .reviewTitle {
+    font-size: 0.9rem;
 
+    }
+.section_6 .review {
+    width: 92%;
+}
+.section_6 .review .rBox {
+
+    padding: 1.4rem ;
+}
 
 }
 
@@ -1711,11 +1752,10 @@ footer {
     .section_5 {
        margin-bottom: 280px;
     }
-
-    .section_6 .reviewTitle {
-        margin: 0 8.6%;
+    .section_6{
+      padding: 40px 0;
+    
     }
-
     .stn {
         margin: 10rem 8%;
         font-size: 1.8rem;
