@@ -1013,7 +1013,7 @@ footer {
         margin-top: 240px;
         width: 83.9%;
     }
-
+  
     .section_3 .slide p {
         font-size: 0.8rem;
         width: 168px;
@@ -1386,8 +1386,8 @@ footer {
     .section_3 .slide {
         display: flex;
         flex-direction: column;
-
     }
+ 
 
     .section_4 .container {
         width: 100%;
