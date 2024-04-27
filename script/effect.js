@@ -143,48 +143,6 @@ $('.section_3>.slide>a>img').on({
   });
 
 
-  // section6 리뷰 슬라이드
-  // $('#wrap .section_6 .review').slick({
-  //   dots: true,
-  //   infinite: false,
-  //   speed: 300,
-  //   slidesToShow: 4,
-  //   slidesToScroll: 1,
-  //   responsive: [
-
-  //     {
-  //       breakpoint: 1440,
-  //       settings: {
-  //         slidesToShow: 3,
-  //         slidesToScroll: 2,
-  //         infinite: true,
-  //         dots: true
-  //       }
-  //     },
-  //     {
-  //       breakpoint: 969,
-  //       settings: {
-  //         slidesToShow: 2,
-  //         slidesToScroll: 2,
-  //         infinite: true,
-  //         dots: true
-  //       }
-  //     },
-  //     {
-  //       breakpoint: 576,
-  //       settings: {
-  //         slidesToShow: 1,
-  //         slidesToScroll: 1,
-  //         infinite: true,
-  //         dots: true
-  //       }
-  //     },
-
-
-
-  //   ]
-  // });
-
   $('#wrap .section_6 .review').slick({
     centerMode: false,
     centerPadding: '0',
@@ -232,14 +190,35 @@ $('.section_3>.slide>a>img').on({
         }
       }
     ]
-  })
+  });
 
 
-
-
-
-				
-
-
-
+  
+  
+  
+  
+  
+  
 });
+
+
+// footer 
+
+// document.addEventListener('DOMContentLoaded',()=>{
+  
+//   let btn = document.querySelector('.btn')
+//   let text = document.querySelector('.underLeft')
+  
+  
+//   function show(){
+  
+//     if(text.style.display=='none'){
+//       text.style.display='block';
+//       btn.textContent='CLOSE ▼'
+//     } else{
+//         text.style.display='none';
+//         btn.textContent='OPEN ▼'
+//       }
+//     }
+  
+// })
