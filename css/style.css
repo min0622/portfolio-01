@@ -253,23 +253,6 @@ header .menu>img {
 
 }
 
-/* section_2 상품 여백 조절 */
-/* 슬라이드 부모  마진 음수*/
-/* .section_2 .slick-list {
-    margin: 0 -44px;
-    margin: 0 -0.43%;
-    padding: 0 ;
-} */
-
-/* 슬라이드 자식 마진 양수 */
-/* .section_2 .slick-slide {
-    margin: 0 44px;
-    margin: 0 0.43%;
-    padding: 0 ;
-} */
-
-
-
 
 /* wrap */
 #wrap {
@@ -784,7 +767,7 @@ height: 26px;
     display: inline-block;
     margin-top: 5px;
 }
-button{
+.btn{
     display:inline block;
     background-color: #000;
     color: #fff;
@@ -1311,12 +1294,7 @@ bottom: 0;
         font-size: 0.8rem;
     }
 
-    /* .section_2 .itemBox .item .itemInfo .underline>p:first-of-type{
-    height: 50px;
-    line-height: 136%;
-  margin-bottom:0;
     
-} */
     .section_2 .itemBox .item .itemInfo .underline {
         height: 4.8rem;
         font-size: 1rem;
@@ -1510,158 +1488,6 @@ left: 48px;
     }
 }
 
-/* 
-
-@media screen and (max-width:576px) {
-
-
-
-    header .icon {
-        margin-top: 27px;
-    }
-
-    header .icon a {
-        width: 26px;
-        height: 26px;
-        margin-left: 1.2rem;
-    }
-
-    .section_1 .main {
-        display: none;
-    }
-
-    .section_1 .mo_main1 {
-        display: block;
-    }
-
-    .section_1 .titleBox {
-        top: 56vw;
-    }
-
-    .section_1 .titleBox h2 {
-        font-size: 2.2em;
-    }
-
-    .section_1 .titleBox p {
-        font-size: 1.4rem;
-    }
-
-    .section_2 {
-        top: 150vw;
-    }
-    .section_2 h3{
-        margin-left:8%;
-    }
-    .section_2 .itemBox{
-        width: 84%;
-        margin-top: 2.4rem; 
-    }
-    .section_2 .itemBox .item .imgBox {
-        width: 100%;
-    }
-    .section_2 .itemBox .item .itemInfo {
-        margin-top: 2rem;
-        padding-right: 0;
-    }
- 
-    .section_2 .more{
-        font-size: 0.9rem;
-    }
-    .section_5 a .more,
-    .section_6 a .more{
-        font-size: 0.9rem;
-    }
-    .section_3 {
-        width: 100%;
-        margin-top: 65rem;
-    }
-
-
-.section_3 .slide p {
-    width: 142px;
-    height: 36px;
-    line-height: 36px;
-    letter-spacing: 0.2rem;
-}
-.section_4 h3 {
-    margin-top: 10rem;
-    margin-left:8%;
-}
-.section_4>p{
-    margin-left:8%;
-    margin-right:8%;
-    font-size: 1rem;
-}
-
-.section_4 .container .when p:first-of-type{
-    font-size: 1.2rem;
-    margin-top: 10vw;
-    font-weight: 700;
-}
-
-.section_4 .container .when p:nth-of-type(2){
-    width: 146px;
-    height: 32px;
-    line-height: 32px;
-    font-size: 0.8rem;
-}
-.section_5 .left {
-    width: auto;
-    margin:0 8%;
-    margin-top: 3rem
-}
-.section_5 .left span{
-    font-size: 0.9rem;
-    margin-bottom: 0.8rem;
-} 
-.section_5 .left p {
-    font-size: 0.9rem;
-}
-.section_6{
-    margin-top: 108rem;
-}
-.section_6 .reviewTitle{
-    margin: 0 8.3%;
-    margin-bottom: 42px;
-    justify-content: space-between;
-}
-.stn{
-    margin: 11rem 8%;
-    font-size: 2rem;    
-}
-.footerI{
-    margin: auto 8%;
-
-}
-.footerI .lineBox{
-    flex-direction: column;
-
-}
-.footerI .lineBox .serBox{
-    margin-top:2.2rem ;
-    margin-top:1.8rem ;
-
-}
-.footerI .underTop{
-    flex-direction: column;
-    height: 7rem;
-}
-.footerI .under{
-    flex-direction: column;
-
-}
-.footerI .under .underLeft {
-    width: 100%;
-}
-.footerI .under .underLeft .copy{
-    width: 420px;
-}
-.footerI .under .sns{
-    justify-content: flex-start;
-    margin-top: 1.5rem;
-
-}
-} */
 
 /* 가로모드 */
 /* @media screen and (orientation:landscape){
@@ -1735,11 +1561,6 @@ left: 48px;
     .stn {
         margin: 9rem 8%;
     }
-
-    /* .footerI .under .underLeft .copy {
-        width: fit-content;
-        width: 300px;
-    } */
 
 }
 
