@@ -77,17 +77,6 @@
             </div>
 
 
-
-            <!-- <div class="btnBox">
-                <button type="button" class="menu">
-                    <img src="./img/web/main/menu.png" alt="menu">
-                </button>
-                <button type="button" class="x">
-                    <img src="./img/mobile/main/x.png" alt="x">
-                </button>
-            </div> -->
-
-
             <button type="button" class="menu">
                 <img src="./img/web/main/menu.png" alt="menu">
             </button>
@@ -508,7 +497,7 @@
             <div class="fLeft">
 
 
-  <div class="hideInfo">
+                <div class="hideInfo">
                     <span>INFORMATION</span>
                     <button type="button" class="btn" onclick="show()">OPEN ▼</button>
                 </div>
@@ -528,7 +517,7 @@
                     </li>
                 </ul>
 
-              
+
 
                 <!-- <div class="under"> -->
                 <div class="underLeft">
@@ -597,24 +586,25 @@
 
     </footer>
     <!-- //footer -->
+
     <script>
         let btn = document.querySelector('.btn')
-let text = document.querySelector('.underLeft')
-let text2 = document.querySelector('.underTop')
+        let text = document.querySelector('.underLeft')
+        let text2 = document.querySelector('.underTop')
 
 
-function show(){
+        function show() {
 
-  if(text.style.display=='none'){
-    text.style.display='block';
-    text2.style.display='block';
-    btn.textContent='CLOSE ▼'
-  } else{
-      text.style.display='none';
-      text2.style.display='none';
-      btn.textContent='OPEN ▼'
-    }
-  }
+            if (text.style.display == 'none'&& text2.style.display == 'none') {
+                text.style.display = 'block';
+                text2.style.display = 'block';
+                btn.textContent = 'CLOSE ▼'
+            } else {
+                text.style.display = 'none';
+                text2.style.display = 'none';
+                btn.textContent = 'OPEN ▼'
+            }
+        }
     </script>
 
 </body>
