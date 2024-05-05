@@ -456,15 +456,9 @@ header .menu>img {
     width: 192px;
     height: 48px;
     line-height: 48px;
-    /* padding: 0 8px; */
-    /* width: 184px;
-    height: 45px;
-    line-height: 45px; 
-    padding: 0 6px;*/
     background-color: #fff;
     position: absolute;
     right: 3.5%;
-    /* right: 18%; */
     top: 50%;
     transform: translateY(-50%);
     font-family: "inter";
