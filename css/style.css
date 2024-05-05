@@ -142,12 +142,10 @@ h1 span {
 .h_right {
     display: flex;
     justify-content: space-between;
-
 }
 
 nav ul {
     width: 41vw;
-
     margin-right: 5rem;
     display: flex;
     justify-content: space-between;
@@ -155,7 +153,6 @@ nav ul {
     font-family: "noto";
     font-weight: 300;
     font-size: 1rem;
-
 }
 
 
@@ -185,7 +182,6 @@ header .menu {
     width: 30px;
     height: 30px;
     background-color: transparent;
-    /* background-color: gold; */
     border: none;
     cursor: pointer;
     display: none;
@@ -198,7 +194,6 @@ header .menu>img {
     width: 18px;
     height: 18px;
     background-color: transparent;
-    /* background-color: #fff; */
     position: absolute;
     top: 6px;
     right: 6px;
@@ -210,13 +205,11 @@ header .menu>img {
     height: 100vh;
     overflow: auto;
     background-color: #fff;
-    /* background-color: gold; */
     position: fixed;
     z-index: 998;
     top: 0;
     right: 0;
     display: none;
-
 }
 
 .mo_menu .x {
@@ -226,7 +219,7 @@ header .menu>img {
     background-color: transparent;
     border: none;
     position: absolute;
-    top: 41px;
+    top: 31px;
     right: 8%;
     z-index: 981;
 
@@ -234,23 +227,16 @@ header .menu>img {
 }
 
 .mo_menu ul {
-    /* background-color: slategrey; */
     max-width: 768px;
-
     margin: auto 8%;
-    /* margin: auto; */
     margin-top: 150px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-
-
 }
 
 .mo_menu ul li {
-
     padding: 25px 0;
-
 }
 
 
@@ -319,49 +305,33 @@ header .menu>img {
 
 .section_2 h3 {
     margin-left: 13.6%;
-
-    /* max-width: 1400px;
-    margin: auto; */
-
     font-family: "cormo";
     font-weight: 600;
     font-size: 2rem;
     line-height: 130%;
-    /* background-color: gainsboro; */
-
 }
 
 .section_2 .itemBox {
     width: 77.2%;
-
     overflow: hidden;
     margin: auto;
     margin-top: 3rem;
-
-    /* background-color:salmon; */
 }
 
 
 .section_2 .itemBox .item {
     overflow: hidden;
-    /* background-color: beige; */
-    /* margin:auto 2.42vw; */
     margin: auto 0.58%;
-    /* margin:auto 6.1vh; */
 }
 
 .section_2 .itemBox .item .all {
     display: inline-block;
-    /* width: 400px; */
     overflow: hidden;
-    /* margin: auto; */
 }
 
 .section_2 .itemBox .item .itemInfo {
-    /* width: 440px; */
     overflow: hidden;
     margin-top: 1.6rem;
-    /* background-color:slategrey; */
 }
 
 .section_2 .itemBox .item .itemInfo>p {
@@ -380,18 +350,15 @@ header .menu>img {
     width: 100%;
     padding-top: 8px;
     padding-bottom: 0.9rem;
-    /* overflow: hidden; */
     font-family: "inter";
     font-weight: 400;
     font-size: 1.1rem;
     border-bottom: 1px solid #ddd;
-    /* background-color:beige;  */
     color: #000;
 }
 
 .section_2 .itemBox .item .itemInfo .underline>p:first-of-type {
     margin-bottom: 12px;
-    /* background-color: gold; */
 }
 
 .section_2 .itemBox .item .itemInfo>p:nth-of-type(2) {
@@ -399,12 +366,9 @@ header .menu>img {
     line-height: 160%;
     margin-top: 20px;
     margin-bottom: 16px;
-    /* line-height: 50px; */
     font-family: "noto";
     font-weight: 400;
     color: #000;
-    /* background-color:saddlebrown;  */
-
 }
 
 .section_2 .itemBox .item .itemInfo>p:nth-of-type(3) {
@@ -454,7 +418,7 @@ header .menu>img {
 
 .section_3 .slide p {
     width: 192px;
-    height: 48px;
+    height: 48px;   
     line-height: 48px;
     background-color: #fff;
     position: absolute;
@@ -989,7 +953,6 @@ bottom: 0;
 
     .section_2 .itemBox .item .itemInfo .underline {
         height: 5.2rem;
-        flex-direction: column;
         padding-top: 6px;
     }
 
