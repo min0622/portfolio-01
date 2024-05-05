@@ -1,67 +1,64 @@
-$(function(){
+$(function () {
 
 
   // 햄버거바 ; 공통 effect  
-  $('header .headeri .side .hide .menu').click(function () {
-    $('.mo_menu').fadeIn();
-  });
+  $('header .headeri .menu').click(function () {
+    $('.mo_menu').stop(true).slideToggle(700);
 
-  $('.mo_menu button').click(function () {
-    $('.mo_menu').fadeOut()
-  });
+  })
 
 
-//s2_section1
-// $('#sub2_wrap .s2_section1 .teaBox .box .tea').on({
-//     mouseover:function(){
-//         $(this).stop(true).animate({opacity:'0.6'},400,'easeInOutQuad')
-   
-//     },
-//     mouseout:function(){
-//         $(this).stop(true).animate({opacity:'1'},400,'easeInOutQuad')
-   
-//     }
-// })
+
+  $('.x').click(function () {
+    $('.mo_menu').stop(true).slideToggle(700);
+
+  })
 
 
 
 
 
 
-// tea파일
-$('.s2_section1 .teaBox').slick({
-    dots: true,
-    infinite: false,
-    speed: 300,
+  // tea파일
+
+  $('.s2_section1 .teaBox').slick({
+    centerMode: false,
+    centerPadding: '1px',
     slidesToShow: 4,
-    slidesToScroll: 4,
+    slidesToScroll: 3,
     responsive: [
       {
-        breakpoint: 1024,
+        breakpoint: 1300,
         settings: {
+          arrows: false,
+          centerPadding: '0',
           slidesToShow: 3,
-          slidesToScroll: 3,
-          infinite: true,
-          dots: true
-        }
-      },
-      {
-        breakpoint: 600,
-        settings: {
-          slidesToShow: 2,
           slidesToScroll: 2
         }
       },
       {
-        // breakpoint: 480,
+        breakpoint: 638,
+        settings: {
+          arrows: false,
+          dots: true,
+          slidesToShow: 2,
+          slidesToScroll: 1
+
+        }
+      },
+      {
         breakpoint: 281,
         settings: {
+          arrows: false,
+          dots: true,
           slidesToShow: 1,
           slidesToScroll: 1
+
         }
       }
-      
     ]
-  });
+  })
+
+
 
 });

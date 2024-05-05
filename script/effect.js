@@ -9,9 +9,6 @@ $('header .headeri .menu').click(function(){
 
 
 $('.x').click(function(){
-
-
-
   $('.mo_menu').stop(true).slideToggle(700);
 
 })
