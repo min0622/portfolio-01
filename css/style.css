@@ -567,7 +567,10 @@ header .menu>img {
     width: 46.4%;
    
 }
-
+.section_5 .right .min{
+    width: fit-content;
+    height: fit-content;
+}
 .section_5 a .more {
     width: fit-content;
     font-family: "noto";
