@@ -357,9 +357,15 @@ font-weight: 600;
 .s1_section4 .s_left{
     width:55%;
 }
-.s1_section4 .s_left img{
+/* .s1_section4 .s_left img{
     width: fit-content;
+} */
+
+.s1_section4 .s_left .min{
+    width: fit-content;
+    height: fit-content;
 }
+
 .s1_section4 .s_right{
     /* width: 42%; */
     width: 680px;
@@ -601,11 +607,6 @@ bottom: 0;
 
 @media screen and (max-width:1446px){
 
-/* 
-    .s1_section1 .s_title{
-        top: 28.6vw;
-        right: 5%;
-    } */
     .s1_section1 .s_title h2{
         font-size: 1.8rem;
     } 
@@ -616,41 +617,28 @@ bottom: 0;
     .s1_section4 .s_left{
         width:54%;
     }
-    .s1_section4 .s_left img{
+    .s1_section4 .s_left .min{
         height: 460px;
         object-fit: cover;
     }
     .s1_section4 .s_right{
         width: 545px;
     }
-/* .s1_section2{
-    top: 156px;
-}
-    .s1_section2 p:nth-of-type(2){
-        font-size: 1.5rem;
-        line-height: 170%;
-    }
-    .s1_section2 .bold{
-    font-size: 2.2rem;
-    }
-    .s1_section4{
-        margin-right: 12%;
-    
-    }
-.s1_section4 .s_right{
-    margin-top: 0;
 
-}
-.s1_section4 .s_right h3{
-    font-size: 2.4rem;
-    padding-bottom: 1rem;
-
-}
-.s1_section4 .s_right p{
-    margin-bottom: 0.8rem;
-} */
 
 } 
+
+@media screen and (max-width:1194px){
+    .s1_section1 .s_title h2{
+        width: 370px;
+        font-size: 1.6rem;
+    } 
+    .s1_section1 .s_title p{
+        width: 380px;
+        font-size: 1.3rem; 
+    }
+}
+
 @media screen and (max-width:1025px) {
     .logo {
         width: 120px;
@@ -714,7 +702,7 @@ bottom: 0;
     .s1_section4 .s_left{
         width:55%;
     }
-    .s1_section4 .s_left img{
+    .s1_section4 .s_left .min{
         height: 295px;
         /* object-fit: contain; */
     }
@@ -758,118 +746,6 @@ bottom: 0;
     
 }
 
-@media screen and (max-width:1194px){
-    .s1_section1 .s_title h2{
-        width: 370px;
-        font-size: 1.6rem;
-    } 
-    .s1_section1 .s_title p{
-        width: 380px;
-        font-size: 1.3rem; 
-    }
-}
-
-/* 1194px */
-/* @media screen and (max-width:1194px){
-    .s1_section1 .s_title h2{
-        width: 370px;
-        font-size: 1.6rem;
-    } 
-    .s1_section1 .s_title p{
-        width: 380px;
-        font-size: 1.3rem; 
-    }
-    .s1_section2{
-        margin:0  10%; 
-    }
-    .s1_section2 p:nth-of-type(2){
-        font-size: 1.4rem;
-    }
-    .s1_section2 .bold{
-        font-size: 2rem;
-    }
-    .s1_section4{
-        margin-right: 8%;
-        
-    }
-    .s1_section4 .s_right h3{
-        font-size: 2rem;
-        margin-top:0.6rem;
-    }
-    .s1_section4 .s_right p{
-        font-size: 1rem;
-        line-height: 160%;
-        
-    }
-    
-} */
-
-/* @media screen and (max-width:968px){
-  
-.s1_section1 .s_title{
-    top: 23.6vw;
-
-}
-    .s1_section1 .s_title h2{
-        width: 340px;
-        font-size: 1.5rem;
-    margin-bottom: 0.9rem;
-
-    } 
-    .s1_section1 .s_title p{
-        width: 380px;
-    font-size: 1.2rem;
-        
-    }
-    .s1_section2{
-        top: 100px;
-    }
-
-.s1_section4{
-    flex-direction: column;
-    justify-content: center;
-    margin-right:0;
-}
-.s1_section4 .s_left{
-    width:100%;
-   padding:0  calc((100% - 900px) / 2);
-
-
-}
-.s1_section4 .s_right{
-    width: 73.63%;
-    margin: 0 13.1%;
-    margin-top: 5rem;
-    text-align: left;
-    align-items: start;
-}
-.s1_section4 .s_right h3{
-    padding-bottom: 1.3rem;
-
-}
-.s1_section4 .s_right p{
-    margin-bottom: 3rem;
-}
-  .s1_section5{
-        margin-top: 16.8rem;
-        margin-bottom:15rem;
-    }
-    .s1_section5 h3{
-        font-size: 2rem;
-        margin-bottom: 3rem;
-    }
-    
-    .s1_section5 .s_btn{
-        height: 240px;
-        flex-direction: column;
-    }
-    .s1_section5 .s_btn .s_btnBox:nth-of-type(2){
-        margin: 0;
-    }  
-  
-
-
-} */ 
 
 
 @media screen and (max-width:769px){
@@ -935,7 +811,7 @@ bottom: 0;
     .s1_section4 .s_left{
         width: 100%;
     }
-    .s1_section4 .s_left img{
+    .s1_section4 .s_left .min{
         width: fit-content;
         height: fit-content;
     }

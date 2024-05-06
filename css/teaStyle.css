@@ -146,7 +146,9 @@ nav ul {
     font-weight: 300;
     font-size: 1rem;
 }
-
+nav ul li:nth-of-type(2){
+    font-weight: 500;
+}
 
 header .icon {
     width: fit-content;
@@ -267,19 +269,16 @@ header .menu>img {
    overflow: hidden;
    margin: auto 0.31%;
 }
-/* .s2_section1 .teaBox .box a{
-    width: fit-content;
+.s2_section1 .teaBox .box a{
+    /* width: fit-content; */
     display: inline-block;
     overflow: hidden;
-} */
+   
+}
+
 .s2_section1 .teaBox .box figure{
     overflow: hidden;
 }
-
-/* .s2_section1 .teaBox .box .m:hover{
-    transform: scale(1.2);
-    transition-duration: 1s;
-} */
 
 
 .s2_section1 .teaBox .box .tea {
