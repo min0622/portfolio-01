@@ -15,6 +15,19 @@ $(function () {
   })
 
 
+$('.s2_section1 .teaBox .box a').on({
+
+  mouseover:function(){
+    // $('.s2_section1 .teaBox .box figure').css({transform:'scale(1.1)', transitionDuration:'.8s'});
+    $(this).find('figure').css({transform:'scale(1.1)', transitionDuration:'.7s'});
+  },
+  mouseout:function(){
+    // $('.s2_section1 .teaBox .box figure').css({transform:'scale(1)', transitionDuration:'.8s'});
+    $(this).find('figure').css({transform:'scale(1)', transitionDuration:'.7s'});
+  }
+
+})
+
 
 
 
