@@ -1170,7 +1170,6 @@ bottom: 0;
 .section_5 .left{
     width: 84%;
     padding-right: 0;
-    /* padding: 0 5rem; */
     margin: 5rem auto;
 }
 .section_5 .left p {
@@ -1321,23 +1320,6 @@ bottom: 0;
 }
 
 
-
-
-/* 
-.section_1 .titleBox {
-    top: 30vw;
-
-}
-
-.section_1 .titleBox h2 {
-    font-size: 2.2em;
-}
-
-.section_1 .titleBox p {
-    font-size: 1.4rem;
-} 
-*/
-
 @media screen and (max-width:451px) {
     .logo {
         width: 100px;
@@ -1408,7 +1390,7 @@ bottom: 0;
     .section_5 .left{
         width: 84%;
         padding-right: 0;
-    
+    margin-top: 0;
     }
     
     .section_5 .left h3{
