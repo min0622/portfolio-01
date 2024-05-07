@@ -702,7 +702,7 @@ footer {
     overflow: hidden;
     margin: auto;
     max-width: 1500px;
-padding:3rem 4rem;
+   padding:4rem;
     
     font-family: "noto";
     font-size: 0.9rem;
@@ -1280,8 +1280,6 @@ bottom: 0;
     }
 
     .section_4>p {
-        /* margin-left:8%;
-        margin-right:8%; */
         font-size: 1rem;
     }
     .section_6 {
@@ -1341,11 +1339,6 @@ bottom: 0;
         padding-bottom: 3rem;
     }
 
-    /* dots */
-    .section_2 .slick-dots {
-        bottom: 0;
-    }
-
     .section_2 .itemBox .item .itemInfo>p {
         font-size: 0.9rem;
     }
@@ -1390,8 +1383,8 @@ bottom: 0;
     .section_5 .left{
         width: 84%;
         padding-right: 0;
-    margin-top: 0;
-    background-color: beige;
+    /* margin-top: 0;
+    background-color: beige; */
     }
     
     .section_5 .left h3{
