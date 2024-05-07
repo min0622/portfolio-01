@@ -257,12 +257,9 @@ header .menu>img {
 }
 
 .section_1 .main {
+    width: 100%; 
     position: relative;
-    position: absolute;
-    top: -50px;
-    left: 0;
-    width: 100%;
-    display: block;
+    top: 0;
 }
 
 .section_1 .titleBox {
@@ -289,14 +286,14 @@ header .menu>img {
 }
 
 /* 모바일버전 */
-.section_1 .mo_main1 {
+/* .section_1 .mo_main1 {
     width: 100%;
     height: 100%;
     position: absolute;
     top: 80px;
     left: 0;
     display: none;
-}
+} */
 
 
 /* section_2  슬라이드*/
@@ -921,7 +918,9 @@ bottom: 0;
         width: 18px;
         height: 18px;
     }
-
+    .section_1 .main {
+        top: 80px;
+    }
     .section_1 .titleBox {
         top: 26vw;
         margin-left: 8%;
@@ -1094,10 +1093,6 @@ bottom: 0;
 
     nav ul {
         display: none;
-    }
-
-    .section_1 .main {
-        top: 80px;
     }
 
     .section_1 .titleBox {
