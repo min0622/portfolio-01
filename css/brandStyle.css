@@ -235,7 +235,9 @@ header .menu>img {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-
+    font-family: "noto";
+    font-weight: 400;
+    font-size: 1.1rem;
 
 }
 
@@ -340,6 +342,10 @@ font-weight: 600;
 .s1_section3 .ibox iframe{
     width: 100%;
     height: 100%;
+    border: none;
+    /* title="Twinings Flagship Store London" frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    allowfullscreen */
 } 
 
 .s1_section4{
@@ -469,7 +475,7 @@ footer {
     overflow: hidden;
     margin: auto;
     max-width: 1500px;
-padding:3rem 4rem;
+padding:4rem;
     
     font-family: "noto";
     font-size: 0.9rem;
@@ -637,6 +643,12 @@ bottom: 0;
         width: 380px;
         font-size: 1.3rem; 
     }
+    .s1_section2 p:nth-of-type(2){
+        font-size: 1.5rem;
+    }
+    .s1_section2 .bold{
+        font-size: 2.2rem;
+    }
 }
 
 @media screen and (max-width:1025px) {
@@ -661,6 +673,9 @@ bottom: 0;
         width: 18px;
         height: 18px;
     }
+/* .s1_section1 .main{
+    top: 100px;
+} */
     .s1_section1 .s_title h2{
         width: 370px;
         font-size: 1.6rem;

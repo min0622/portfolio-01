@@ -227,11 +227,15 @@ header .menu>img {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    font-family: "noto";
+    font-weight: 400;
+    font-size: 1.1rem;
 }
 
 .mo_menu ul li {
     padding: 25px 0;
 }
+
 
 
 /* sub2_wrap */
@@ -297,9 +301,9 @@ header .menu>img {
    
 
 }
-.s2_section1 .teaBox .box .tea:hover{
+/* .s2_section1 .teaBox .box .tea:hover{
    opacity: .8;
-}
+} */
 
 .s2_section1 .desc {
     font-family: "noto";
@@ -426,7 +430,7 @@ margin-top: 350px;
     overflow: hidden;
     margin: auto;
     max-width: 1500px;
-padding:3rem 4rem;
+padding: 4rem;
     
     font-family: "noto";
     font-size: 0.9rem;
@@ -863,14 +867,18 @@ left: 48px;
 
 @media screen and (max-width:391px) {
  
-    /* .s2_section1 .teaBox .box .tea {
+    .s2_section1 .teaBox .box{
+       margin: auto 0.15%;
+    }
+
+ /* .s2_section1 .teaBox .box .tea {
         width: 134px;
         height: 32px;
         line-height: 32px;
         font-size: 0.7rem;
         bottom: 12px;
-    }
-    .s2_section1 h2{
+    } */
+     /*   .s2_section1 h2{
         font-size: 1.6rem;
     }
 
@@ -903,14 +911,21 @@ left: 48px;
 
 }
 
-@media screen and (max-width:281px) {
-   
-    /* .s2_section1 h2{
-        font-size: 1.3rem;
-    }
+@media screen and (max-width:321px) {
+    .s2_section1 .teaBox .box .tea {
+        width: 158px;
+        height: 36px;
+        line-height: 36px;
+        font-size: 0.8rem;
+        bottom: 25px;
 
-    .s2_section2 {
-        margin: 12rem 4%;
+    }
+    /* .s2_section1 .teaBox .box .tea {
+        width: 134px;
+        height: 32px;
+        line-height: 32px;
+        font-size: 0.7rem;
+        bottom: 12px;
     } */
     
 }

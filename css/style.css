@@ -233,6 +233,9 @@ header .menu>img {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    font-family: "noto";
+    font-weight: 400;
+    font-size: 1.1rem;
 }
 
 .mo_menu ul li {
