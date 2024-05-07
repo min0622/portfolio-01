@@ -60,7 +60,7 @@ $('.s2_section1 .teaBox .box a').on({
         }
       },
       {
-        breakpoint: 281,
+        breakpoint: 321,
         settings: {
           arrows: false,
           dots: true,
