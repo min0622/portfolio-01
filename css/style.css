@@ -393,7 +393,8 @@ header .menu>img {
     width: 72.92%;
     overflow: hidden;
     margin: auto;
-    margin-top: 380px;
+    /* margin-top: 380px; */
+    margin-top: 350px;
     position: relative;
 }
 
