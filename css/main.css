@@ -1,5 +1,14 @@
 @import url(./common.css);
+@font-face {
+    font-family: "yes";
+    src: url(../font/YES24MyoungjoB.ttf);
+    /* font-weight: 300; */
+}
 
+@font-face {
+    font-family: "yes";
+    src: url(../font/YES24MyoungjoR.ttf);
+}
 
 
 /* wrap */
@@ -202,7 +211,7 @@ font-family: "Noto Sans KR", system-ui;
 .section_4>p {
     margin-left: 13.6%;
     margin-right: 13.1%;
-    font-family: "noto";
+    font-family: "Noto Sans KR", system-ui;
     font-weight: 400;
     font-size: 1rem;
     margin-top: 10px;
@@ -260,7 +269,7 @@ font-family: "Noto Sans KR", system-ui;
     line-height: 37px;
     font-size: 0.9rem;
     font-weight: 400;
-    font-family: "noto";
+font-family: "Noto Sans KR", system-ui;
     background-color: #000;
     color: #fff;
     margin: auto;
@@ -288,7 +297,7 @@ font-family: "Noto Sans KR", system-ui;
 }
 
 .section_5 .left h3 {
-    font-family: "cormo";
+font-family: "Cormorant Garamond", serif;
     font-weight: 600;
     /* font-size: 2.5rem; */
     font-size: 2.3rem;
@@ -298,8 +307,8 @@ font-family: "Noto Sans KR", system-ui;
 
 .section_5 .left span {
     display: inline-block;
-    font-family: 'inter';
-    font-size: 1.1rem;
+font-family: "Inter", system-ui;
+font-size: 1.1rem;
     font-weight: 300;
     margin-bottom: 0.5rem;
 }
@@ -308,7 +317,7 @@ font-family: "Noto Sans KR", system-ui;
     /* width: 50%; */
     margin-top: 3.7rem;
     line-height: 160%;
-    font-family: "noto";
+font-family: "Noto Sans KR", system-ui;
     font-size: 1.1rem;
     font-weight: 400;
 }
@@ -324,7 +333,7 @@ font-family: "Noto Sans KR", system-ui;
 }
 .section_5 a .more {
     width: fit-content;
-    font-family: "noto";
+font-family: "Noto Sans KR", system-ui;
     font-weight: 500;
     font-size: 1rem;
     border-bottom: solid 1px #000;
@@ -354,14 +363,14 @@ font-family: "Noto Sans KR", system-ui;
     margin: 0 auto;
     margin-bottom: 2rem;
     font-size: 1rem;
-    font-family: "noto";
+font-family: "Noto Sans KR", system-ui;
     color: #fff;
     /* background-color: slategray; */
 }
 
 .section_6 .reviewTitle p:first-of-type {
-    font-family: "inter";
-    font-weight: 500
+font-family: "Inter", system-ui;
+font-weight: 500
 }
 
 .section_6 .reviewTitle p>span {
@@ -384,7 +393,7 @@ font-family: "Noto Sans KR", system-ui;
     height: 210px;
     padding: 2.1rem ;
     background-color: #fff;
-    font-family: "noto";
+font-family: "Noto Sans KR", system-ui;
     font-size: 0.9rem;
     font-weight: 400;
     position: relative;
@@ -401,8 +410,8 @@ font-family: "Noto Sans KR", system-ui;
     width: 100%;
     display: flex;
     align-items: center;
-    font-family: "inter";
-    font-size: 0.8rem;
+font-family: "Inter", system-ui;
+font-size: 0.8rem;
     font-weight: 400;
 
 }
@@ -427,7 +436,7 @@ font-family: "Noto Sans KR", system-ui;
 /* 한문장 */
 .stn {
     width: fit-content;
-    font-family: "cormo";
+font-family: "Cormorant Garamond", serif;
     font-size: 2.5rem;
     font-weight: 500;
     margin: 14rem auto;
@@ -455,7 +464,7 @@ footer {
     max-width: 1500px;
    padding:4rem;
     
-    font-family: "noto";
+font-family: "Noto Sans KR", system-ui;
     font-size: 0.9rem;
     font-weight: 300;
     /* padding-top: 3rem; */
@@ -469,7 +478,7 @@ footer {
 /* hideInfo */
 .hideInfo{
     display: none;
-    font-family: 'inter';
+font-family: "Inter", system-ui;
 height: 26px;
    /* background-color: seagreen; */
    /* margin-top: 1.6rem; */
@@ -522,8 +531,7 @@ height: 26px;
 }
 
 .footerI .fLeft .underLeft .email {
-    font-family: "inter";
-
+    font-family: "Inter", system-ui;
 }
 
 /*.fRight */
@@ -548,7 +556,7 @@ height: 26px;
 }
 
 .footerI .fRight .bold {
-    font-family: 'inter';
+    font-family: "Inter", system-ui;
     font-size: 0.9rem;
     font-weight: 400;
     margin-bottom: 0.9rem;
@@ -557,7 +565,7 @@ height: 26px;
 .footerI .copy {
     display: inline-block;
     width: fit-content;
-    font-family: "inter";
+    font-family: "Inter", system-ui;
     color: #777;
     margin-top: 1.8rem;
     line-height: 150%;
