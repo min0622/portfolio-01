@@ -5,11 +5,38 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>브랜드 소개</title>
+    <link rel="stylesheet" href="./css/reset.css" type="text/css">
+    <link rel="stylesheet" href="./css/common.css" type="text/css">
     <link rel="stylesheet" href="./css/brandStyle.css" type="text/css">
     <script src="./script/jquery-3.7.1.min.js"></script>
     <script src="./script/jquery-ui.min.js"></script>
     <script src="https://kit.fontawesome.com/15c2d7fd92.js" crossorigin="anonymous"></script>
-    <script src="./script/effect_brand.js"></script>
+    <script src="./script/effect_brand.js" defer></script>
+    <script>
+
+$(function(){
+
+   let section2= $('.s1_section2') 
+   let header = $('header')
+   let spot = section2.offset().top;
+
+   let win = $(window)
+
+   win.scroll(function(){
+
+    if(win.scrollTop() > spot){
+        header.addClass('fix')
+    } else{
+        header.removeClass('fix')
+
+    }
+
+   });
+
+
+});
+
+    </script>
 </head>
 
 <body>

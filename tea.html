@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>티제품</title>
+    <link rel="stylesheet" href="./css/reset.css" type="text/css">
+    <link rel="stylesheet" href="./css/common.css" type="text/css">
     <link rel="stylesheet" href="./css/teaStyle.css" type="text/css">
     <link rel="stylesheet" href="./css/slick.css"  type="text/css">
     <link rel="stylesheet" href="./css/slick-theme.css"  type="text/css">
@@ -11,7 +13,27 @@
     <script src="./script/jquery-ui.min.js"></script>
     <script src="https://kit.fontawesome.com/15c2d7fd92.js" crossorigin="anonymous"></script>
     <script src="./script/slick.min.js"></script>
-    <script src="./script/effect_tea.js"></script>
+    <script src="./script/effect_tea.js" defer></script>
+    <script>
+        $(function(){
+
+            let win = $(window)
+            let header = $('header')
+            let section2 = $('.s2_section2')
+            let spot = section2.offset().top;
+
+            win.scroll(function(){
+
+                if( win.scrollTop() > spot){
+                    header.addClass('fix')
+                } else{
+                    header.removeClass('fix')
+                }
+            });
+
+        });
+
+    </script>
 </head>
 <body>
       <!-- header -->
