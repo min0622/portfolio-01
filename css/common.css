@@ -159,7 +159,7 @@ header .icon {
     align-items: center;
 }
 
-header .icon button {
+/* header .icon button {
     display: block;
     width: 20px;
     height: 20px;
@@ -167,7 +167,8 @@ header .icon button {
     cursor: pointer;
     background-color: transparent;
     border: none;
-}
+    background-color: saddlebrown;
+} */
 
 header .icon li {
     margin-left: 1.4em;
@@ -210,18 +211,29 @@ header .menu>img {
 }
 
 .mo_menu .x {
-    width: 18px;
-    height: 18px;
+    width: 30px;
+    height: 30px;
     cursor: pointer;
-    background-color: transparent;
     border: none;
     position: absolute;
-    top: 31px;
-    right: 8%;
+    top: 26px;
+    right: 7.5%;
     z-index: 981;
-
+background-color: #fff;
     display: block;
 }
+
+.mo_menu .x>img{
+    width: 18px;
+    height: 18px;
+    background-color: transparent;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+}
+
 
 .mo_menu ul {
     max-width: 768px;
@@ -237,4 +249,148 @@ header .menu>img {
 
 .mo_menu ul li {
     padding: 25px 0;
+}
+
+/* footer */
+footer {
+    width: 100%;
+    overflow: hidden;
+    background-color: #000;
+    padding-bottom: 4rem;
+    color: #fff;
+    position: relative;
+
+}
+
+.footerI {
+    overflow: hidden;
+    margin: auto;
+    max-width: 1500px;
+   padding:4rem;
+    
+font-family: "Noto Sans KR", system-ui;
+    font-size: 0.9rem;
+    font-weight: 300;
+    position: relative;
+    
+    display: flex;
+    justify-content: space-between;
+
+}
+
+/* hideInfo */
+.hideInfo{
+    display: none;
+font-family: "Inter", system-ui;
+height: 26px;
+margin-bottom: 16px;
+}
+.hide_inner{
+    display: flex;
+    align-items: center;
+    gap: 1%;
+}
+.hideInfo span{
+    display: block;
+    margin-top: 5px;
+}
+.btn{
+    display:block;
+    background-color: #000;
+    color: #fff;
+    border: #fff solid 1px;
+    height: 26px;
+    padding: 4px 8px;
+    /* position: absolute; */
+    font-size: 0.7rem;
+    margin-left: 20px;
+}
+
+/* fLeft */
+.footerI .fLeft{
+    width:600px;
+    overflow: hidden;
+    padding-right: 2rem;
+}
+.footerI .fLeft .underTop {
+    height: 20px;
+    line-height: 20px;
+    font-weight: 500;
+    font-size: 0.8rem;
+    margin-bottom: 1rem;
+}
+.footerI .fLeft .underTop li{
+    float: left;
+    margin-right: 1.8rem;
+}
+.footerI .fLeft .underLeft {
+    font-size: 0.8rem;
+    float: left;
+}
+
+.footerI .fLeft .underLeft p {
+    line-height: 200%;
+}
+
+.footerI .fLeft .underLeft .email {
+    font-family: "Inter", system-ui;
+}
+
+/*.fRight */
+.footerI .fRight {
+    width: 460px;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+} 
+
+.footerI .fRight .csBox,
+.footerI .fRight .serBox {
+    width: 220px;
+    padding-right: 1.5rem;
+    margin-top: 0;
+}
+
+.footerI .fRight .csBox ul li,
+.footerI .fRight .serBox ul li {
+    margin-bottom: 0.4rem;
+}
+
+.footerI .fRight .bold {
+    font-family: "Inter", system-ui;
+    font-size: 0.9rem;
+    font-weight: 400;
+    margin-bottom: 0.9rem;
+}
+
+.footerI .copy {
+    display: inline-block;
+    width: fit-content;
+    font-family: "Inter", system-ui;
+    color: #777;
+    margin-top: 1.8rem;
+    line-height: 150%;
+    overflow: hidden;
+    position: absolute;
+   bottom: 0;
+   left: 64px;
+}
+
+
+.footerI .sns {
+    width: fit-content;
+    overflow: hidden;
+ position: absolute;
+right: 64px;
+bottom: 0;
+
+}
+
+.footerI .sns a:not(:nth-of-type(1)) {
+    margin-left: 1rem;
+}
+
+.footerI .sns a span i {
+    display: inline-block;
+    font-size: 1.6rem;
 }

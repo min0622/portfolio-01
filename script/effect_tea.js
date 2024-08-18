@@ -1,5 +1,21 @@
 $(function () {
 
+  // header scroll fix
+  let win = $(window)
+  let header = $('header')
+  let section2 = $('.s2_section2')
+  let spot = section2.offset().top;
+
+  win.scroll(function () {
+
+    if (win.scrollTop() > spot) {
+      header.addClass('fix')
+    } else {
+      header.removeClass('fix')
+    }
+  });
+
+
 
   // 햄버거바 ; 공통 effect  
   $('header .headeri .menu').click(function () {
@@ -15,18 +31,16 @@ $(function () {
   })
 
 
-$('.s2_section1 .teaBox .box a').on({
+  $('.s2_section1 .teaBox .box a').on({
 
-  mouseover:function(){
-    // $('.s2_section1 .teaBox .box figure').css({transform:'scale(1.1)', transitionDuration:'.8s'});
-    $(this).find('figure').css({transform:'scale(1.1)', transitionDuration:'.7s'});
-  },
-  mouseout:function(){
-    // $('.s2_section1 .teaBox .box figure').css({transform:'scale(1)', transitionDuration:'.8s'});
-    $(this).find('figure').css({transform:'scale(1)', transitionDuration:'.7s'});
-  }
+    mouseover: function () {
+      $(this).find('figure').css({ transform: 'scale(1.1)', transitionDuration: '.7s' });
+    },
+    mouseout: function () {
+      $(this).find('figure').css({ transform: 'scale(1)', transitionDuration: '.7s' });
+    }
 
-})
+  })
 
 
 
@@ -73,5 +87,29 @@ $('.s2_section1 .teaBox .box a').on({
   })
 
 
+
+});
+
+
+// footer 
+
+document.addEventListener('DOMContentLoaded', () => {
+
+  let btn = document.querySelector('.btn')
+  let text = document.querySelector('.underLeft')
+
+
+
+  btn.addEventListener('click', () => {
+
+
+    if (text.style.display == 'none') {
+      text.style.display = 'block';
+      btn.textContent = 'CLOSE ▼'
+    } else {
+      text.style.display = 'none';
+      btn.textContent = 'OPEN ▼'
+    }
+  })
 
 });
