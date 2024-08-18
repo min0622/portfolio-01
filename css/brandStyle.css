@@ -38,6 +38,8 @@
     width: fit-content;
     font-size: 2.2rem;
     margin-bottom: 1rem;
+    font-weight: 700;
+line-height: 130%;
 }
 
 .s1_section1 .s_title p {
