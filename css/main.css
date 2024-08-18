@@ -31,10 +31,8 @@
 }
 
 .section_1 .titleBox {
-    /* width: 50%; */
     width: 600px;
     margin: auto  13.6%;
-    /* margin-left: 10%; */
     position: absolute;
     top: 22vw;
     left: 0;
@@ -73,14 +71,12 @@
     overflow: hidden;
     margin: auto;
     margin-top: 3rem;
-    /* background-color: sandybrown; */
 }
 
 
 .section_2 .itemBox .item {
     overflow: hidden;
     margin: auto 0.58%;
-    /* background-color: beige; */
 }
 
 .section_2 .itemBox .item .all {
@@ -314,7 +310,6 @@ font-size: 1.1rem;
 }
 
 .section_5 .left p {
-    /* width: 50%; */
     margin-top: 3.7rem;
     line-height: 160%;
 font-family: "Noto Sans KR", system-ui;
@@ -365,7 +360,6 @@ font-family: "Noto Sans KR", system-ui;
     font-size: 1rem;
 font-family: "Noto Sans KR", system-ui;
     color: #fff;
-    /* background-color: slategray; */
 }
 
 .section_6 .reviewTitle p:first-of-type {
@@ -385,7 +379,6 @@ font-weight: 500
     width: 89%;
     overflow: hidden;
     margin: auto ;
-    /* background-color: gold; */
 }
 
 .section_6 .review .rBox {
@@ -467,7 +460,6 @@ footer {
 font-family: "Noto Sans KR", system-ui;
     font-size: 0.9rem;
     font-weight: 300;
-    /* padding-top: 3rem; */
     position: relative;
     
     display: flex;
@@ -480,9 +472,6 @@ font-family: "Noto Sans KR", system-ui;
     display: none;
 font-family: "Inter", system-ui;
 height: 26px;
-   /* background-color: seagreen; */
-   /* margin-top: 1.6rem; */
- 
 }
 .hideInfo span{
     display: inline-block;
@@ -504,14 +493,11 @@ height: 26px;
 .footerI .fLeft{
     width:600px;
     overflow: hidden;
-    /* float: left; */
-    /* background-color: seagreen; */
     padding-right: 2rem;
 }
 .footerI .fLeft .underTop {
     height: 20px;
     line-height: 20px;
-    /* background-color: salmon; */
     font-weight: 500;
     font-size: 0.8rem;
     margin-bottom: 1rem;
@@ -521,7 +507,6 @@ height: 26px;
     margin-right: 1.8rem;
 }
 .footerI .fLeft .underLeft {
-    /* width: 560px; */
     font-size: 0.8rem;
     float: left;
 }
@@ -547,7 +532,6 @@ height: 26px;
     width: 220px;
     padding-right: 1.5rem;
     margin-top: 0;
-    /* background-color: burlywood; */
 }
 
 .footerI .fRight .csBox ul li,
@@ -624,8 +608,6 @@ bottom: 0;
     }
 
     .section_5 .left {
-    /* width: 630px;
-    padding-right: 60px; */
     width: 42%;
     }
 
@@ -722,7 +704,6 @@ bottom: 0;
     .section_4 h3 {
         font-size: 1.8rem;
         margin-left: 8%;
-        /* background-color: salmon; */
     }
 
   .section_2 .itemBox {
@@ -730,17 +711,6 @@ bottom: 0;
         width: 87%;
         width: 87.4%;
     }
-  /* 
-    .section_2 .itemBox .item {
-        margin: auto 0.2%;
-
-    }
-*/
-    /* .section_2 .itemBox .item .itemInfo .underline {
-        height: 5.2rem;
-        padding-top: 6px;
-    }  */
- 
 
     .section_2 .itemBox .item {
         margin: auto 0.3%;
@@ -875,13 +845,6 @@ bottom: 0;
         font-size: 1.7rem;
     }
 
-    /* .section_2 .itemBox {
-        width: 86.5%;
-    }
-
-    .section_2 .itemBox .item {
-        margin-right: 0.26%;
-    } */
 
     .section_3 .slide p {
         font-size: 0.7rem;
@@ -952,7 +915,6 @@ bottom: 0;
 
 }
 .section_6 .review .rBox {
-    /* height: 160px; */
     margin:auto 0.4rem;
     padding: 1.8rem 1.4rem;
 
@@ -1022,7 +984,6 @@ bottom: 0;
     .section_2 h3,
     .section_4 h3 {
         font-size: 1.5rem;
-        /* margin-left: 8%; */
     }
 
     .section_3 {
@@ -1054,7 +1015,6 @@ bottom: 0;
 
 .section_6 .review .rBox p:first-of-type {
     height: 72px;
-    /* margin-top: 9px; */
 }
 .section_6 .review .rBox p:nth-of-type(2){
     margin-top: 1rem;
@@ -1138,8 +1098,6 @@ bottom: 0;
     .section_5 .left{
         width: 84%;
         padding-right: 0;
-    /* margin-top: 0;
-    background-color: beige; */
     }
     
     .section_5 .left h3{
@@ -1171,7 +1129,6 @@ bottom: 0;
        line-height: 180%;
        left: 48px;
        bottom: 50px;
-       /* margin-top: 0; */
 
     }
     .footerI .sns{
@@ -1179,15 +1136,6 @@ left: 48px;
     }
 }
 
-
-/* 가로모드 */
-/* @media screen and (orientation:landscape){
-    .mo_menu{
-        width:100%;
-        overflow: scroll;
-        }
-        
-}  */
 
 /* 아이폰 */
 @media screen and (max-width:391px) {
@@ -1314,7 +1262,6 @@ left: 48px;
 
 @media screen and (max-height:400px) {
    .mo_menu{
-    /* background-color: sandybrown; */
     height: 100vh;
    } 
    .mo_menu ul{
