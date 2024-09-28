@@ -21,14 +21,17 @@ $(function () {
 
   // 햄버거바 ; 공통 effect  
   $('header .headeri .menu').click(function () {
-    $('.mo_menu').stop(true).slideToggle(700);
+    // $('.mo_menu').stop(true).slideToggle(700);
+    $('.mo_menu').stop(true).animate({right:'0'},600);
 
+    
   })
 
 
 
   $('.x').click(function () {
-    $('.mo_menu').stop(true).slideToggle(700);
+    // $('.mo_menu').stop(true).slideToggle(700);
+    $('.mo_menu').stop(true).animate({right:'-100%'},600);
 
   })
 

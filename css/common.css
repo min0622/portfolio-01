@@ -139,17 +139,22 @@ h1 span {
 .h_right {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 nav ul {
-    width: 41vw;
-    margin-right: 5rem;
-    display: flex;
+    /* width: 41vw;
     justify-content: space-between;
+     */
+    width: 55vw;
+    /* margin-right: 5rem; */
+    display: flex;
+    gap: 6%;
+    justify-content: center;
     align-items: center;
     font-family: "noto";
-    font-weight: 300;
-    font-size: 1rem;
+    font-weight: 400;
+    font-size: 1.1rem;
 }
 
 
@@ -172,8 +177,8 @@ header .icon {
 
 header .icon li {
     margin-left: 1.4em;
-    width: 20px;
-    height: 20px;
+    width: 24px;
+    height: 24px;
 }
 
 header .menu {
@@ -183,30 +188,42 @@ header .menu {
     border: none;
     cursor: pointer;
     display: none;
-    position: absolute;
+    /* position: absolute;
     top: 25px;
-    right: -6px;
+    right: -6px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-
-header .menu>img {
+header .menu span{
+    width: 100%;
+    height: 1px;
+    background-color: #000;
+}
+/* header .menu>img {
     width: 18px;
     height: 18px;
     background-color: transparent;
     position: absolute;
     top: 6px;
     right: 6px;
-}
+} */
 
 /* 모바일 버전 메뉴 */
 .mo_menu {
     width: 100%;
     height: 100vh;
-    overflow: auto;
+    overflow: hidden;
+    overflow-y: auto;
     background-color: #fff;
     position: fixed;
     z-index: 998;
     top: 0;
-    right: 0;
+    right: -100%;
+    /* display: none; */
+}
+
+.mo_menu::-webkit-scrollbar{
     display: none;
 }
 
@@ -235,7 +252,7 @@ background-color: #fff;
 }
 
 
-.mo_menu ul {
+.mo_menu>ul {
     max-width: 768px;
     margin: auto 8%;
     margin-top: 150px;
@@ -247,9 +264,37 @@ background-color: #fff;
     font-size: 1.1rem;
 }
 
-.mo_menu ul li {
+.mo_menu>ul li {
     padding: 25px 0;
 }
+
+/* mo_icon */
+.mo_icon{
+ 
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    position: absolute;
+    bottom: 1%;
+    right: 7.5%;
+    z-index: 981;
+ 
+    width: 100%;
+    height: 60px;
+}
+.mo_icon ul{
+    width: 50%;
+    display: flex;
+    justify-content: end;
+    gap: 20px;
+    align-items: center;
+}
+.mo_icon ul li{
+width: 22px;
+height: 22px;
+/* margin-left: 15% */
+}
+
 
 /* footer */
 footer {
