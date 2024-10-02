@@ -118,12 +118,21 @@ header .icon li:nth-child(3) {
 }
 
 header .menu {
-    width: 38px;
-    background-color: transparent;
-        border: none;
+    /* width: 38px; */
+    width: 24px;
+    height: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     display: none;
 }
-
+header .menu span{
+    display: block;
+    width: 100%;
+    height: 2px;
+    border-radius: 100px;
+    background-color: #000;
+}
 /* 모바일 버전  */
 .mo_menu {
     width: 100%;
@@ -392,7 +401,7 @@ bottom: 0;
   }
 
   header .menu {
-      display: block;
+      display: flex;
   }
 
   nav ul {
@@ -420,14 +429,17 @@ bottom: 0;
 header .headeri {
   height: 65px;
 }
-  header .menu {
+  /* header .menu {
     width: 30px;
-  }
+  } */
   
 }
 
 @media screen and (max-width:575px) {
-  
+    header .menu {
+        width: 22px;
+        height: 18px;
+    }
   #footer{
     margin-top: 14rem;
   }

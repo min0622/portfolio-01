@@ -124,7 +124,6 @@ line-height: 130%;
     left: 0;
     transform: translateY(-50%);
    
-    background-color: saddlebrown;
 }
 
 
@@ -142,7 +141,6 @@ line-height: 130%;
 
 .s1_section4 .r_inner {
     width: 53%;
-    /* width: 47%; */
     float: right;
     padding-left: 4rem;
 }
@@ -173,7 +171,7 @@ line-height: 130%;
     font-size: 1rem;
     border-bottom: solid 1px #000;
     padding-bottom: 0.5px;
-    margin-top: 2rem;
+    margin-top: 4rem;
 }
 
 .s1_section5 {
@@ -356,7 +354,7 @@ line-height: 130%;
 
     .s1_section4 .s_right .s_more {
         font-size: 0.8rem;
-        margin-top: 1rem;
+        margin-top: 2rem;
 
     }
 
@@ -432,10 +430,10 @@ line-height: 130%;
         transform: translateY(0);
     }
 
-    /* .s1_section4 .s_left .min {
+    .s1_section4 .s_left .min {
         width: fit-content;
         height: fit-content;
-    } */
+    }
     .s1_section4 .s_right {
         text-align: left;
         align-items: flex-start;
@@ -443,8 +441,7 @@ line-height: 130%;
     }
     .s1_section4 .r_inner{
         width: 100%;
-        margin-top:54vw;
-        margin-top:24rem;
+        margin-top:40vw;
         padding-left: 0;
     }
 
@@ -458,7 +455,8 @@ line-height: 130%;
     }
 
     .s1_section4 .s_right .s_more {
-        margin-top: 3rem;
+        margin-top: 4rem;
+        font-size: 1rem;
     }
 
     .s1_section5 h3 {
@@ -558,13 +556,17 @@ line-height: 130%;
     .s1_section4 {
         margin-top: 15rem;
     }
+    .s1_section4 .s_left .min {
+        object-fit: cover;
+        height:340px;
+    }
+    .s1_section4 .r_inner{
+        margin-top:16rem;
+    }
 
-    /* .s1_section4 .s_right {
-        width: 84%;
-        margin: 0 8%;
-        margin-top: 4rem;
-    } */
-
+    .s1_section4 .s_right p {
+        font-size: 1rem;
+    }
     .s1_section4 .s_right .s_more {
         font-size: 0.9rem
     }
@@ -622,10 +624,8 @@ line-height: 130%;
         margin-bottom: 1.5rem;
     }
 
-    .s1_section4 .s_right .s_more {
-        font-size: 0.8rem;
 
-    }
+
 
     .s1_section5 {
         margin-top: 16rem;
@@ -709,7 +709,9 @@ line-height: 130%;
     .s1_section3 .ibox {
         height: 56vw;
     }
-
+    .s1_section4 .r_inner{
+        margin-top:15rem;
+    }
 
 }
 
@@ -739,6 +741,8 @@ line-height: 130%;
         line-height: 170%;
 
     }
+   
+
 
 }
 
