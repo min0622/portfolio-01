@@ -109,8 +109,8 @@
     height: 90px;
  padding: 1rem 0;
     font-family: "Inter", system-ui;
-    /* font-weight: 500; */
-    font-weight: 400;
+    font-weight: 500;
+    /* font-weight: 400; */
     font-size: 1.2rem;
     border-bottom: 1px solid #ddd;
     color: #000;
@@ -122,9 +122,8 @@
 }
 
 .section_2 .itemBox .item .itemInfo .underline>p:first-of-type {
-    /* margin-bottom: 8px; */
-    /* font-weight:500; */
-    font-weight:400;
+    font-weight:500;
+    /* font-weight:400; */
     font-size: 1.4rem;
     line-height: 140%;
 
@@ -136,7 +135,8 @@
     margin-top: 12px;
     margin-bottom: 16px;
     font-family: "Noto Sans KR", system-ui;
-    font-weight: 500;
+    /* font-weight: 500; */
+    font-weight: 400;
     color: #444;
 }
 
@@ -335,7 +335,7 @@ font-size: 1.2rem;
     margin-bottom: 0.5rem;
 }
 
-.section_5 .left p {
+.section_5 .l_inner>p{
     margin-top: 3.5rem;
     /* line-height: 160%; */
     line-height: 180%;
@@ -522,7 +522,7 @@ font-family: "Playfair Display", serif;
         margin-bottom: 0.4rem;
     }
 
-    .section_5 .left p {
+    .section_5 .l_inner>p{
         margin-top: 3rem;
         font-size: 1rem;
     }
@@ -828,10 +828,13 @@ width: 560px;
     margin-top: 70vw;
       width: 100%;
     }
+    .section_5 .left span {
+      margin-bottom: 0.6rem;
+  }
     .section_5 .left h3 {
       font-size: 1.7rem;
   }
-    .section_5 .left p {
+    .section_5 .l_inner>p{
       margin-top: 2rem;
       font-size: 1.1rem;
     }
@@ -923,7 +926,13 @@ width: 560px;
         font-size: 1.7rem;
     }
 
-
+    .section_4>p {
+        font-size: 1.1rem;
+    }
+    .section_5 .l_inner>p{
+        /* margin-top: 1.2rem; */
+        font-size: 1rem;
+    }
     .section_6 {
         padding-top: 50px;
         padding-bottom: 50px;
@@ -987,7 +996,7 @@ width: 560px;
         font-size: 1.3rem;
     }
     .section_2 .itemBox .item .itemInfo>p:nth-of-type(2) {
-        font-size: 1.1rem;
+        font-size: 1rem;
         height: 68px;
     }
     .section_2 .more {
@@ -1001,7 +1010,11 @@ width: 560px;
         height: 35.5px;
         line-height: 35.5px;
     }
-
+    .section_4>p {
+        line-height: 150%;
+        margin-top: 10px;
+        margin-bottom: 32px;
+    }
     .section_4 .container .when {
         padding: 20% 0;
     }
@@ -1024,9 +1037,9 @@ width: 560px;
 
     }
    
-    .section_5 .left h3{
+    /* .section_5 .left h3{
         font-size: 1.5rem;
-    }
+    } */
     .section_6 .review {
         width: 84%;
     }
