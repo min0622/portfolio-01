@@ -1,86 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Sans+KR:wght@100..900&family=Noto+Serif+KR:wght@200..900&display=swap');
-/* font-family: "Noto Sans KR", system-ui;
-font-family: "Cormorant Garamond", serif;
-font-family: "Inter", system-ui;
-font-family: "Noto Serif KR", serif; */
-
-/* 
-@font-face {
-    font-family: "noto";
-    src: url(../font/NotoSansKR-Light.ttf);
-    font-weight: 300;
-}
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Sans+KR:wght@100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+/* font-family: "Playfair Display", serif; */
 
 @font-face {
-    font-family: "noto";
-    src: url(../font/NotoSansKR-Regular.ttf);
-    font-weight: 400;
+  font-family: "maru";
+  src: url(../font/MaruBuri-SemiBold.otf);
 }
-
-@font-face {
-    font-family: "noto";
-    src: url(../font/NotoSansKR-Medium.ttf);
-    font-weight: 500;
-}
-
-@font-face {
-    font-family: "noto";
-    src: url(../font/NotoSansKR-Bold.ttf);
-    font-weight: 700;
-}
-
-
-
-@font-face {
-    font-family: "cormo";
-    src: url(../font/CormorantGaramond-Medium.ttf);
-    font-weight: 500;
-}
-
-@font-face {
-    font-family: "cormo";
-    src: url(../font/CormorantGaramond-SemiBold.ttf);
-    font-weight: 600;
-}
-
-@font-face {
-    font-family: "inter";
-    src: url(./font/Inter-Regular.ttf),
-        url(../font/Inter-Light.ttf),
-        url(../font/Inter-Medium.ttf),
-        url(../font/Inter-SemiBold.ttf);
-}
-
-@font-face {
-    font-family: "inter";
-    src: url(../font/Inter-Light.ttf);
-    font-weight: 300;
-}
-
-@font-face {
-    font-family: "inter";
-    src: url(../font/Inter-Regular.ttf);
-    font-weight: 400;
-}
-
-@font-face {
-    font-family: "inter";
-    src: url(../font/Inter-Medium.ttf);
-    font-weight: 500;
-}
-
-@font-face {
-    font-family: "inter";
-    src: url(../font/Inter-SemiBold.ttf);
-    font-weight: 600;
-}
-
-
-@font-face{
-    font-family: 'seri';
-    src:url(../font/NotoSerifKR-SemiBold.otf);
-    font-weight: 600;
-} */
 
 
 
@@ -99,6 +23,7 @@ font-family: "Noto Serif KR", serif; */
     }
 }
 
+
 /* header */
 
 header {
@@ -110,11 +35,11 @@ header {
     top: 0;
     z-index: 990;
     box-shadow: 0 1px 20px rgba(0, 0, 0, 0.3);
-    padding: 0 4%;
 }
 
 header .headeri {
-    max-width: 1400px;
+    max-width: 1440px;
+    padding: 0 20px;
     height: 80px;
     margin: auto;
     position: relative;
@@ -129,87 +54,77 @@ header .headeri {
 /* */
 
 .logo {
-    width: 140px;
+    width: 160px;
 }
 
 h1 span {
     display: none;
 }
-
-.h_right {
+h1 img{
+  width: 100%;
+}
+/* .h_right {
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
+} */
 
 nav ul {
     /* width: 41vw;
     justify-content: space-between;
      */
-    width: 55vw;
-    /* margin-right: 5rem; */
+    /* width: 55vw; */
+    /* width: 45vw; */
     display: flex;
-    gap: 6%;
+    /* gap:10px; */
+    justify-content: space-between;
+    align-items: center;
+    font-family: "Noto Sans KR", system-ui;
+    font-weight: 500;
+    font-size: 1.1rem;
+
+}
+nav ul li{
+  text-align: center;
+  /* width:116px; */
+}
+nav ul li a{
+  display: block;
+  width: 100%;
+  padding: 0 30px;
+}
+header .icon {
+    display: flex;
     justify-content: center;
     align-items: center;
-    font-family: "noto";
-    font-weight: 400;
-    font-size: 1.1rem;
 }
 
 
-header .icon {
-    width: fit-content;
-    display: flex;
-    align-items: center;
-}
-
-/* header .icon button {
-    display: block;
-    width: 20px;
-    height: 20px;
-    margin-right: 1.4rem;
-    cursor: pointer;
-    background-color: transparent;
-    border: none;
-    background-color: saddlebrown;
-} */
-
-header .icon li {
-    margin-left: 1.4em;
+header .icon li:nth-child(1) {
     width: 24px;
     height: 24px;
 }
 
-header .menu {
-    width: 30px;
-    height: 30px;
-    background-color: transparent;
-    border: none;
-    cursor: pointer;
-    display: none;
-    /* position: absolute;
-    top: 25px;
-    right: -6px; */
-    display: flex;
-    justify-content: center;
-    align-items: center;
+header .icon li:nth-child(2) {
+    margin-left: 1.4em;
+    width: 27px;
+    height: 24px;
 }
-header .menu span{
-    width: 100%;
-    height: 1px;
-    background-color: #000;
-}
-/* header .menu>img {
-    width: 18px;
-    height: 18px;
-    background-color: transparent;
-    position: absolute;
-    top: 6px;
-    right: 6px;
-} */
 
-/* 모바일 버전 메뉴 */
+header .icon li:nth-child(3) {
+    margin-left: 1.4em;
+    width: 24px;
+    height: 27px;
+}
+
+header .menu {
+    width: 38px;
+    background-color: transparent;
+        border: none;
+    display: none;
+}
+
+/* 모바일 버전  */
 .mo_menu {
     width: 100%;
     height: 100vh;
@@ -228,19 +143,19 @@ header .menu span{
 }
 
 .mo_menu .x {
-    width: 30px;
-    height: 30px;
+    width: 36px;
+    /* height: 30px; */
     cursor: pointer;
     border: none;
     position: absolute;
-    top: 26px;
+    top: 32px;
     right: 7.5%;
     z-index: 981;
 background-color: #fff;
     display: block;
 }
 
-.mo_menu .x>img{
+/* .mo_menu .x>img{
     width: 18px;
     height: 18px;
     background-color: transparent;
@@ -249,24 +164,26 @@ background-color: #fff;
     left: 50%;
     transform: translate(-50%,-50%);
 
-}
+} */
 
 
 .mo_menu>ul {
     max-width: 768px;
     margin: auto 8%;
-    margin-top: 150px;
+    margin-top: 200px;
     display: flex;
     flex-direction: column;
+    gap: 60px;
     justify-content: space-between;
-    font-family: "noto";
-    font-weight: 400;
-    font-size: 1.1rem;
+    font-family: "Noto Sans KR", system-ui;
+    font-weight: 500;
+    font-size: 1.3rem;
 }
 
-.mo_menu>ul li {
+/* .mo_menu>ul li {
     padding: 25px 0;
-}
+    background-color: antiquewhite;
+} */
 
 /* mo_icon */
 .mo_icon{
@@ -286,14 +203,27 @@ background-color: #fff;
     width: 50%;
     display: flex;
     justify-content: end;
-    gap: 20px;
+    /* gap: 20px; */
     align-items: center;
 }
-.mo_icon ul li{
-width: 22px;
-height: 22px;
-/* margin-left: 15% */
+
+.mo_icon li:nth-child(1) {
+    width: 24px;
+    height: 24px;
 }
+
+.mo_icon li:nth-child(2) {
+    margin-left: 1.4em;
+    width: 27px;
+    height: 24px;
+}
+
+.mo_icon li:nth-child(3) {
+    margin-left: 1.4em;
+    width: 24px;
+    height: 27px;
+}
+
 
 
 /* footer */
@@ -305,6 +235,10 @@ footer {
     color: #fff;
     position: relative;
 
+}
+
+#footer{
+  margin-top: 16rem;
 }
 
 .footerI {
@@ -438,4 +372,69 @@ bottom: 0;
 .footerI .sns a span i {
     display: inline-block;
     font-size: 1.6rem;
+}
+
+/*반응형 */
+
+@media screen and (max-width:1680px){
+  /* header {
+    padding: 0 13.6%;
+} */
+}
+
+@media screen and (max-width:1400px){
+
+  .logo {
+    width: 140px;
+}
+  header .icon li:not(:last-child){
+      display: none;
+  }
+
+  header .menu {
+      display: block;
+  }
+
+  nav ul {
+      display: none;
+  }
+}
+
+
+
+@media screen and (max-width:1024px) {
+  .logo {
+    width: 128px;
+}
+/* header {
+    padding: 0 8%;
+} */
+
+
+
+}
+@media screen and (max-width:768px) {
+  .logo {
+    width: 120px;
+}
+header .headeri {
+  height: 65px;
+}
+  header .menu {
+    width: 30px;
+  }
+  
+}
+
+@media screen and (max-width:575px) {
+  
+  #footer{
+    margin-top: 14rem;
+  }
+}
+
+@media screen and (max-width:451px) {
+ .logo {
+        width: 100px;
+    }
 }

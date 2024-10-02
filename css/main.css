@@ -1,14 +1,7 @@
 @import url(./common.css);
-@font-face {
-    font-family: "yes";
-    src: url(../font/YES24MyoungjoB.ttf);
-    /* font-weight: 300; */
-}
-
-@font-face {
-    font-family: "yes";
-    src: url(../font/YES24MyoungjoR.ttf);
-}
+/* 
+  font-family: "maru";
+} */
 
 
 /* wrap */
@@ -31,45 +24,51 @@
 }
 
 .section_1 .titleBox {
-    width: 600px;
-    margin: auto  13.6%;
+  max-width: 1440px;
+  width: 100%;
+  padding: 0 20px;
     position: absolute;
-    top: 22vw;
-    left: 0;
     font-family: "Noto Sans KR", system-ui;
+
+    top: 20vw;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 .section_1 .titleBox h2 {
     font-size: 3.4rem;
     font-weight: 700;
-    margin-bottom: 1.2vw;
+    margin-bottom: 28px;
 }
 
 .section_1 .titleBox p {
     font-size: 2.2rem;
     font-weight: 500;
-    line-height: 160%;
+    line-height: 150%;
 }
 
 /* section_2  슬라이드*/
 .section_2 {
+    max-width: 1440px;
+    padding: 0 20px;
+    margin: auto;
     width: 100%;
     position: relative;
     margin-top: 250px;
 }
 
 .section_2 h3 {
-    margin-left: 13.6%;
-    font-family: "Cormorant Garamond", serif;
     font-weight: 600;
-    font-size: 2rem;
+    font-family: "Playfair Display", serif;
+    font-size: 2.5rem;
     line-height: 130%;
 }
 
 .section_2 .itemBox {
-    width: 77.2%;
+    width: 100%;
+    /* width: 77.2%; */
     overflow: hidden;
-    margin: auto;
+    /* margin: auto; */
     margin-top: 3rem;
 }
 
@@ -91,44 +90,57 @@
 }
 
 .section_2 .itemBox .item .itemInfo>p {
-    font-family: "inter";
-    font-weight: 300;
-    font-size: 0.9rem;
-    color: #777;
+  font-family: "Inter", system-ui;
+
+    font-weight: 400;
+    font-size: 1rem;
+    /* font-weight: 300;
+    font-size: 1rem; */
+    color:#666;
 }
 
 .section_2 .itemBox .item .itemInfo>p:first-of-type {
-    height: 20px;
-    line-height: 20px;
+    height: 24px;
+    line-height: 24px;
 }
 
 .section_2 .itemBox .item .itemInfo .underline {
     width: 100%;
-    padding-top: 8px;
-    padding-bottom: 0.8rem;
+    height: 90px;
+ padding: 1rem 0;
     font-family: "Inter", system-ui;
-    font-weight: 400;
-    font-size: 1.1rem;
+    font-weight: 500;
+    font-size: 1.2rem;
     border-bottom: 1px solid #ddd;
     color: #000;
+
+    /* line-height: 160%; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .section_2 .itemBox .item .itemInfo .underline>p:first-of-type {
-    margin-bottom: 8px;
+    /* margin-bottom: 8px; */
+    font-weight:500;
+    font-size: 1.4rem;
+    line-height: 140%;
+
 }
 
 .section_2 .itemBox .item .itemInfo>p:nth-of-type(2) {
-    height: 32px;
+    height: 52px;
+    line-height: 160%;
     margin-top: 12px;
     margin-bottom: 16px;
-font-family: "Noto Sans KR", system-ui;
-    font-weight: 400;
-    color: #000;
+    font-family: "Noto Sans KR", system-ui;
+    font-weight: 500;
+    color: #444;
 }
 
 .section_2 .itemBox .item .itemInfo>p:nth-of-type(3) {
-    height: 20px;
-    line-height: 20px;
+    height: 24px;
+    line-height: 24px;
     font-weight: 400;
 }
 
@@ -145,7 +157,10 @@ font-family: "Noto Sans KR", system-ui;
 
 /* section_3 슬라이드 */
 .section_3 {
-    width: 72.92%;
+    max-width: 1440px;
+    width: 100%;
+    padding: 0 20px;
+    /* width: 72.92%; */
     overflow: hidden;
     margin: auto;
     margin-top: 380px;
@@ -192,31 +207,40 @@ font-family: "Noto Sans KR", system-ui;
 
 /* section_4 */
 .section_4 {
+    max-width: 1440px;
     width: 100%;
+    padding: 0 20px;
+    
+    margin: auto;
     margin-top: 300px;
 }
 
 .section_4 h3 {
-    margin-left: 13.6%;
-    font-family: "Cormorant Garamond", serif;
+    /* margin-left: 13.6%; */
+
+    font-family: "Playfair Display", serif;
+
+    /* font-family: "Cormorant Garamond", serif; */
     font-weight: 600;
-    font-size: 2rem;
+    font-size: 2.5rem;
     line-height: 130%;
 }
 
 .section_4>p {
-    margin-left: 13.6%;
-    margin-right: 13.1%;
+    /* margin-left: 13.6%;
+    margin-right: 13.1%; */
     font-family: "Noto Sans KR", system-ui;
     font-weight: 400;
-    font-size: 1rem;
-    margin-top: 10px;
-    margin-bottom: 55px;
+    font-size: 1.4rem;
+    line-height: 160%;
+    margin-top: 16px;
+    margin-bottom: 45px;
 }
 
 .section_4 .container {
     /* 여기에 그리드 적용 => .box가 정렬됨  */
-    width: 72.92%;
+    /* width: 72.92%; */
+    width: 100%;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     margin: auto;
@@ -235,35 +259,30 @@ font-family: "Noto Sans KR", system-ui;
     flex-direction: column;
     justify-content: center;
     padding: 17% 0;
+    background-color: rgba(247, 246, 242,.5);
 }
 
-/* .section_4 .container .when p:first-of-type { */
 .section_4 .container .when .w,
 .section_4 .container .when .ice {
     color: #000;
     font-size: 1.6rem;
-    font-weight: 500;
-    font-family: "yes";
-    font-weight: 500;
+    font-family: "maru";
     width: fit-content;
     height: 36px;
     margin: auto;
-    /* background-color: gold; */
 }
 
 .section_4 .container .when .ice {
     height: 72px;
     line-height: 130%;
-    /* background-color: salmon; */
-
 }
 
 .section_4 .container .when p:nth-of-type(2) {
     display: inline-block;
     width: 181px;
-    height: 37px;
-    line-height: 37px;
-    font-size: 0.9rem;
+    height: 46px;
+    align-content: center;
+    font-size: 1rem;
     font-weight: 400;
 font-family: "Noto Sans KR", system-ui;
     background-color: #000;
@@ -274,58 +293,65 @@ font-family: "Noto Sans KR", system-ui;
 
 /* section_5 */
 .section_5 {
-    width: 86.4%;
-    overflow: hidden;
+    width: 100%;
+    /* overflow: hidden; */
     position: relative;
-    display: flex;
-    justify-content: space-between;
-    /* margin: 330px auto; */
-    margin-top: 330px;
-    margin-left: 13.6%;
+    margin-top: 22rem;
+    padding: 5rem 0 ;
     
 }
 
 .section_5 .left {
-    width: 685px;
+    max-width: 1440px;
+    padding: 0 20px;
+    width: 100%;
+    margin: auto;
+    /* width: 685px; */
     display: flex;
     flex-direction: column;
     justify-content: center;
-}
+    position: relative;
 
+}
+.section_5 .l_inner{
+    width: 50%;
+    float: left;
+}
 .section_5 .left h3 {
-font-family: "Cormorant Garamond", serif;
+font-family: "Playfair Display", serif;
+position: relative;
     font-weight: 600;
-    /* font-size: 2.5rem; */
     font-size: 2.3rem;
     line-height: 130%;
-
 }
 
 .section_5 .left span {
     display: inline-block;
 font-family: "Inter", system-ui;
-font-size: 1.1rem;
-    font-weight: 300;
+font-size: 1.2rem;
+    font-weight: 400;
     margin-bottom: 0.5rem;
 }
 
 .section_5 .left p {
-    margin-top: 3.7rem;
-    line-height: 160%;
+    margin-top: 3.5rem;
+    /* line-height: 160%; */
+    line-height: 180%;
+
 font-family: "Noto Sans KR", system-ui;
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     font-weight: 400;
 }
 
 .section_5 .right {
     /* 772/1900*100 */
-    width: 46.4%;
+    position: absolute;
+    right:0;
+    top: 50%;
+    transform: translateY(-50%);
    
 }
-.section_5 .right .min{
-    width: fit-content;
-    height: fit-content;
-}
+
 .section_5 a .more {
     width: fit-content;
 font-family: "Noto Sans KR", system-ui;
@@ -364,9 +390,11 @@ font-family: "Noto Sans KR", system-ui;
 
 .section_6 .reviewTitle p:first-of-type {
 font-family: "Inter", system-ui;
-font-weight: 500
+font-weight: 500;
 }
-
+.section_6 .reviewTitle p:nth-of-type(2){
+  line-height: 140%;
+}
 .section_6 .reviewTitle p>span {
     font-weight: 600
 }
@@ -389,6 +417,7 @@ font-weight: 500
 font-family: "Noto Sans KR", system-ui;
     font-size: 0.9rem;
     font-weight: 400;
+    line-height: 140%;
     position: relative;
    margin: auto 0.8rem;
    
@@ -404,13 +433,14 @@ font-family: "Noto Sans KR", system-ui;
     display: flex;
     align-items: center;
 font-family: "Inter", system-ui;
-font-size: 0.8rem;
+font-size: 0.9rem;
     font-weight: 400;
 
 }
 
 .section_6 .review .rBox p:first-of-type {
-    height: 54px;
+    height: 62px;
+    padding: 0.5rem 0;
 }
 
 .section_6 .review .rBox p:nth-of-type(2) {
@@ -428,13 +458,19 @@ font-size: 0.8rem;
 
 /* 한문장 */
 .stn {
-    width: fit-content;
-font-family: "Cormorant Garamond", serif;
+    max-width: 1440px;
+    width: 100%;
+    padding: 0 20px;
+    margin: auto;
+    /* width: fit-content; */
+/* font-family: "Cormorant Garamond", serif; */
+font-family: "Playfair Display", serif;
+
     font-size: 2.5rem;
     font-weight: 500;
     margin: 14rem auto;
     text-align: center;
-    line-height: 100%;
+    line-height: 140%;
 }
 
 /* //wrap 끝 */
@@ -446,9 +482,7 @@ font-family: "Cormorant Garamond", serif;
 
 @media screen and (max-width:1680px) {
 
-    header {
-        padding: 0 13.6%;
-    }
+
 
     .section_4 .container .when .w,
     .section_4 .container .when .ice {
@@ -471,10 +505,12 @@ font-family: "Cormorant Garamond", serif;
 
     }
 
-    .section_5 .left {
+    /* .section_5 .left {
     width: 42%;
-    }
-
+    } */
+    .section_5 .l_inner{
+      width: 48%;
+  }
     .section_5 .left h3 {
         font-size: 2rem;
     }
@@ -489,11 +525,13 @@ font-family: "Cormorant Garamond", serif;
         font-size: 1rem;
     }
 
-    .section_5 .right {
+    /* .section_5 .right {
         width: 50%;
        
+    } */
+    .section_5 .right .min{
+        width: 700px;
     }
-  
     .section_5 a .more {
         font-size: 0.9rem;
         margin-top: 4.5rem;
@@ -503,7 +541,7 @@ font-family: "Cormorant Garamond", serif;
 
     }
 }
-@media screen and (max-width:1400px){
+/* @media screen and (max-width:1400px){
 
     header .icon {
         display: none;
@@ -516,10 +554,50 @@ font-family: "Cormorant Garamond", serif;
     nav ul {
         display: none;
     }
+} */
+
+@media screen and (max-width:1400px) {
+  .section_1 .titleBox {
+    top: 25vw;
+
+}
+.section_2 .more {
+  margin-top: 8rem;
+
+}
+  .section_5 .l_inner{
+    width: 44%;
+}
+.section_5 .right .min{
+  width: 660px;
+}
+}
+@media screen and (max-width:1200px) {
+  .section_2 .itemBox .item .itemInfo .underline>p:first-of-type {
+    font-size: 1.3rem;
+
+}
+/* .section_5 .l_inner{
+  width: 44%;
+} */
+.section_5{
+  margin-top: 18rem;
+
+  }
+.section_5 .right .min{
+width: 560px;
+}
+
+.section_6 .review .rBox {
+  padding: 1.8rem 
+}
+.section_6 .review .rBox p:first-of-type{
+  height: 80px;
+}
 }
 
 @media screen and (max-width:1025px) {
-    .logo {
+    /* .logo {
         width: 120px;
     }
     header {
@@ -542,15 +620,14 @@ font-family: "Cormorant Garamond", serif;
         margin-left: 1rem;
         width: 18px;
         height: 18px;
-    }
+    } */
     .section_1 .main {
-        top: 80px;
+        top: 65px;
     }
     .section_1 .titleBox {
-        top: 26vw;
-        margin-left: 8%;
+      top: 28vw;
   
-    }
+  }
 
     .section_1 .titleBox h2 {
         font-size: 2.8rem;
@@ -560,26 +637,33 @@ font-family: "Cormorant Garamond", serif;
         font-size: 1.8rem;
     }
 
-    .section_2 {
-        margin-top: 200px;
-    }
+
 
     .section_2 h3,
     .section_4 h3 {
-        font-size: 1.8rem;
-        margin-left: 8%;
+        font-size: 2.2rem;
+        /* margin-left: 8%; */
     }
 
-  .section_2 .itemBox {
-        width: 85.5%;
-        width: 87%;
+  /* .section_2 .itemBox {
+        
         width: 87.4%;
-    }
+    } */
 
     .section_2 .itemBox .item {
         margin: auto 0.3%;
     }
-
+    .section_2 .itemBox .item .itemInfo>p {
+  
+        font-size: 1.1em;
+    }
+    .section_2 .itemBox .item .itemInfo>p:nth-of-type(2) {
+        height: 56px;
+    }
+    .section_2 .itemBox .item .itemInfo .underline>p:first-of-type {
+      font-size: 1.4rem;
+  
+  }
     .section_2 .more {
         font-size: 0.9rem;
         margin-top: 6.5rem;
@@ -588,7 +672,6 @@ font-family: "Cormorant Garamond", serif;
 
     .section_3 {
         margin-top: 240px;
-        width: 83.9%;
     }
   
     .section_3 .slide p {
@@ -602,14 +685,6 @@ font-family: "Cormorant Garamond", serif;
         margin-top: 240px;
     }
 
-    .section_4>p {
-        margin-left: 8%;
-    }
-
-    .section_4 .container {
-        width: 84%;
-
-    }
 
     .section_4 .container .when .w,
     .section_4 .container .when .ice {
@@ -623,35 +698,17 @@ font-family: "Cormorant Garamond", serif;
 
     }
 
-    .section_5 {
-        width: 92%;
-    margin-top: 250px;
-        margin-left: 8%;
-    }
+    .section_5{
+      margin-top: 12rem;
 
-    .section_5 .left {
-        width: 440px;
-        padding-right: 40px;
-    }
+      }
+  
     .section_5 .left h3 {
-        font-size: 1.8rem;
+        font-size: 2rem;
     }
-    .section_5 .left span {
-        font-size: 0.9rem;
-        margin-bottom: 0.2rem;
-    }
-    .section_5 .left p {
-        font-size: 1rem;
-        font-size: 0.9rem;
-
-    }
-    .section_5 .right {
-        width: 50%;
-    }
+  
     .section_5 .right .min{
         width: 470px;
-        object-fit:cover;
-        height: 428px;
     }
     .section_5 a .more {
         margin-top: 3.8rem;
@@ -664,7 +721,7 @@ font-family: "Cormorant Garamond", serif;
     width: 91%;
     }
     .section_6 .review .rBox {
-        height: 180px;
+        height:200px;
         font-size: 0.8rem;
      
         padding:1.5rem ;
@@ -689,19 +746,30 @@ font-family: "Cormorant Garamond", serif;
 
 }
 
-@media screen and (max-width:769px) {
+@media screen and (max-width:900px) {
+ 
+  .section_5{
+    margin-top: 10rem;
+    }
+  .section_5 .right .min{
+    width: 420px;
+  }
+}
+@media screen and (max-width:767px) {
 
     .section_1 .titleBox {
-        top: 27vw;
+        top: 30vw;
 
     }
 
     .section_1 .titleBox h2 {
         font-size: 2.2em;
+        margin-bottom: 20px;
     }
 
     .section_1 .titleBox p {
         font-size: 1.4rem;
+        line-height: 140%;
     }
 
     .section_2 h3,
@@ -709,6 +777,12 @@ font-family: "Cormorant Garamond", serif;
         font-size: 1.7rem;
     }
 
+    .section_2 .itemBox .item .itemInfo .underline>p:first-of-type {
+        font-size: 1.3rem;
+    }
+    .section_2 .itemBox .item .itemInfo>p:nth-of-type(2) {
+        height: 60px;
+    }
 
     .section_3 .slide p {
         font-size: 0.7rem;
@@ -717,17 +791,13 @@ font-family: "Cormorant Garamond", serif;
         line-height: 37.5px;
     }
 
-    .section_4>p {
-        margin-top: 6px;
-        margin-bottom: 30px;
-
-    }
-
     .section_4 .container {
         grid-template-columns: repeat(1, 1fr);
 
     }
-
+    .section_4>p{
+      font-size: 1.2rem;
+    }
     .section_4 .container .when .w,
     .section_4 .container .when .ice {
         font-size: 1.4rem;
@@ -748,44 +818,43 @@ font-family: "Cormorant Garamond", serif;
     }
 
     .section_5{
-    width:100%;
-    margin: auto;
-    margin-top: 300px;
-    flex-direction: column-reverse;
+    margin-top: 18rem;
+
+    }
+  
+    .section_5 .l_inner{
+    margin-top: 70vw;
+      width: 100%;
+    }
+    .section_5 .left h3 {
+      font-size: 1.7rem;
+  }
+    .section_5 .left p {
+      margin-top: 2rem;
+      font-size: 1.1rem;
+    }
+    .section_5 .right{
+      width: 100%;
+      top: 0;
+      transform: translateY(0);
+    }
+    .section_5 .right .min{
+      width: 100%;
+      
     }
     
-.section_5 .left{
-    width: 84%;
-    padding-right: 0;
-    margin: 5rem auto;
-}
-.section_5 .left p {
-    margin-top: 2rem;
-}
-
-.section_5 .right {
-    width: 100%;
-    margin: auto;  
-
-}
-
-.section_5 .right .min{
-    object-fit:contain;
-    width: fit-content;
-    height: fit-content;
-}
 .section_5 a .more {
     margin-top: 6.2rem;
 
 }
 .section_6 .review .rBox {
     margin:auto 0.4rem;
-    padding: 1.8rem 1.4rem;
 
 }
 .section_6 .review .rBox p:first-of-type {
-    height: 56px;
-    margin-top: 9px;
+  font-size: 0.9rem;
+  padding: 1rem 0;
+ 
 }
 
     .stn {
@@ -829,39 +898,30 @@ font-family: "Cormorant Garamond", serif;
     }
 }
 
-@media screen and (max-width:576px) {
+@media screen and (max-width:575px) {
 
     .section_1 .titleBox {
         top: 56vw;
     }
-
+    .section_2 .itemBox .item .itemInfo>p:nth-of-type(2) {
+        /* height: 60px; */
+        font-size: 1rem;
+    }
     .section_2 .itemBox .item .itemInfo>p {
-        font-size: 0.8rem;
+        font-size: 1rem;
     }
 
     
     .section_2 .itemBox .item .itemInfo .underline {
-        height: 4.8rem;
-        font-size: 1rem;
+     height: 126px;
     }
 
     .section_2 h3,
     .section_4 h3 {
-        font-size: 1.5rem;
+        font-size: 1.7rem;
     }
 
-    .section_3 {
-        width: 100%;
-    }
 
-   
-    .section_4 .container {
-        width: 100%;
-    }
-
-    .section_4>p {
-        font-size: 1rem;
-    }
     .section_6 {
         padding-top: 50px;
         padding-bottom: 50px;
@@ -878,7 +938,7 @@ font-family: "Cormorant Garamond", serif;
 }
 
 .section_6 .review .rBox p:first-of-type {
-    height: 72px;
+    padding: 0.2rem;
 }
 .section_6 .review .rBox p:nth-of-type(2){
     margin-top: 1rem;
@@ -897,35 +957,37 @@ font-family: "Cormorant Garamond", serif;
 }
 
 
-@media screen and (max-width:451px) {
+@media screen and (max-width:461px) {
     .logo {
         width: 100px;
     }
-
-    .section_1 .titleBox {
-        width: 288px;
+    .section_1 .titleBox{
+      top: 60vw;
     }
+ 
 
-    .section_1 .titleBox h2 {
-        font-size: 1.6em;
-    }
-
-    .section_1 .titleBox p {
-        font-size: 1.2rem;
-    }
+ 
 
     .section_2 .itemBox {
         padding-bottom: 3rem;
     }
 
     .section_2 .itemBox .item .itemInfo>p {
-        font-size: 0.9rem;
+        font-size: 1rem;
     }
-
+    .section_2 .itemBox .item .itemInfo .underline{
+        height: 98px;
+    }
+    .section_2 .itemBox .item .itemInfo .underline>p:first-of-type {
+        font-size: 1.4rem;
+    }
     .section_2 .itemBox .item .itemInfo .underline {
-        font-size: 1.1rem;
+        font-size: 1.3rem;
     }
-
+    .section_2 .itemBox .item .itemInfo>p:nth-of-type(2) {
+        font-size: 1.1rem;
+        height: 68px;
+    }
     .section_2 .more {
         margin-top: 4rem;
         font-size: 0.8rem;
@@ -959,11 +1021,7 @@ font-family: "Cormorant Garamond", serif;
         font-size: 0.8rem;
 
     }
-    .section_5 .left{
-        width: 84%;
-        padding-right: 0;
-    }
-    
+   
     .section_5 .left h3{
         font-size: 1.5rem;
     }
@@ -1004,19 +1062,13 @@ left: 48px;
 /* 아이폰 */
 @media screen and (max-width:391px) {
 
-    .section_1 .titleBox {
-        width: 280px;
-        top: 62vw;
-    }
+  .section_1 .titleBox h2 {
+    font-size: 1.6em;
+}
 
-
-    .section_1 .titleBox h2 {
-        font-size: 1.3rem;
-    }
-
-    .section_1 .titleBox p {
-        font-size: 1.1rem;
-    }
+.section_1 .titleBox p {
+    font-size: 1.2rem;
+} 
 
     .section_2 .itemBox .item .imgBox .btn button {
         width: 26px;
@@ -1030,9 +1082,9 @@ left: 48px;
         line-height: 34px;
     }
 
-    .section_4>p {
+    /* .section_4>p {
         margin-right: 12%;
-    }
+    } */
 
     .section_4 .container .when .w,
     .section_4 .container .when .ice {
@@ -1071,7 +1123,6 @@ left: 48px;
 
 
     .section_1 .titleBox {
-        width: 260px;
         top: 65vw;
     }
 
@@ -1087,11 +1138,11 @@ left: 48px;
         font-size: 1rem;
     }
 
-    .section_4>p {
+    /* .section_4>p {
         margin-top: 8px;
         margin-bottom: 36px;
 
-    }
+    } */
 
     .section_4 .container .when p:first-of-type {
         font-size: 0.8rem;

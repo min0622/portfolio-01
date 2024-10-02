@@ -17,7 +17,7 @@ $(function(){
             }
           },
           {
-            breakpoint: 451,
+            breakpoint: 461,
             settings: {
               arrows: false,
               dots:true,
@@ -69,7 +69,7 @@ $(function(){
             }
           },
           {
-            breakpoint: 451,
+            breakpoint: 461,
             settings: {
               arrows: false,
               dots:true,
