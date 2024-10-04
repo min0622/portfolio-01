@@ -69,7 +69,8 @@ $(function(){
             }
           },
           {
-            breakpoint: 461,
+            // breakpoint: 461,
+            breakpoint: 575,
             settings: {
               arrows: false,
               dots:true,
