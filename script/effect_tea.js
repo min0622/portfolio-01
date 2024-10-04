@@ -53,71 +53,22 @@ $(function () {
     slidesPerView: 2,
     spaceBetween: 20,
     freeMode: true,
+    loop:true,
     pagination: {
       el: ".swiper-pagination",
       clickable: true,
     },
     breakpoints: {
-      // 768px 이상에서는 3개의 슬라이드를 보여줌
       768: {
         slidesPerView: 3,
         spaceBetween:20
       },
-      // 991: {
-      //   slidesPerView: 4,
-      //   spaceBetween:20
-      // },
-      // 768: {
-      //   slidesPerView: 3,
-      //   spaceBetween: 79
-      // },
-      // 1024px 이상에서는 5개의 슬라이드를 보여줌
-      1200: {
+      1201: {
         slidesPerView: 4,
         spaceBetween: 40
       }
     }
   });
-
-
-
-  //   $('.s2_section1 .teaBox').slick({
-  //     centerMode: false,
-  //     centerPadding: '10px',
-  //     slidesToShow: 4,
-  //     slidesToScroll: 3,
-  //     responsive: [
-  //       {
-  //         breakpoint: 1300,
-  //         settings: {
-  //           arrows: false,
-  //           centerPadding: '0',
-  //           slidesToShow: 3,
-  //           slidesToScroll: 2
-  //         }
-  //       },
-  //       {
-  //         breakpoint: 638,
-  //         settings: {
-  //           arrows: false,
-  //           dots: true,
-  //           slidesToShow: 2,
-  //           slidesToScroll: 1
-
-  //         }
-  //       },
-  //       {
-  //         breakpoint: 321,
-  //         settings: {
-  //           arrows: false,
-  //           dots: true,
-  //           slidesToShow: 1,
-  //           slidesToScroll: 1
-
-  //         }
-  //       }
-  //     ]
-  //   })
 
 
 

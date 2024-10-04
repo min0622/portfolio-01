@@ -1,87 +1,69 @@
 $(function(){
 
-    $('#wrap .section_2 .itemBox').slick({
-        centerMode: false,
-        centerPadding: '10px',
-        slidesToShow: 3,
-        slidesToScroll:3,
-        responsive: [
-          {
-            // breakpoint: 769,
-            breakpoint: 1025,
-            settings: {
-              arrows: false,
-              centerPadding: '0',
-              slidesToShow: 2,
-        slidesToScroll:2
-            }
-          },
-          {
-            breakpoint: 461,
-            settings: {
-              arrows: false,
-              dots:true,
-              slidesToShow: 1,
-              slidesToScroll:1
+  // section_2
+  var swiper = new Swiper("#wrap .section_2 .itemBox", {
+    slidesPerView: 1,
+    spaceBetween: 20,
+    freeMode: true,
+    loop:true,
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    },
+    breakpoints: {
+      462: {
+        slidesPerView: 2,
+        spaceBetween:20
+      },
+      500: {
+        slidesPerView: 2,
+        spaceBetween:40
+      },
+      1026: {
+        slidesPerView: 3,
+        spaceBetween: 30
+      },
+      1600: {
+        slidesPerView: 3,
+        spaceBetween: 100
+      }
+    }
+  });
     
-            }
-          }
-        ]
-      })
-    
-    
-    
-    
-      $('#wrap .section_6 .review').slick({
-        centerMode: false,
-        centerPadding: '0',
-        // centerPadding: '10px',
-        slidesToShow: 4,
-        slidesToScroll:2,
-        responsive: [
-          {
-            breakpoint: 1681,
-            settings: {
-              arrows: false,
-              centerPadding: '0',
-              slidesToShow: 3,
-        slidesToScroll:2
-            }
-          },
-          {
-            breakpoint: 1025,
-            settings: {
-              arrows: false,
-              dots:true,
-              slidesToShow: 3,
-              slidesToScroll:2
-    
-            }
-          },
-          {
-            breakpoint: 769,
-            settings: {
-              arrows: false,
-              dots:true,
-              slidesToShow: 2,
-              slidesToScroll:2
-    
-            }
-          },
-          {
-            // breakpoint: 461,
-            breakpoint: 575,
-            settings: {
-              arrows: false,
-              dots:true,
-              slidesToShow: 1,
-              slidesToScroll:1
-    
-            }
-          }
-        ]
-      });
-    
+
+
+
+  // section_6
+  var swiper = new Swiper("#wrap .section_6 .review", {
+    slidesPerView: 1,
+    spaceBetween: 20,
+    freeMode: true,
+    loop:true,
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    },
+    breakpoints: {
+      576: {
+        slidesPerView: 2,
+        spaceBetween:16
+      },
+      800: {
+        slidesPerView: 3,
+        spaceBetween: 12
+      },
+      1026: {
+        slidesPerView: 3,
+        spaceBetween: 20
+      },
+      1201: {
+        slidesPerView: 4,
+        spaceBetween: 20
+      }
+    }
+  });
+
+
 
 
 });
