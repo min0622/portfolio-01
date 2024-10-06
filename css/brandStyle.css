@@ -268,7 +268,6 @@
 
     .s1_section5 {
         margin-top: 14rem;
-        /* margin-bottom: 18rem; */
     }
 }
 
@@ -556,10 +555,6 @@
         margin-bottom: 2rem;
     }
 
-    /* .footerI .fRight {
-        width: 100%;
-    } */
-
 }
 
 @media screen and (max-width:451px) {
@@ -623,25 +618,6 @@
 
     }
 
-    /* footer {
-        margin-top: 16rem;
-    }
-
-    .footerI {
-        padding: 3rem 3rem;
-        padding-bottom: 7rem;
-    }
-
-    .footerI .copy {
-        width: 79%;
-        line-height: 180%;
-        left: 48px;
-        bottom: 50px;
-    }
-
-    .footerI .sns {
-        left: 48px;
-    } */
 
 }
 
