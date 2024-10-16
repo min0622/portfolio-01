@@ -90,29 +90,36 @@ nav ul li a {
 
 header .icon {
     display: flex;
-    justify-content: center;
     align-items: center;
+    gap: 25px;
 }
 
+button{
+    display: block;
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    background-size: 100%;
+    cursor: pointer;
+}
 
-header .icon li:nth-child(1) {
+header .icon button:nth-child(1){
     width: 24px;
     height: 24px;
+    background-image: url(../img/web/main/search.png);
 }
-
-header .icon li:nth-child(2) {
-    margin-left: 1.4em;
+header .icon button:nth-child(2){
     width: 27px;
     height: 24px;
+    background-image: url(../img/web/main/login.png);
 }
-
-header .icon li:nth-child(3) {
-    margin-left: 1.4em;
+header .icon button:nth-child(3){
     width: 24px;
     height: 27px;
+    background-image: url(../img/web/main/bag.png);
 }
 
-header .menu {
+header .icon .menu{
     width: 24px;
     height: 20px;
     display: flex;
@@ -121,7 +128,7 @@ header .menu {
     display: none;
 }
 
-header .menu span {
+header .icon .menu span {
     display: block;
     width: 100%;
     height: 2px;
@@ -142,36 +149,50 @@ header .menu span {
     right: -100%;
 }
 
-.mo_menu::-webkit-scrollbar {
+
+.mo_menu .x_box{
+    width: 100%;
+    margin: auto;
+    padding: 0 40px;
+    height: 80px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.mo_menu .x {
+    width: 24px;
+    height: 24px;
+    background-image: url('../img/mobile/main/x.png');
+}
+
+/* 스크롤바 숨기기 : 크롬, 사파리, 엣지 */
+.mo_menu .ul_box::-webkit-scrollbar {
     display: none;
 }
-
-.mo_menu .x {
-    width: 36px;
-    cursor: pointer;
-    border: none;
-    position: absolute;
-    top: 32px;
-    right: 7.5%;
-    z-index: 981;
-    background-color: #fff;
-    display: block;
-}
-
-
-.mo_menu>ul {
-    max-width: 768px;
-    margin: auto 8%;
-    margin-top: 200px;
+.mo_menu .ul_box{
+    overflow: hidden;
+    overflow-y: auto;
+    
+    width: 100%;
+    height: calc(100% - 160px);
+    padding: 0 40px;
+    padding-top: 10%;
+    padding-bottom: 10vh;
     display: flex;
     flex-direction: column;
-    gap: 60px;
     justify-content: space-between;
     font-family: "Noto Sans KR", system-ui;
     font-weight: 500;
-    font-size: 1.3rem;
+    font-size: 1.4rem;
 }
-
+.ul_box ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.ul_box ul li{
+padding:5vw  0;
+}
 
 /* mo_icon */
 .mo_icon {
@@ -179,37 +200,35 @@ header .menu span {
     display: flex;
     justify-content: end;
     align-items: center;
-    position: absolute;
-    bottom: 1%;
-    right: 7.5%;
-    z-index: 981;
-
+padding: 0 40px;
     width: 100%;
-    height: 60px;
+    height: 80px;
 }
-
-.mo_icon ul {
+.mo_icon .btn_box {
     width: 50%;
     display: flex;
     justify-content: end;
     align-items: center;
+    gap: 25px;
 }
 
-.mo_icon li:nth-child(1) {
+.btn_box button:nth-child(1) {
     width: 24px;
     height: 24px;
+    background-image: url(../img/web/main/search.png);
 }
 
-.mo_icon li:nth-child(2) {
-    margin-left: 1.4em;
+.btn_box button:nth-child(2) {
     width: 27px;
     height: 24px;
-}
+    background-image: url(../img/web/main/login.png);
 
-.mo_icon li:nth-child(3) {
-    margin-left: 1.4em;
+}
+.btn_box button:nth-child(3) {
     width: 24px;
     height: 27px;
+    background-image: url(../img/web/main/bag.png);
+
 }
 
 
@@ -371,11 +390,11 @@ footer {
         width: 140px;
     }
 
-    header .icon li:not(:last-child) {
+    header .icon button:not(:last-of-type) {
         display: none;
     }
 
-    header .menu {
+    header .icon .menu{
         display: flex;
     }
 
@@ -465,7 +484,7 @@ footer {
 }
 
 @media screen and (max-width:575px) {
-    header .menu {
+    header .icon .menu{
         width: 22px;
         height: 18px;
     }
@@ -501,7 +520,9 @@ footer {
     .logo {
         width: 100px;
     }
-
+    .ul_box ul li{
+        padding:8vw  0;
+        }
     .footerI .fLeft {
         padding-bottom: 2rem;
     }
