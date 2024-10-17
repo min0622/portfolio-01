@@ -200,7 +200,7 @@ header .icon .menu span {
     overflow-y: auto;
 
     width: 100%;
-    height: calc(100% - 160px);
+    /* height: calc(100% - 160px); */
     padding: 0 40px;
     padding-top:7.5vw;
     padding-bottom: 10vh;
@@ -230,7 +230,7 @@ header .icon .menu span {
     padding: 0 40px;
     width: 100%;
     height: 80px;
-    background-color: gold;
+    background-color: seagreen;
 }
 
 .mo_icon .btn_box {
