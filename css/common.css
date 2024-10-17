@@ -161,7 +161,7 @@ header .icon .menu span {
     justify-content: flex-end; /* 오른쪽 정렬 */
     align-items: center;
     position: relative;
-    background-color: salmon;
+    background-color: lightgreen;
 }
 
 .mo_menu .x {
