@@ -143,8 +143,8 @@ header .icon .menu span {
 .mo_menu {
     width: 100%;
     height: 100vh;
-    overflow: hidden;
-    overflow-y: auto;
+    /* overflow: hidden;
+    overflow-y: auto; */
     background-color: #fff;
     position: fixed;
     z-index: 998;
@@ -190,7 +190,7 @@ header .icon .menu span {
     transform: translateY(6px) rotate(45deg); /* 아래로 이동 후 회전 */
 }
 /* 스크롤바 숨기기 : 크롬, 사파리, 엣지 */
-.mo_menu::-webkit-scrollbar,
+/* .mo_menu::-webkit-scrollbar, */
 .mo_menu .ul_box::-webkit-scrollbar {
     display: none;
 }
@@ -200,7 +200,7 @@ header .icon .menu span {
     overflow-y: auto;
 
     width: 100%;
-    /* height: calc(100% - 160px); */
+    height: calc(100% - 160px);
     padding: 0 40px;
     padding-top:7.5vw;
     padding-bottom: 10vh;
@@ -230,7 +230,7 @@ header .icon .menu span {
     padding: 0 40px;
     width: 100%;
     height: 80px;
-    background-color: seagreen;
+    background-color: slategrey;
 }
 
 .mo_icon .btn_box {
