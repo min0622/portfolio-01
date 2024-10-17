@@ -119,7 +119,7 @@ $(function () {
 
     list.forEach((lists) => {
 
-      console.log(lists)
+      // console.log(lists)
 
 
 
