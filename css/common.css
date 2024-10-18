@@ -162,7 +162,6 @@ header .icon .menu span {
   /* 오른쪽 정렬 */
   align-items: center;
   position: relative;
-  background-color: skyblue;
 }
 
 .mo_menu .x {
@@ -237,7 +236,6 @@ header .icon .menu span {
   padding: 0 40px;
   width: 100%;
   height: 80px;
-  background-color: slategrey;
 }
 
 .mo_icon .btn_box {
