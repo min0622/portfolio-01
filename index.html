@@ -1,0 +1,607 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TWININGS</title>
+  <link rel="stylesheet" href="./css/reset.css" type="text/css">
+  <link rel="stylesheet" href="./css/common.css" type="text/css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="./css/main.css" type="text/css">
+
+  <script src="./script/jquery-3.7.1.min.js"></script>
+  <!-- <script src="./script/jquery-ui.min.js"></script> -->
+  <script src="https://kit.fontawesome.com/15c2d7fd92.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js" defer></script>
+  <script src="./script/slick.js" defer></script>
+  <script src="./script/main.js" defer></script>
+
+
+</head>
+
+<body>
+  <!-- header -->
+  <header>
+
+    <div class="headeri">
+      <h1 class="logo">
+        <a href="./index.html">
+          <img src="img/web/main/logo.png" alt="logo">
+          <span>TWININGS</span>
+          <!-- 숨김처리하기! -->
+        </a>
+      </h1>
+
+
+      <nav>
+        <ul>
+          <li>
+            <a href="./brand.html">브랜드 소개</a>
+          </li>
+          <li>
+            <a href="./tea.html">티 제품</a>
+          </li>
+          <li>
+            <a href="#">티 웨어</a>
+          </li>
+          <li>
+            <a href="#">기프트세트</a>
+          </li>
+          <li>
+            <a href="#">이벤트</a>
+          </li>
+          <li>
+            <a href="#">매장</a>
+          </li>
+        </ul>
+      </nav>
+
+
+      <div class="icon">
+
+        <button type="button"></button>
+        <button type="button"></button>
+        <button type="button"></button>
+        
+        <button type="button" class="menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+
+
+    </div>
+
+
+  </header>
+  <!-- //header -->
+
+
+  <!-- mobile버전 메뉴바 -->
+  <div class="mo_menu">
+
+    <div class="x_box">
+      <button type="button" class="x">
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+
+    <div class="ul_box">
+      <ul>
+        <li>
+          <a href="./brand.html">브랜드 소개</a>
+        </li>
+        <li>
+          <a href="./tea.html">티 제품</a>
+        </li>
+        <li>
+          <a href="#">티 웨어</a>
+        </li>
+        <li>
+          <a href="#">기프트세트</a>
+        </li>
+        <li>
+          <a href="#">이벤트</a>
+        </li>
+        <li>
+          <a href="#">매장</a>
+        </li>
+
+      </ul>
+
+    </div>
+
+    <div class="mo_icon">
+      <div class="btn_box">
+        <button type="button"></button>
+        <button type="button"></button>
+        <button type="button"></button>
+      </div>
+    </div>
+  </div>
+
+
+
+
+  <!-- wrap -->
+  <div id="wrap">
+
+    <!-- section1 -->
+    <div class="section_1">
+      <h3 hidden>section1</h3>
+
+
+      <picture class="main">
+        <source srcset="img/web/main/main1.png" media="(min-width:577px)">
+        <source srcset="img/mobile/main/mo-main1-3.jpg" media="(max-width:576px)">
+        <img src="/" alt="/">
+      </picture>
+
+      <div class="titleBox">
+        <h2>오직 공식몰에서만</h2>
+        <p>TWININGS Boutique & Salon을<br>
+          만나보세요</p>
+      </div>
+    </div>
+    <!-- //section1 -->
+
+    <!-- section2 -->
+    <div class="section_2">
+      <h3>TWININGS PICK </h3>
+
+      <!-- 상품슬라이드 -->
+      <div class="itemBox  swiper mySwiper">
+        <div class="swiper-wrapper">
+
+          <div class="item i1 swiper-slide">
+            <a href="#" class="all">
+              <div class="fig_box">
+                <figure class="imgBox">
+                  <img src="img/web/main/main2-1.png" alt="main2-1" class="m2-1">
+                </figure>
+                <figure>
+                  <img src="img/web/main/hmain2-1.png" alt="main2-1">
+                </figure>
+              </div>
+              <div class="itemInfo">
+                <p>Herbal</p>
+                <div class="underline">
+                  <p>Black Tea with LEMON</p>
+                  <p>12,900원</p>
+                </div>
+                <p>상큼한 레몬향이 은은하게 어우러진 홍차</p>
+                <p>티백(2g × 25EA)</p>
+              </div>
+            </a>
+          </div>
+
+          <div class="item i2 swiper-slide">
+            <a href="#" class="all">
+              <div class="fig_box">
+                <figure class="imgBox">
+                  <img src="img/web/main/main2-2.png" alt="main2-2" class="m2-2">
+                </figure>
+                <figure>
+                  <img src="img/web/main/hmain2-2.png" alt="main2-2">
+                </figure>
+              </div>
+              <div class="itemInfo">
+                <p>Black Tea</p>
+                <div class="underline">
+                  <p>Prince Of Whales Tea</p>
+                  <p>12,900원</p>
+                </div>
+                <p>강렬한 바디감으로 풍부함을 느낄 수 있는 홍차</p>
+                <p>티백(2g × 25EA)</p>
+              </div>
+            </a>
+          </div>
+
+
+          <div class="item swiper-slide">
+            <a href="#" class="all">
+              <div class="fig_box">
+                <figure class="imgBox">
+                  <img src="img/web/main/main2-3.png" alt="main2-3" class="m2-3">
+                </figure>
+                <figure>
+                  <img src="img/web/main/hmain2-3.png" alt="main2-3">
+                </figure>
+              </div>
+              <div class="itemInfo">
+                <p>Black Tea</p>
+                <div class="underline">
+                  <p>Pure Darjeeling Tea</p>
+                  <p>12,900원</p>
+                </div>
+                <p>은은한 향과 함께 가볍게 즐길 수 있는 홍차</p>
+                <p>티백(2g × 25EA)</p>
+              </div>
+            </a>
+          </div>
+
+
+          <div class="item swiper-slide">
+            <a href="#" class="all">
+              <div class="fig_box">
+                <figure class="imgBox">
+                  <img src="img/web/main/main2-4.png" alt="main2-4" class="m2-4">
+                </figure>
+                <figure>
+                  <img src="img/web/main/hmain2-4.png" alt="main2-4">
+                </figure>
+              </div>
+              <div class="itemInfo">
+                <p>Herbal</p>
+                <div class="underline">
+                  <p>Pure Ceylon Tea</p>
+                  <p>12,900원</p>
+                </div>
+                <p>하루의 시작을 상쾌하게 하는 스리랑카산 홍차</p>
+                <p>티백(2g × 25EA)</p>
+              </div>
+            </a>
+          </div>
+          <div class="item swiper-slide">
+            <a href="#" class="all">
+              <div class="fig_box">
+                <figure class="imgBox">
+                  <img src="img/web/main/main2-5.png" alt="main2-5" class="m2-5">
+                </figure>
+                <figure>
+                  <img src="img/web/main/hmain2-5.png" alt="main2-5">
+                </figure>
+              </div>
+              <div class="itemInfo">
+                <p>Black Tea</p>
+                <div class="underline">
+                  <p>Lady Grey Tea</p>
+                  <p>12,900원</p>
+                </div>
+                <p>얼그레이에 베르가못 향, 오렌지와 레몬 껍질이 블렌딩된 홍차</p>
+                <p>티백(2g × 25EA)</p>
+              </div>
+            </a>
+          </div>
+          <div class="item swiper-slide">
+            <a href="#" class="all">
+              <div class="fig_box">
+                <figure class="imgBox">
+                  <img src="img/web/main/main2-6.png" alt="main2-6" class="m2-6">
+                </figure>
+                <figure>
+                  <img src="img/web/main/hmain2-6.png" alt="main2-6">
+                </figure>
+              </div>
+              <div class="itemInfo">
+                <p>Pu-Erh Tea</p>
+                <div class="underline">
+                  <p>LEMON Pu-Erh Tea </p>
+                  <p>12,900원</p>
+                </div>
+                <p>가볍고 부드러운 레몬향이 나는 보이차</p>
+                <p>티백 (2g × 25EA)</p>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- //상품슬라이드 -->
+
+
+      <a href="#">
+        <p class="more">더 알아보기</p>
+      </a>
+
+    </div>
+    <!-- //section2 -->
+
+
+
+    <!-- section3 -->
+    <div class="section_3">
+      <div class="slide s1">
+        <a href="#">
+          <img src="img/web/main/main3-1.png" alt="main3-1">
+          <p>ACCESSORIES</p>
+        </a>
+      </div>
+      <div class="slide s2">
+        <a href="#">
+          <img src="img/web/main/main3-2.png" alt="main3-2">
+          <p>GIFTS SETS</p>
+        </a>
+      </div>
+      <div class="slide s3">
+        <a href="#">
+          <img src="img/web/main/main3-3.png" alt="main3-3">
+          <p>TEA TASTINGS</p>
+        </a>
+      </div>
+
+    </div>
+    <!-- //section3 -->
+
+
+
+    <!-- section4 -->
+    <div class="section_4">
+
+      <h3>TWININGS TIP</h3>
+      <p>그날의 취향과 컨디션에 따라 다양한 방법으로 마셔보세요.</p>
+
+      <div class="container">
+        <div class="box">
+          <div class="num">
+            <figure class="f">
+              <img src="img/web/main/main4-1.png" alt="main4-1" class="n1">
+            </figure>
+            <div class="when">
+              <p class="w">따뜻한 차로 마실 때</p>
+              <p>더 알아보기</p>
+            </div>
+          </div>
+
+          <div class="num">
+            <div class="when">
+              <p class="w">밀크티로 마실 때</p>
+              <p>더 알아보기</p>
+            </div>
+            <figure class="f">
+              <img src="img/web/main/main4-3.png" alt="main4-3" class="n3">
+            </figure>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="num">
+            <figure class="f">
+              <img src="img/web/main/main4-2.png" alt="main4-2" class="n2">
+            </figure>
+            <div class="when">
+              <p class="w">아이스티로 마실 때</p>
+              <p>더 알아보기</p>
+            </div>
+          </div>
+
+          <div class="num">
+            <div class="when">
+              <p class="ice">냉침 아이스티로<br> 마실 때</p>
+              <p>더 알아보기</p>
+            </div>
+            <figure class="f">
+              <img src="img/web/main/main4-4.png" alt="main4-4" class="n4">
+            </figure>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- //section4 -->
+
+
+
+    <!-- section5 -->
+    <div class="section_5">
+      <div class="left">
+        <div class="l_inner">
+
+          <span>Our Twinings Stores </span>
+          <h3>COME VISIT US</h3>
+
+          <p>오프라인 매장에서 다채로운 트와이닝을 경험하세요.
+            고급스러운 인테리어와 차(Tea) 향이 가득 채워진 공간에서 휴식을 즐겨보세요. 시음 이벤트를 통해 취향에 맞는 차를 찾아볼 수 있어요. 또한, 오프라인 매장에서만 만날 수
+            있는
+            특별한
+            차(Tea)와 차(Tea) 액세사리, 선물용 차(Tea) 세트가 준비되어 있습니다. 저희 트와이닝 매장은 각 매장들마다 제공하는 시즌 메뉴가 조금씩 다르니 방문하는 재미를
+            느껴보세요.
+          </p>
+          <a href="#">
+            <p class="more">매장 더 알아보기</p>
+          </a>
+        </div>
+      </div>
+
+      <picture class="right">
+        <source srcset="img/web/main/main5.png" media="(min-width:769px)">
+        <source srcset="img/web/main/main5-768-2.png" media="(max-width:768px)">
+        <img src="/" alt="/" class="min">
+      </picture>
+
+    </div>
+    <!-- //section5 -->
+
+    <!-- section6 review -->
+    <div class="section_6">
+      <div class="inner_6">
+        <h3 hidden>section6</h3>
+        <div class="reviewTitle">
+          <p>Excellent</p>
+          <div class="star">
+            <img src="img/web/main/review-star.png" alt="star">
+          </div>
+          <p> <span>4.8</span>점 <span>1,117</span>개 리뷰 기준</p>
+        </div>
+
+        <!-- 리뷰 -->
+        <div class="review swiper mySwiper">
+          <div class="swiper-wrapper">
+
+            <div class="rBox swiper-slide">
+              <div class="rStar">
+                <span>ange****** </span>
+                <figure>
+                  <img src="img/web/main/r1.jpg" alt="r1">
+                </figure>
+              </div>
+              <p>얼그레이 사러왔다가 혹해서 주문했어요. 겨울에는 밀크티를 많이 마시는데 밀크티에는 역시나 얼그레이가 최고인것 같아요.</p>
+              <p>2024.02.16</p>
+            </div>
+
+            <div class="rBox swiper-slide">
+              <div class="rStar">
+                <span>monc****** </span>
+                <figure>
+                  <img src="img/web/main/r1.jpg" alt="r1">
+                </figure>
+              </div>
+              <p>페퍼민트와 레이디그레이 향이 너무 좋아요.</p>
+              <p>2024.02.17</p>
+            </div>
+            <div class="rBox swiper-slide">
+              <div class="rStar">
+                <span>pals***** </span>
+                <figure>
+                  <img src="img/web/main/r1.jpg" alt="r1">
+                </figure>
+              </div>
+              <p>잉글리쉬 블랙퍼스트는 처음인데 진해서 밀크티 해서 먹으니까 딱이네요.</p>
+              <p>2024.02.15</p>
+            </div>
+            <div class="rBox swiper-slide">
+              <div class="rStar">
+                <span>uiop****</span>
+                <figure>
+                  <img src="img/web/main/r1.jpg" alt="r1">
+                </figure>
+              </div>
+              <p>엄마 집에서 마셔본 티를 남편이 너무 좋아해서 구매하게 되었어요. 두세 번 우려도 될 만큼 진하고 향긋합니다.</p>
+              <p>2024.01.28</p>
+            </div>
+            <div class="rBox swiper-slide">
+              <div class="rStar">
+                <span>arongcho****</span>
+                <figure>
+                  <img src="img/web/main/r1.jpg" alt="r1">
+                </figure>
+              </div>
+              <p>카페인 섭취 줄여야해서 커피 대신 마실 거 찾다가 구매하게 됐어요. </p>
+              <p>2024.02.22</p>
+            </div>
+
+          </div>
+        </div>
+        <!-- //리뷰 -->
+
+
+
+      </div>
+    </div>
+    <!-- //section6  -->
+
+
+    <!-- 한문장 -->
+    <p class="stn">EXPLORE THE BEAUTY OF LIFE WITH US</p>
+    <!-- //한문장 -->
+
+
+  </div>
+  <!-- //wrap -->
+
+  <!-- footer -->
+  <footer>
+    <div class="footerI">
+
+
+      <div class="fLeft">
+
+
+        <div class="hideInfo">
+          <div class="hide_inner">
+            <span>INFORMATION</span>
+            <button type="button" class="btn">OPEN ▼</button>
+          </div>
+        </div>
+
+        <ul class="underTop">
+          <li>
+            <a href="#">개인정보처리방침</a>
+          </li>
+          <li>
+            <a href="#">전자금융거래 이용약관</a>
+          </li>
+          <li>
+            <a href="#">권리보호센터</a>
+          </li>
+          <li>
+            <a href="#">안전거래 가이드</a>
+          </li>
+        </ul>
+
+
+
+        <div class="underLeft">
+
+          <p>사업자등록번호 220-81-62517 ｜통신판매업신고번호 2006-경기성남-0692호</p>
+          <p>대표이사: 최수연 ｜경기도 성남시 분당구 정자일로 95, NAVER 1784, 13561</p>
+          <p>전화 1588-3819 | 이메일 <span class="email"> helpcustomer@naver.com </span>| 사업자등록정보 확인
+          </p>
+        </div>
+      </div>
+
+      <div class="fRight">
+        <div class="csBox">
+          <ul>
+            <li class="bold">CS center</li>
+            <li>고객센터 : 02-534-7100</li>
+            <li>운영시간 : 평일 09:30 ~18:00</li>
+            <li>점심시간 : 12:30 ~ 13:30</li>
+            <li> * 주말 및 공휴일은 휴무입니다</li>
+          </ul>
+
+        </div>
+        <div class="serBox">
+          <ul>
+            <li class="bold">Service</li>
+            <li>
+              <a href="#">자주 묻는 질문</a>
+            </li>
+            <li>
+              <a href="#">공지사항</a>
+            </li>
+            <li>
+              <a href="#">리뷰</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+
+      <span class="copy">© Copyright TWININGS 한국 공식몰 All Rights Reserved.</span>
+
+      <div class="sns">
+        <a href="#">
+          <span>
+            <i class="fa-brands fa-instagram" style="color: #777;"></i>
+          </span>
+        </a>
+        <a href="#">
+          <span>
+            <i class="fa-brands fa-facebook" style="color: #777;"></i>
+          </span>
+        </a>
+        <a href="#">
+          <span><i class="fa-brands fa-square-twitter" style="color:#777;"></i></span>
+        </a>
+        <a href="#">
+          <span>
+            <i class="fa-brands fa-youtube" style="color: #777;"></i>
+          </span>
+        </a>
+      </div>
+
+
+    </div>
+
+
+  </footer>
+  <!-- //footer -->
+
+
+</body>
+
+</html>

@@ -1,0 +1,1137 @@
+@import url(./common.css);
+/* 
+  font-family: "maru";
+} */
+
+
+/* wrap */
+#wrap {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+/* section_1 */
+.section_1 {
+    width: 100%;
+    position: relative;
+}
+
+.section_1 .main {
+    width: 100%;
+    position: relative;
+    top: 0;
+}
+
+.section_1 .titleBox {
+    max-width: 1440px;
+    width: 100%;
+    padding: 0 20px;
+    position: absolute;
+    font-family: "Noto Sans KR", system-ui;
+
+    top: 20vw;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.section_1 .titleBox h2 {
+    font-size: 3.4rem;
+    font-weight: 700;
+    margin-bottom: 28px;
+}
+
+.section_1 .titleBox p {
+    font-size: 2.2rem;
+    font-weight: 500;
+    line-height: 150%;
+}
+
+/* section_2  슬라이드*/
+.section_2 {
+    max-width: 1440px;
+    padding: 0 20px;
+    margin: auto;
+    width: 100%;
+    position: relative;
+    margin-top: 16rem;
+}
+
+.section_2 h3 {
+    font-weight: 600;
+    font-family: "Playfair Display", serif;
+    font-size: 2.5rem;
+    line-height: 130%;
+}
+
+.section_2 .itemBox {
+    width: 100%;
+    overflow: hidden;
+    margin-top: 3rem;
+    position: relative;
+
+}
+
+.section_2 .itemBox .item {
+    overflow: hidden;
+}
+
+.section_2 .itemBox .item .all {
+    display: block;
+}
+
+.fig_box{
+   max-width: 400px;
+   min-width: 300px;
+    height: 400px;
+    position: relative;
+}
+.fig_box figure{
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: 0.3s;
+
+}
+.fig_box .imgBox{
+    z-index: 60;
+}
+.section_2 .itemBox .item .itemInfo {
+    overflow: hidden;
+    margin-top: 1.6rem;
+
+}
+
+.section_2 .itemBox .item .itemInfo>p {
+    font-family: "Inter", system-ui;
+    font-weight: 400;
+    font-size: 1rem;
+    color: #666;
+}
+
+.section_2 .itemBox .item .itemInfo>p:first-of-type {
+    height: 24px;
+    line-height: 24px;
+}
+
+.section_2 .itemBox .item .itemInfo .underline {
+    width: 100%;
+    height: 90px;
+    padding: 0.7rem 0;
+    font-family: "Inter", system-ui;
+    font-weight: 500;
+    font-size: 1.2rem;
+    border-bottom: 1px solid #ddd;
+    color: var(--Mcolor--);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.section_2 .itemBox .item .itemInfo .underline>p:first-of-type {
+    /* 티네임 */
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 140%;
+
+}
+
+.section_2 .itemBox .item .itemInfo>p:nth-of-type(2) {
+    height: 52px;
+    line-height: 160%;
+    margin-top: 12px;
+    margin-bottom: 16px;
+    font-family: "Noto Sans KR", system-ui;
+    font-weight: 400;
+    color: #444;
+}
+
+.section_2 .itemBox .item .itemInfo>p:nth-of-type(3) {
+    height: 24px;
+    line-height: 24px;
+    font-weight: 400;
+}
+
+.section_2 .more {
+    width: fit-content;
+    font-family: "Noto Sans KR", system-ui;
+    font-weight: 500;
+    font-size: 1rem;
+    border-bottom: solid 1px var(--Mcolor--);
+    padding-bottom: 0.5px;
+    margin: auto;
+    margin-top: 10rem;
+}
+
+/* section_3 슬라이드 */
+.section_3 {
+    max-width: 1440px;
+    width: 100%;
+    padding: 0 20px;
+    overflow: hidden;
+    margin: auto;
+    margin-top: 380px;
+    position: relative;
+}
+
+.section_3 .slide {
+    width: 100%;
+    position: relative;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.section_3 .slide a {
+    display: inline-block;
+    position: relative;
+}
+
+.section_3 .slide img {
+    width: fit-content;
+    margin: auto;
+    position: relative;
+}
+
+.section_3 .slide p {
+    width: 192px;
+    height: 48px;
+    line-height: 48px;
+    background-color: #fff;
+    position: absolute;
+    right: 3.5%;
+    top: 50%;
+    transform: translateY(-50%);
+    font-family: "Inter", system-ui;
+    font-size: 1rem;
+    font-weight: 600;
+    letter-spacing: 0.2rem;
+    text-align: center;
+
+}
+
+
+/* section_4 */
+.section_4 {
+    max-width: 1440px;
+    width: 100%;
+    padding: 0 20px;
+    margin: auto;
+    margin-top: 300px;
+}
+
+.section_4 h3 {
+    font-family: "Playfair Display", serif;
+    font-weight: 600;
+    font-size: 2.5rem;
+    line-height: 130%;
+}
+
+.section_4>p {
+    font-family: "Noto Sans KR", system-ui;
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 160%;
+    margin-top: 16px;
+    margin-bottom: 45px;
+}
+
+.section_4 .container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: auto;
+}
+
+.section_4 .container .num {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.section_4 .container .when {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 17% 0;
+    background-color: rgba(247, 246, 242, .5);
+}
+
+.section_4 .container .when .w,
+.section_4 .container .when .ice {
+    color: var(--Mcolor--);
+    font-size: 1.6rem;
+    font-family: "maru";
+    width: fit-content;
+    height: 36px;
+    margin: auto;
+}
+
+.section_4 .container .when .ice {
+    height: 72px;
+    line-height: 130%;
+}
+
+.section_4 .container .when p:nth-of-type(2) {
+    display: inline-block;
+    width: 181px;
+    height: 46px;
+    align-content: center;
+    font-size: 1rem;
+    font-weight: 400;
+    font-family: "Noto Sans KR", system-ui;
+    background-color:var(--Mcolor--);
+    color: #fff;
+    margin: auto;
+    cursor: pointer;
+}
+
+/* section_5 */
+.section_5 {
+    width: 100%;
+    position: relative;
+    margin-top: 22rem;
+    padding: 5rem 0;
+}
+
+.section_5 .left {
+    max-width: 1440px;
+    padding: 0 20px;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+
+}
+
+.section_5 .l_inner {
+    width: 50%;
+    float: left;
+}
+
+.section_5 .left h3 {
+    font-family: "Playfair Display", serif;
+    position: relative;
+    font-weight: 600;
+    font-size: 2.3rem;
+    line-height: 130%;
+}
+
+.section_5 .left span {
+    display: inline-block;
+    font-family: "Inter", system-ui;
+    font-size: 1.2rem;
+    font-weight: 400;
+    margin-bottom: 0.5rem;
+}
+
+.section_5 .l_inner>p {
+    margin-top: 3.5rem;
+    line-height: 180%;
+    font-family: "Noto Sans KR", system-ui;
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+.section_5 .right {
+    /* 772/1900*100 */
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+
+}
+
+.section_5 a .more {
+    width: fit-content;
+    font-family: "Noto Sans KR", system-ui;
+    font-weight: 500;
+    font-size: 1rem;
+    border-bottom: solid 1px var(--Mcolor--);
+    padding-bottom: 0.5px;
+    margin-top: 6rem;
+}
+
+
+/* section_6  review*/
+.section_6 {
+    width: 100%;
+    overflow: hidden;
+    background-color: var(--Mcolor--);
+    padding-top: 67px;
+    padding-bottom: 80px;
+    position: relative;
+    margin-top: 330px;
+
+}
+
+.section_6 .inner_6 {
+    max-width: 1440px;
+    padding: 0 20px;
+    margin: auto;
+    width: 100%;
+    position: relative;
+}
+
+.section_6 .reviewTitle {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    margin-bottom: 2rem;
+    font-size: 1rem;
+    font-family: "Noto Sans KR", system-ui;
+    color: #fff;
+}
+
+.section_6 .reviewTitle p:first-of-type {
+    font-family: "Inter", system-ui;
+    font-weight: 500;
+}
+
+.section_6 .reviewTitle p:nth-of-type(2) {
+    line-height: 140%;
+}
+
+.section_6 .reviewTitle p>span {
+    font-weight: 600
+}
+
+.section_6 .reviewTitle .star {
+    margin: 0 20px;
+}
+
+.section_6 .review {
+    width: 100%;
+    overflow: hidden;
+    margin: auto;
+}
+
+.section_6 .review .rBox {
+
+    height: 210px;
+    padding: 2.1rem;
+    background-color: #fff;
+    font-family: "Noto Sans KR", system-ui;
+    font-size: 0.9rem;
+    font-weight: 400;
+    position: relative;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+
+.section_6 .review .rBox .rStar {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    font-family: "Inter", system-ui;
+    font-size: 0.9rem;
+    font-weight: 400;
+
+}
+
+.section_6 .review .rBox p:first-of-type {
+    height: 62px;
+    padding: 0.5rem 0;
+    line-height: 150%;
+    font-size: 0.9rem;
+
+}
+
+.section_6 .review .rBox p:nth-of-type(2) {
+    font-size: 0.7rem;
+    font-weight: 400;
+    color: #999;
+    align-self: flex-end;
+    margin-top: 1.6rem;
+}
+
+.section_6 .review .rBox .rStar figure {
+    margin-left: 25px;
+}
+
+
+/* 한문장 */
+.stn {
+    max-width: 1440px;
+    width: 100%;
+    padding: 0 20px;
+    margin: auto;
+    font-family: "Playfair Display", serif;
+    font-size: 2.5rem;
+    font-weight: 500;
+    margin: 14rem auto;
+    text-align: center;
+    line-height: 140%;
+}
+
+
+/* 반응형 */
+@media screen and (max-width:1680px) {
+
+    .section_4 .container .when .w,
+    .section_4 .container .when .ice {
+        font-size: 1.35rem;
+    }
+
+    .section_4 .container .when p:nth-of-type(2) {
+        width: 172px;
+        height: 34px;
+        line-height: 34px;
+        font-size: 0.8rem;
+
+    }
+
+    .section_3 .slide p {
+        width: 184px;
+        height: 46px;
+        line-height: 46px;
+        font-size: 0.9rem;
+
+    }
+
+    .section_5 .l_inner {
+        width: 48%;
+    }
+
+    .section_5 .left h3 {
+        font-size: 2rem;
+    }
+
+    .section_5 .left span {
+        font-size: 1rem;
+        margin-bottom: 0.4rem;
+    }
+
+    .section_5 .l_inner>p {
+        margin-top: 3rem;
+        font-size: 1rem;
+    }
+    .section_5 .right .min {
+        width: 700px;
+    }
+
+    .section_5 a .more {
+        font-size: 0.9rem;
+        margin-top: 4.5rem;
+    }
+
+    .section_6 .review .rBox p:first-of-type {
+        height: 58px;
+
+    }
+}
+
+@media screen and (max-width:1400px) {
+    .section_1 .titleBox {
+        top: 25vw;
+
+    }
+    .section_2 .more {
+        margin-top: 8rem;
+
+    }
+
+    .section_5 .l_inner {
+        width: 44%;
+    }
+
+    .section_5 .right .min {
+        width: 660px;
+    }
+}
+
+@media screen and (max-width:1200px) {
+    .section_2 .itemBox .item .itemInfo .underline>p:first-of-type {
+        font-size: 1.3rem;
+
+    }
+    .fig_box{
+         height: 340px;
+     }
+    .section_5 {
+        margin-top: 18rem;
+
+    }
+
+    .section_5 .right .min {
+        width: 560px;
+    }
+
+    .section_6 .review .rBox {
+        padding: 1.8rem
+    }
+
+    .section_6 .review .rBox p:first-of-type {
+        height: 80px;
+    }
+}
+
+@media screen and (max-width:1025px) {
+    .section_1 .main {
+        top: 65px;
+    }
+
+    .section_1 .titleBox {
+        top: 28vw;
+
+    }
+
+    .section_1 .titleBox h2 {
+        font-size: 2.8rem;
+    }
+
+    .section_1 .titleBox p {
+        font-size: 1.8rem;
+    }
+
+    .section_2 h3,
+    .section_4 h3 {
+        font-size: 2.2rem;
+    }
+    .fig_box{
+        height: 400px;
+    }
+
+    .section_2 .itemBox .item .itemInfo>p {
+
+        font-size: 1.1em;
+    }
+
+    .section_2 .itemBox .item .itemInfo>p:nth-of-type(2) {
+        height: 56px;
+    }
+
+    .section_2 .itemBox .item .itemInfo .underline>p:first-of-type {
+        font-size: 1.4rem;
+
+    }
+
+    .section_2 .more {
+        font-size: 0.9rem;
+        margin-top: 6.5rem;
+
+    }
+
+    .section_3 {
+        margin-top: 240px;
+    }
+
+    .section_3 .slide p {
+        font-size: 0.8rem;
+        width: 168px;
+        height: 42px;
+        line-height: 42px;
+    }
+
+    .section_4 {
+        margin-top: 240px;
+    }
+
+
+    .section_4 .container .when .w,
+    .section_4 .container .when .ice {
+        font-size: 1.2rem;
+    }
+
+    .section_4 .container .when p:nth-of-type(2) {
+        width: 140px;
+        height: 32px;
+        line-height: 32px;
+
+    }
+
+    .section_5 {
+        margin-top: 12rem;
+
+    }
+
+    .section_5 .left h3 {
+        font-size: 2rem;
+    }
+
+    .section_5 .right .min {
+        width: 470px;
+    }
+
+    .section_5 a .more {
+        margin-top: 3.8rem;
+    }
+
+    .section_6 {
+        margin-top: 16rem;
+    }
+
+    .section_6 .review .rBox {
+        height: 200px;
+        font-size: 0.8rem;
+
+        padding: 1.5rem;
+
+    }
+
+    .section_6 .review .rBox {
+        margin: auto 0.5rem;
+    }
+
+    .stn {
+        width: 650px;
+        margin: 12.5rem auto;
+        font-size: 2.2rem;
+    }
+
+}
+
+@media screen and (max-width:900px) {
+    .fig_box{
+        height: 370px;
+    }
+
+    .section_5 {
+        margin-top: 10rem;
+    }
+
+    .section_5 .right .min {
+        width: 420px;
+    }
+
+    .section_6 .review .rBox {
+        padding: 1.5rem 1.2rem;
+    }
+
+    .section_6 .review .rBox p:first-of-type {
+        padding: 0.4rem 0;
+
+    }
+}
+
+@media screen and (max-width:767px) {
+
+    .section_1 .titleBox {
+        top: 30vw;
+
+    }
+
+    .section_1 .titleBox h2 {
+        font-size: 2.2em;
+        margin-bottom: 20px;
+    }
+
+    .section_1 .titleBox p {
+        font-size: 1.4rem;
+        line-height: 140%;
+    }
+
+    .section_2 h3,
+    .section_4 h3 {
+        font-size: 1.7rem;
+    }
+    .fig_box{
+        max-width: 340px;
+        min-width: 248px;
+         height: 320px;
+     }
+
+    .section_2 .itemBox .item .itemInfo .underline>p:first-of-type {
+        font-size: 1.3rem;
+    }
+
+    .section_2 .itemBox .item .itemInfo>p:nth-of-type(2) {
+        height: 60px;
+    }
+
+    .section_3 .slide p {
+        font-size: 0.7rem;
+        width: 150px;
+        height: 37.5px;
+        line-height: 37.5px;
+    }
+
+    .section_4 .container {
+        grid-template-columns: repeat(1, 1fr);
+
+    }
+
+    .section_4>p {
+        font-size: 1.2rem;
+    }
+
+    .section_4 .container .when .w,
+    .section_4 .container .when .ice {
+        font-size: 1.4rem;
+    }
+
+    .section_4 .container .when .ice {
+        line-height: 145%;
+    }
+
+    .section_4 .container .when p:nth-of-type(2) {
+        display: inline-block;
+        width: 160px;
+        height: 37px;
+        line-height: 37px;
+        font-size: 0.9rem;
+        font-weight: 400;
+        margin: auto;
+    }
+
+    .section_5 {
+        margin-top: 18rem;
+
+    }
+
+    .section_5 .l_inner {
+        margin-top: 70vw;
+        width: 100%;
+    }
+
+    .section_5 .left span {
+        margin-bottom: 0.6rem;
+    }
+
+    .section_5 .left h3 {
+        font-size: 1.7rem;
+    }
+
+    .section_5 .l_inner>p {
+        margin-top: 2rem;
+        font-size: 1.1rem;
+    }
+
+    .section_5 .right {
+        width: 100%;
+        top: 0;
+        transform: translateY(0);
+    }
+
+    .section_5 .right .min {
+        width: 100%;
+
+    }
+
+    .section_5 a .more {
+        margin-top: 6.2rem;
+
+    }
+
+    .section_6 .review .rBox {
+        margin: auto 0.4rem;
+        padding: 1.5rem;
+    }
+
+    .section_6 .review .rBox p:first-of-type {
+        padding: 1rem 0;
+        line-height: 140%;
+
+    }
+
+    .stn {
+        width: 450px;
+        margin: 14rem auto;
+    }
+
+}
+
+@media screen and (max-width:700px) {
+    .fig_box{
+      
+         height: 300px;
+     }
+}
+@media screen and (max-width:650px) {
+    .fig_box{
+         height: 260px;
+     }
+}
+@media screen and (max-width:575px) {
+
+    .section_1 .titleBox {
+        top: 56vw;
+    }
+   
+    .section_2 .itemBox .item .itemInfo>p:nth-of-type(2) {
+        font-size: 1rem;
+    }
+
+    .section_2 .itemBox .item .itemInfo>p {
+        font-size: 1rem;
+    }
+    .fig_box{
+      
+        height: 246px;
+        min-width:200px;
+    }
+
+    .section_2 .itemBox .item .itemInfo .underline {
+        height: 126px;
+       
+    }
+
+    .section_2 h3,
+    .section_4 h3 {
+        font-size: 1.7rem;
+    }
+
+    .section_4>p {
+        font-size: 1.1rem;
+    }
+
+    .section_5 .l_inner>p {
+        font-size: 1rem;
+    }
+
+    .section_6 {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .section_6 .reviewTitle {
+        font-size: 1rem;
+    }
+
+    .section_6 .review .rBox {
+        padding: 1.4rem;
+    }
+
+    .section_6 .review .rBox p:first-of-type {
+        padding: 0.2rem;
+        font-size: 1rem;
+    }
+
+    .section_6 .review .rBox p:nth-of-type(2) {
+        margin-top: 1rem;
+
+    }
+
+    .stn {
+        margin: 11rem auto;
+        font-size: 2rem;
+    }
+
+}
+
+
+@media screen and (max-width:461px) {
+    .logo {
+        width: 100px;
+    }
+
+    .section_1 .titleBox {
+        top: 60vw;
+    }
+
+    .section_2 .itemBox {
+        padding-bottom: 3rem;
+    }
+    .fig_box{
+        max-width: 400px;
+        height: 400px;
+        min-width:300px;
+    }
+    .section_2 .itemBox .item .itemInfo>p {
+        font-size: 1rem;
+    }
+
+    .section_2 .itemBox .item .itemInfo .underline {
+        height: 98px;
+    }
+
+    .section_2 .itemBox .item .itemInfo .underline>p:first-of-type {
+        font-size: 1.4rem;
+    }
+
+    .section_2 .itemBox .item .itemInfo .underline {
+        font-size: 1.3rem;
+    }
+
+    .section_2 .itemBox .item .itemInfo>p:nth-of-type(2) {
+        font-size: 1rem;
+        height: 68px;
+    }
+
+    .section_2 .more {
+        margin-top: 4rem;
+        font-size: 0.8rem;
+    }
+
+    .section_3 .slide p {
+        font-size: 0.64rem;
+        width: 142px;
+        height: 35.5px;
+        line-height: 35.5px;
+    }
+
+    .section_4>p {
+        line-height: 150%;
+        margin-top: 10px;
+        margin-bottom: 32px;
+    }
+
+    .section_4 .container .when {
+        padding: 20% 0;
+    }
+
+    .section_4 .container .when .w,
+    .section_4 .container .when .ice {
+        font-size: 1.2rem;
+    }
+
+    .section_4 .container .when .ice {
+        line-height: 135%;
+    }
+
+    .section_4 .container .when p:nth-of-type(2) {
+        display: inline-block;
+        width: 140px;
+        height: 32px;
+        line-height: 32px;
+        font-size: 0.8rem;
+
+    }
+
+    .section_6 .review .rBox {
+        padding: 1.8rem 1.6em;
+    }
+
+    .section_6 .review .rBox p:first-of-type {
+        height: 65px;
+    }
+
+    .stn {
+        width: fit-content;
+        margin: 10rem 0;
+        font-size: 1.8rem;
+    }
+}
+
+
+/* 아이폰 */
+@media screen and (max-width:391px) {
+
+    .section_1 .titleBox h2 {
+        font-size: 1.6em;
+    }
+
+    .section_1 .titleBox p {
+        font-size: 1.2rem;
+    }
+    .fig_box{
+        height: 350px;
+    }
+    .section_2 .itemBox .item .imgBox .btn button {
+        width: 26px;
+        height: 26px;
+        margin-left: 1rem;
+    }
+
+    .section_3 .slide p {
+        font-size: 0.62rem;
+        width: 136px;
+        height: 34px;
+        line-height: 34px;
+    }
+
+    .section_4 .container .when .w,
+    .section_4 .container .when .ice {
+        font-size: 1rem;
+    }
+
+    .section_4 .container .when .ice {
+        height: fit-content;
+        line-height: 124%;
+    }
+
+    .section_4 .container .when p:nth-of-type(2) {
+        font-size: 0.7rem;
+        width: 116px;
+        height: 26px;
+        line-height: 26px;
+
+    }
+
+    .section_6 {
+        padding: 40px 0;
+    }
+
+    .section_6 .reviewTitle {
+        justify-content: space-between;
+
+    }
+
+    .stn {
+        margin: 9rem 0;
+    }
+
+}
+
+@media screen and (max-width:281px) {
+    .section_1 .titleBox {
+        top: 65vw;
+    }
+
+    .section_1 .titleBox h2 {
+        font-size: 1.3rem;
+    }
+
+    .section_1 .titleBox p {
+        font-size: 0.9rem;
+    }
+
+    .section_2 .itemBox .item .itemInfo .underline {
+        font-size: 1rem;
+    }
+
+    .section_4 .container .when p:first-of-type {
+        font-size: 0.8rem;
+        font-weight: 500;
+
+    }
+
+    .section_4 .container .when p:nth-of-type(2) {
+        width: 92px;
+        height: 18px;
+        line-height: 18px;
+        font-size: 0.5rem;
+    }
+
+    .section_5 a .more,
+    .section_6 a .more {
+        font-size: 0.8rem;
+    }
+
+
+    .section_6 .review .rBox {
+        padding: 1.2rem;
+    }
+
+    .section_6 .review .rBox p:first-of-type {
+        height: 70px;
+        margin-top: 0;
+    }
+
+}
+
+
+@media screen and (max-height:400px) {
+    .mo_menu {
+        height: 100vh;
+    }
+
+    .mo_menu ul {
+        margin-top: 15px;
+
+    }
+
+    .mo_menu ul li {
+        padding: 16px 0;
+    }
+}
