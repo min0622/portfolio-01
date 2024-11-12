@@ -54,7 +54,7 @@
     margin: auto;
     width: 100%;
     position: relative;
-    margin-top: 16rem;
+    margin-top: 12rem;
 }
 
 .section_2 h3 {
@@ -67,7 +67,7 @@
 .section_2 .itemBox {
     width: 100%;
     overflow: hidden;
-    margin-top: 3rem;
+    margin-top: 2rem;
     position: relative;
 
 }
@@ -80,22 +80,25 @@
     display: block;
 }
 
-.fig_box{
-   max-width: 400px;
-   min-width: 300px;
+.fig_box {
+    max-width: 400px;
+    min-width: 300px;
     height: 400px;
     position: relative;
 }
-.fig_box figure{
+
+.fig_box figure {
     position: absolute;
     top: 0;
     left: 0;
     transition: 0.3s;
 
 }
-.fig_box .imgBox{
+
+.fig_box .imgBox {
     z-index: 60;
 }
+
 .section_2 .itemBox .item .itemInfo {
     overflow: hidden;
     margin-top: 1.6rem;
@@ -160,8 +163,10 @@
     border-bottom: solid 1px var(--Mcolor--);
     padding-bottom: 0.5px;
     margin: auto;
-    margin-top: 10rem;
+    margin-top: 6rem;
+    color: #444;
 }
+
 
 /* section_3 슬라이드 */
 .section_3 {
@@ -170,7 +175,7 @@
     padding: 0 20px;
     overflow: hidden;
     margin: auto;
-    margin-top: 380px;
+    margin-top: 13rem;
     position: relative;
 }
 
@@ -218,7 +223,7 @@
     width: 100%;
     padding: 0 20px;
     margin: auto;
-    margin-top: 300px;
+    margin-top: 14rem;
 }
 
 .section_4 h3 {
@@ -282,7 +287,7 @@
     font-size: 1rem;
     font-weight: 400;
     font-family: "Noto Sans KR", system-ui;
-    background-color:var(--Mcolor--);
+    background-color: var(--Mcolor--);
     color: #fff;
     margin: auto;
     cursor: pointer;
@@ -291,8 +296,9 @@
 /* section_5 */
 .section_5 {
     width: 100%;
+    overflow: hidden;
     position: relative;
-    margin-top: 22rem;
+    margin-top: 15rem;
     padding: 5rem 0;
 }
 
@@ -346,10 +352,11 @@
 
 }
 
-.section_5 a .more {
+.section_5 .more {
     width: fit-content;
     font-family: "Noto Sans KR", system-ui;
     font-weight: 500;
+    color: #444;
     font-size: 1rem;
     border-bottom: solid 1px var(--Mcolor--);
     padding-bottom: 0.5px;
@@ -365,7 +372,7 @@
     padding-top: 67px;
     padding-bottom: 80px;
     position: relative;
-    margin-top: 330px;
+    margin-top: 14rem;
 
 }
 
@@ -475,6 +482,12 @@
 }
 
 
+.more:hover {
+    color: #BD9F57;
+    border-bottom: solid 1px #BD9F57;
+}
+
+
 /* 반응형 */
 @media screen and (max-width:1680px) {
 
@@ -516,12 +529,12 @@
         margin-top: 3rem;
         font-size: 1rem;
     }
+
     .section_5 .right .min {
         width: 700px;
     }
 
     .section_5 a .more {
-        font-size: 0.9rem;
         margin-top: 4.5rem;
     }
 
@@ -536,10 +549,6 @@
         top: 25vw;
 
     }
-    .section_2 .more {
-        margin-top: 8rem;
-
-    }
 
     .section_5 .l_inner {
         width: 44%;
@@ -551,16 +560,40 @@
 }
 
 @media screen and (max-width:1200px) {
+
+    /* 섹션간격 */
+    .section_2 {
+        margin-top: 10rem;
+    }
+
+    .section_3 {
+        margin-top: 11rem;
+    }
+
+    .section_4 {
+        margin-top: 12rem;
+    }
+
+    .section_5 {
+        margin-top: 13rem;
+    }
+
+    .section_6 {
+        margin-top: 12rem;
+    }
+
+    .stn {
+        margin: 12rem auto;
+
+    }
+
     .section_2 .itemBox .item .itemInfo .underline>p:first-of-type {
         font-size: 1.3rem;
 
     }
-    .fig_box{
-         height: 340px;
-     }
-    .section_5 {
-        margin-top: 18rem;
 
+    .fig_box {
+        height: 340px;
     }
 
     .section_5 .right .min {
@@ -577,6 +610,33 @@
 }
 
 @media screen and (max-width:1025px) {
+
+    /* 섹션간격 */
+    .section_2 {
+        margin-top: 12rem;
+    }
+
+    .section_3 {
+        margin-top: 10rem;
+    }
+
+    .section_4 {
+        margin-top: 11rem;
+    }
+
+    .section_5 {
+        margin-top: 10rem;
+    }
+
+    .section_6 {
+        margin-top: 11rem;
+    }
+
+    .stn {
+        margin: 11rem auto;
+    }
+
+
     .section_1 .main {
         top: 65px;
     }
@@ -598,7 +658,8 @@
     .section_4 h3 {
         font-size: 2.2rem;
     }
-    .fig_box{
+
+    .fig_box {
         height: 400px;
     }
 
@@ -617,14 +678,9 @@
     }
 
     .section_2 .more {
-        font-size: 0.9rem;
-        margin-top: 6.5rem;
-
+        margin-top: 5rem;
     }
 
-    .section_3 {
-        margin-top: 240px;
-    }
 
     .section_3 .slide p {
         font-size: 0.8rem;
@@ -633,9 +689,6 @@
         line-height: 42px;
     }
 
-    .section_4 {
-        margin-top: 240px;
-    }
 
 
     .section_4 .container .when .w,
@@ -650,10 +703,6 @@
 
     }
 
-    .section_5 {
-        margin-top: 12rem;
-
-    }
 
     .section_5 .left h3 {
         font-size: 2rem;
@@ -667,9 +716,6 @@
         margin-top: 3.8rem;
     }
 
-    .section_6 {
-        margin-top: 16rem;
-    }
 
     .section_6 .review .rBox {
         height: 200px;
@@ -685,20 +731,16 @@
 
     .stn {
         width: 650px;
-        margin: 12.5rem auto;
         font-size: 2.2rem;
     }
 
 }
 
 @media screen and (max-width:900px) {
-    .fig_box{
+    .fig_box {
         height: 370px;
     }
 
-    .section_5 {
-        margin-top: 10rem;
-    }
 
     .section_5 .right .min {
         width: 420px;
@@ -715,6 +757,29 @@
 }
 
 @media screen and (max-width:767px) {
+    /* 섹션간격 */
+
+    .section_3 {
+        margin-top: 10rem;
+    }
+
+    .section_4 {
+        margin-top: 9rem;
+    }
+
+    .section_5 {
+        margin-top: 13rem;
+    }
+
+    .section_6 {
+        margin-top: 8rem;
+    }
+
+    .stn {
+        margin: 11rem auto;
+    }
+
+
 
     .section_1 .titleBox {
         top: 30vw;
@@ -735,11 +800,12 @@
     .section_4 h3 {
         font-size: 1.7rem;
     }
-    .fig_box{
+
+    .fig_box {
         max-width: 340px;
         min-width: 248px;
-         height: 320px;
-     }
+        height: 320px;
+    }
 
     .section_2 .itemBox .item .itemInfo .underline>p:first-of-type {
         font-size: 1.3rem;
@@ -747,6 +813,10 @@
 
     .section_2 .itemBox .item .itemInfo>p:nth-of-type(2) {
         height: 60px;
+    }
+
+    .section_2 .more {
+        margin-top: 4.5rem;
     }
 
     .section_3 .slide p {
@@ -763,6 +833,8 @@
 
     .section_4>p {
         font-size: 1.2rem;
+        margin-top: 0.9rem;
+        margin-bottom: 2rem;
     }
 
     .section_4 .container .when .w,
@@ -782,11 +854,6 @@
         font-size: 0.9rem;
         font-weight: 400;
         margin: auto;
-    }
-
-    .section_5 {
-        margin-top: 18rem;
-
     }
 
     .section_5 .l_inner {
@@ -818,11 +885,6 @@
 
     }
 
-    .section_5 a .more {
-        margin-top: 6.2rem;
-
-    }
-
     .section_6 .review .rBox {
         margin: auto 0.4rem;
         padding: 1.5rem;
@@ -836,28 +898,38 @@
 
     .stn {
         width: 450px;
-        margin: 14rem auto;
     }
 
 }
 
 @media screen and (max-width:700px) {
-    .fig_box{
-      
-         height: 300px;
-     }
+    .fig_box {
+
+        height: 300px;
+    }
 }
+
 @media screen and (max-width:650px) {
-    .fig_box{
-         height: 260px;
-     }
+    .fig_box {
+        height: 260px;
+    }
 }
+
 @media screen and (max-width:575px) {
+
+    /* 섹션간격 */
+    .section_6 {
+        margin-top: 7rem;
+    }
+
+    .stn {
+        margin: 10rem auto;
+    }
 
     .section_1 .titleBox {
         top: 56vw;
     }
-   
+
     .section_2 .itemBox .item .itemInfo>p:nth-of-type(2) {
         font-size: 1rem;
     }
@@ -865,15 +937,16 @@
     .section_2 .itemBox .item .itemInfo>p {
         font-size: 1rem;
     }
-    .fig_box{
-      
+
+    .fig_box {
+
         height: 246px;
-        min-width:200px;
+        min-width: 200px;
     }
 
     .section_2 .itemBox .item .itemInfo .underline {
         height: 126px;
-       
+
     }
 
     .section_2 h3,
@@ -913,7 +986,6 @@
     }
 
     .stn {
-        margin: 11rem auto;
         font-size: 2rem;
     }
 
@@ -921,6 +993,20 @@
 
 
 @media screen and (max-width:461px) {
+    /* 섹션간격 */
+
+    .section_5 {
+        margin-top: 12rem;
+    }
+
+    .section_6 {
+        margin-top: 5rem;
+    }
+
+    .stn {
+        margin: 10rem auto;
+    }
+
     .logo {
         width: 100px;
     }
@@ -930,13 +1016,15 @@
     }
 
     .section_2 .itemBox {
-        padding-bottom: 3rem;
+        padding-bottom: 2rem;
     }
-    .fig_box{
+
+    .fig_box {
         max-width: 400px;
         height: 400px;
-        min-width:300px;
+        min-width: 300px;
     }
+
     .section_2 .itemBox .item .itemInfo>p {
         font-size: 1rem;
     }
@@ -959,8 +1047,8 @@
     }
 
     .section_2 .more {
-        margin-top: 4rem;
-        font-size: 0.8rem;
+        margin-top: 1rem;
+        font-size: 0.9rem;
     }
 
     .section_3 .slide p {
@@ -998,6 +1086,10 @@
 
     }
 
+    .section_5 a .more {
+        font-size: 0.9rem;
+    }
+
     .section_6 .review .rBox {
         padding: 1.8rem 1.6em;
     }
@@ -1008,7 +1100,6 @@
 
     .stn {
         width: fit-content;
-        margin: 10rem 0;
         font-size: 1.8rem;
     }
 }
@@ -1016,6 +1107,28 @@
 
 /* 아이폰 */
 @media screen and (max-width:391px) {
+    /* 섹션간격 */
+
+    .section_3 {
+        margin-top: 9rem;
+    }
+
+    .section_4 {
+        margin-top: 8rem;
+    }
+
+    .section_5 {
+        margin-top: 10rem;
+    }
+
+    .section_6 {
+        margin-top: 4rem;
+    }
+
+    .stn {
+        margin: 9rem auto;
+
+    }
 
     .section_1 .titleBox h2 {
         font-size: 1.6em;
@@ -1024,9 +1137,11 @@
     .section_1 .titleBox p {
         font-size: 1.2rem;
     }
-    .fig_box{
+
+    .fig_box {
         height: 350px;
     }
+
     .section_2 .itemBox .item .imgBox .btn button {
         width: 26px;
         height: 26px;
@@ -1067,9 +1182,7 @@
 
     }
 
-    .stn {
-        margin: 9rem 0;
-    }
+
 
 }
 
@@ -1103,10 +1216,6 @@
         font-size: 0.5rem;
     }
 
-    .section_5 a .more,
-    .section_6 a .more {
-        font-size: 0.8rem;
-    }
 
 
     .section_6 .review .rBox {
